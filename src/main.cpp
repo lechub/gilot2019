@@ -31,6 +31,9 @@
 #include <stdlib.h>
 #include "diag/Trace.h"
 
+#include "QuickTask.h"
+#include "Pinout.h"
+
 // ----------------------------------------------------------------------------
 //
 // Standalone STM32F0 empty sample (trace via NONE).
@@ -60,7 +63,7 @@ main(int argc, char* argv[])
   // Infinite loop
   while (true)
     {
-	  QuickTask::aaa;
+	  QuickTask::poll();
 
     }
 }

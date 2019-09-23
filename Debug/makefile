@@ -13,6 +13,7 @@ RM := rm -rf
 -include system/src/cortexm/subdir.mk
 -include system/src/cmsis/subdir.mk
 -include src/subdir.mk
+-include lbutils/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -60,7 +61,7 @@ all: gilot2019.elf secondary-outputs
 gilot2019.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM Cross C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m0 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -flto -fno-move-loop-invariants -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wpadded -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"gilot2019.map" --specs=nano.specs -o "gilot2019.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m0 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -flto -fno-move-loop-invariants -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wpadded -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"gilot2019.map" --specs=nano.specs -o "gilot2019.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
