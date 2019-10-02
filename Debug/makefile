@@ -14,6 +14,7 @@ RM := rm -rf
 -include system/src/cmsis/subdir.mk
 -include src/subdir.mk
 -include lbutils/subdir.mk
+-include lbdrivers/subdir.mk
 -include subdir.mk
 -include objects.mk
 
