@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 #include "Gpio.h"
+#include "FrameBuffer.h"
 
 //HD44780 command summary
 /*
@@ -29,6 +30,9 @@ public:
 	//#define SET_DDRAM_ADDR  0x80    // must "OR" in the address
 	//#define RETURN_HOME     0x02
 	//#define CLEAR_DISPLAY   0x01
+
+	static constexpr uint16_t COLUMNS = 16;
+	static constexpr uint16_t ROWS = 2;
 
 	static constexpr uint8_t SET_DDRAM_ADDR = 0x80;    // must "OR" in the address
 	static constexpr uint8_t RETURN_HOME     = 0x02;
@@ -60,22 +64,16 @@ public:
 	Gpio * lcdRW = nullptr;
 	Gpio * lcdCD = nullptr;
 	Gpio * data[8];
+	FrameBuffer * fb = nullptr;
 
-//#define LCD_PORT           PORTD
-//#define LCD_PORT_DDR       DDRD
-//#define LCD_CMD_DATA_BIT   1    //zero is command, one is data
-//#define LCD_RDWR_BIT       2    //zero is write,   one is read
-//#define LCD_STROBE_BIT     3    //active high strobe
 
-	//Set to the width of the display, assumption is a two line display
-//#define NUM_LCD_CHARS 16
 
-	uint16_t columnsConst = 16;
-	uint16_t rowsConst = 2;
+
 
 	HD44780(){;}
-	setup(Gpio * gpioE, Gpio * GpioRW, Gpio * ){}
-
+	setup(Gpio * gpioE, Gpio * gpioRW, Gpio * gpioRS, Gpio * gpioD[8]){
+		localInit();
+	}
 
 
 	//Set the the lcd interface mode. One indicates SPI mode, zero

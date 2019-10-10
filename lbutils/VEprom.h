@@ -11,9 +11,7 @@
 #include "systemDefs.h"
 #include "eeprom.h"
 //#include "stm32f405_flashEE.h"
-#include "stm32f4xx_flash.h"
-#include "Pomiar.h"
-//#include "hal_mini_defs.h"
+#include "stm32f0xx_flash.h"
 
 class VEprom {
 

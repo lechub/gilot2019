@@ -26,13 +26,18 @@
 #include <stdlib.h>
 #include "HD44780.h"
 
-#define NUM_LCD_CHARS 16
+#include "Fifo.h"
 
-//If using an interrupt driven, one char at a time style lcd refresh
-//for a 2x16 display, use this array to place anything to be displayed
-char lcd_string_array[32];  //holds two strings to refresh the LCD
+static constexpr uint16_t LCD_DATA_AMOUNT = HD44780::COLUMNS * HD44780::ROWS +5;
+uint8_t dataTab1[LCD_DATA_AMOUNT];
+FrameBuffer frame_buffer = FrameBuffer(HD44780::COLUMNS, HD44780::ROWS, dataTab1);
 
-char  lcd_str[16];  //holds string to send to lcd
+uint8_t dataTab2[LCD_DATA_AMOUNT];
+Fifo dataFifo = Fifo(dataTab2, LCD_DATA_AMOUNT);
+
+
+
+
 
 //-----------------------------------------------------------------------------
 //                               send_lcd
