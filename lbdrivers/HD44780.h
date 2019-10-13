@@ -33,6 +33,7 @@ public:
 
 	static constexpr uint16_t COLUMNS = 16;
 	static constexpr uint16_t ROWS = 2;
+	static constexpr uint16_t LCD_DATA_AMOUNT = HD44780::COLUMNS * HD44780::ROWS +5;
 
 	static constexpr uint8_t SET_DDRAM_ADDR = 0x80;    // must "OR" in the address
 	static constexpr uint8_t RETURN_HOME     = 0x02;
@@ -60,21 +61,23 @@ public:
 	//lines are asuumed to be in the upper nibble with MSB of LCD
 	//aligned with the port MSB. (bit 7 is MSB on both) Bit zero of
 	//LCD_PORT is unused.
-	Gpio * lcdE = nullptr;
-	Gpio * lcdRW = nullptr;
-	Gpio * lcdCD = nullptr;
-	Gpio * data[8];
-	FrameBuffer * fb = nullptr;
+	Gpio * gpioE = nullptr;
+	Gpio * gpioRW = nullptr;
+	Gpio * gpioCD = nullptr;
+	Gpio * gpioData[8];
+	//FrameBuffer * fb = nullptr;
 
 
 
 
 
 	HD44780(){;}
-	setup(Gpio * gpioE, Gpio * gpioRW, Gpio * gpioRS, Gpio * gpioD[8]){
-		localInit();
+	bool setup(Gpio * gpioLcdE, Gpio * gpioLcdRW, Gpio * gpiLcdRS, Gpio * gpioLcdD[8]){
+		return localInit();
 	}
 
+	bool localInit();
+	FrameBuffer * getFrameBuffer();
 
 	//Set the the lcd interface mode. One indicates SPI mode, zero
 	//indicates 4-bit mode. SPI mode assumes lcd is write only and

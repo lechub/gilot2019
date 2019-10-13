@@ -22,22 +22,29 @@
 //Refactored, and cleaned up again by R. Traylor 12.28.2011, 12.30.2014
 
 
+#include <Settings.h>
 #include <string.h>
 #include <stdlib.h>
 #include "HD44780.h"
 
 #include "Fifo.h"
 
-static constexpr uint16_t LCD_DATA_AMOUNT = HD44780::COLUMNS * HD44780::ROWS +5;
-uint8_t dataTab1[LCD_DATA_AMOUNT];
+
+uint8_t dataTab1[HD44780::LCD_DATA_AMOUNT];
+
 FrameBuffer frame_buffer = FrameBuffer(HD44780::COLUMNS, HD44780::ROWS, dataTab1);
 
-uint8_t dataTab2[LCD_DATA_AMOUNT];
-Fifo dataFifo = Fifo(dataTab2, LCD_DATA_AMOUNT);
+uint8_t dataTab2[HD44780::LCD_DATA_AMOUNT];
+Fifo dataFifo = Fifo(dataTab2, HD44780::LCD_DATA_AMOUNT);
 
 
+bool HD44780::localInit(){
+		;
+	}
 
-
+FrameBuffer * HD44780::getFrameBuffer(){
+	return &frame_buffer;
+}
 
 //-----------------------------------------------------------------------------
 //                               send_lcd
