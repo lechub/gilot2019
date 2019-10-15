@@ -112,15 +112,20 @@ private:
   Gpio * gpioRS = nullptr;    // 0 - instrukcja, 1 - dane
   GpioPack8 * gpioData;
   //FrameBuffer * fb = nullptr;
+  Gpio * gpioBackLight = nullptr;
+//  Gpio * gpioResetLCD = nullptr;
+  LcdStage lcdStage = LcdStage::START;
+  uint32_t charOffset = 0;
 
 private:
- bool localInit();
- // Ustawia dane na liniach danych
+  bool localInit();
+
+  // Ustawia dane na liniach danych
   inline void prepareDataByte(uint8_t byteValue){
     for(uint8_t i = 0; i < 8; i++){
-        gpioData->gpios[i]->setOutput(byteValue & 0x01);
-        byteValue = static_cast<uint8_t>(byteValue >> 1);
-      }
+      gpioData->gpios[i]->setOutput(byteValue & 0x01);
+      byteValue = static_cast<uint8_t>(byteValue >> 1);
+    }
   }
 
   inline void prepareCommandToWrite(uint8_t command){
@@ -148,16 +153,9 @@ private:
 
 public:
   HD44780(){;}
-  bool setup(Gpio * gpioLcdE, Gpio * gpioLcdRW, Gpio * gpioLcdRS, GpioPack8 * gpioLcdD){
-    gpioE = gpioLcdE;
-    gpioRW = gpioLcdRW;
-    gpioRS = gpioLcdRS;
-    gpioData = gpioLcdD;
-    return localInit();
-  }
 
 
-  //FrameBuffer * getFrameBuffer();
+  bool setup(Gpio * gpioLcdE, Gpio * gpioLcdRW, Gpio * gpioLcdRS, GpioPack8 * gpioLcdD,  Gpio * backLightPin);
 
   static HD44780 * getInstance();
 
@@ -176,10 +174,10 @@ public:
   //bool sendData(uint8_t cmd);
   //bool sendCmdOrData(bool isCMD, uint8_t byteValue);
   bool setCmdOrData(bool isCMD, uint8_t byteValue);
-//
-//  inline void setEnablePin(bool state){
-//    gpioE->setOutput(state);
-//  }
+  //
+  //  inline void setEnablePin(bool state){
+  //    gpioE->setOutput(state);
+  //  }
 
   // ToDo dorobić busy bit
   inline bool isBusy(){
@@ -189,64 +187,51 @@ public:
   //	  //static void (ST7032iFB::* pollFunction)();
   //	  static ST7032iFB * callbackObject;
 
-  Gpio * gpioBackLight = nullptr;
-  Gpio * gpioResetLCD = nullptr;
-  LcdStage lcdStage = LcdStage::START;
+
 
   void delayMs(uint32_t milis);
   void delayMsDirty(uint32_t milis);
-  // static void setPollFunction(void (ST7032iFB::*pollF)());
-  //void setPollFunction();
-  //  void stageCheck();
-  //  void ST7032iFB::setPollFunction(void (ST7032iFB::* pollF)());
-
-
 
 
 public:
 
-
-
-  //void init(I2C * i2cPort, Gpio * backLightPin, Gpio * resetLCDPin);
-
-
-  void setResetPin(bool newstate){ gpioResetLCD->setOutput(newstate); }
+  //void setResetPin(bool newstate){ gpioResetLCD->setOutput(newstate); }
   void setBackLight(bool newstate){ gpioBackLight->setOutput(newstate); }
 
-  inline bool gotoXY(uint8_t Col, uint8_t Row){
-    if (Col > LCD_COLUMNS) return false;
-    uint32_t offset = 0;
-    switch(Row){
-    case 1: offset = LCD_L2; break;
-    case 2: offset = LCD_L3; break;
-    case 3: offset = LCD_L4; break;
-    case 0:
-    default: offset = LCD_L1; break;
-    }
-    return sendCommand(uint8_t(LCD_DDRAM_WRITE | offset | Col)) ;
-  }
+//  inline bool gotoXY(uint8_t Col, uint8_t Row){
+//    if (Col > LCD_COLUMNS) return false;
+//    uint32_t offset = 0;
+//    switch(Row){
+//    case 1: offset = LCD_L2; break;
+//    case 2: offset = LCD_L3; break;
+//    case 3: offset = LCD_L4; break;
+//    case 0:
+//    default: offset = LCD_L1; break;
+//    }
+//    return sendCommand(uint8_t(LCD_DDRAM_WRITE | offset | Col)) ;
+//  }
 
-  //bool print(char znak);
-  //bool print(const char * str);
-  bool clearScreen(void);
-  bool lcd_Home(void){ return sendCommand(LcdCommand::LCD_HOME); }
-  bool lcd_ON(){ return sendCommand(LcdCommand::LCD_ON); }
-  bool lcd_OFF(){ return sendCommand(LcdCommand::LCD_OFF); }
-  bool cursorLeft(void){ return sendCommand(LCD_C2L); }
-  bool cursorRight(void){ return sendCommand(LCD_C2R);  }
+  //  //bool print(char znak);
+  //  //bool print(const char * str);
+  //  bool clearScreen(void);
+  //  bool lcd_Home(void){ return sendCommand(LcdCommand::LCD_HOME); }
+  //  bool lcd_ON(){ return sendCommand(LcdCommand::LCD_ON); }
+  //  bool lcd_OFF(){ return sendCommand(LcdCommand::LCD_OFF); }
+  //  bool cursorLeft(void){ return sendCommand(LCD_C2L); }
+  //  bool cursorRight(void){ return sendCommand(LCD_C2R);  }
 
-  bool cursorSet(FrameBuffer::CursorMode cursorMode){
-    uint8_t cmd = CURSOR_INVISIBLE;
-    switch(cursorMode){
-    case FrameBuffer::CursorMode::DASH: cmd = CURSOR_LINE; break;
-    case FrameBuffer::CursorMode::SOLID: cmd = CURSOR_LINE; break;
-    case FrameBuffer::CursorMode::BLINK: cmd = CURSOR_BLINK; break;
-    case FrameBuffer::CursorMode::HIDDEN:
-    default: break;
-    }
-    sendCommand(cmd);
-    return true;
-  }
+//  bool cursorSet(FrameBuffer::CursorMode cursorMode){
+//    uint8_t cmd = CURSOR_INVISIBLE;
+//    switch(cursorMode){
+//    case FrameBuffer::CursorMode::DASH: cmd = CURSOR_LINE; break;
+//    case FrameBuffer::CursorMode::SOLID: cmd = CURSOR_LINE; break;
+//    case FrameBuffer::CursorMode::BLINK: cmd = CURSOR_BLINK; break;
+//    case FrameBuffer::CursorMode::HIDDEN:
+//    default: break;
+//    }
+//    sendCommand(cmd);
+//    return true;
+//  }
 
 
   //bool sendCommand(LcdCommand cmd);
@@ -264,4 +249,7 @@ public:
 
 
 };
+
+void pollCallback();
+
 
