@@ -213,6 +213,19 @@ public:
   void setResetPin(bool newstate){ gpioResetLCD->setOutput(newstate); }
   void setBackLight(bool newstate){ gpioBackLight->setOutput(newstate); }
 
+  uint8_t getDDRamAdres(uint8_t column, uint8_t row){
+      if (column > LCD_COLUMNS) return 0;
+      uint32_t offset = 0;
+      switch(row){
+      case 1: offset = LCD_L2; break;
+      case 2: offset = LCD_L3; break;
+      case 3: offset = LCD_L4; break;
+      case 0:
+      default: offset = LCD_L1; break;
+      }
+      return (LCD_DDRAM_WRITE | offset | column) ;
+    }
+
   inline bool gotoXY(uint8_t Col, uint8_t Row){
     if (Col > LCD_COLUMNS) return false;
     uint32_t offset = 0;
