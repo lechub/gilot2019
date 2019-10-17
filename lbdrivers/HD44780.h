@@ -114,8 +114,9 @@ private:
   //FrameBuffer * fb = nullptr;
   Gpio * gpioBackLight = nullptr;
 //  Gpio * gpioResetLCD = nullptr;
-  LcdStage lcdStage = LcdStage::START;
   uint32_t charOffset = 0;
+  LcdStage lcdStage = LcdStage::START;
+  bool newLine = true;
 
 private:
   bool localInit();
@@ -128,20 +129,20 @@ private:
     }
   }
 
-  inline void prepareCommandToWrite(uint8_t command){
-    prepareDataByte(command);
+  inline void prepareCommandToWrite(LcdCommand command){
+    prepareDataByte(static_cast<uint8_t>(command));
     gpioRS->setOutput(false);
     gpioRW->setOutput(false);    // zapis
   }
 
-  inline void prepareDataToWrite(uint8_t data){
-    prepareDataByte(data);
+  inline void prepareCharToWrite(char data){
+    prepareDataByte(static_cast<uint8_t>(data));
     gpioRS->setOutput(true);
     gpioRW->setOutput(false);    // zapis
   }
 
   void writeCommandDirty(LcdCommand cmd, uint32_t delayMs){
-    prepareCommandToWrite(static_cast<uint8_t>(cmd));
+    prepareCommandToWrite(cmd);
     gpioE->setOutput(true);
     delayMsDirty(2);
     if (delayMs >= 2) {
@@ -192,6 +193,7 @@ public:
   void delayMs(uint32_t milis);
   void delayMsDirty(uint32_t milis);
 
+  char getNextChar();
 
 public:
 

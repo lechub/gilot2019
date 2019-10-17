@@ -75,9 +75,9 @@ bool HD44780::localInit(){
   lcdStage = LcdStage::START;
 
   setBackLight(true);
-  setResetPin(false);
+  //setResetPin(false);
   delayMsDirty(50);
-  setResetPin(true);
+  //setResetPin(true);
   delayMsDirty(100);
 
   sendCommandDirty(0x38, 300);
@@ -104,91 +104,83 @@ bool HD44780::localInit(){
 
 bool HD44780::sendCommandDirty(uint8_t cmd, uint32_t delayMs){
   bool result = setCmdOrData(true, cmd);
-  setEnablePin(true);
+  gpioE->setOutput(true);
+//  setEnablePin(true);
   delayMsDirty(2);
-  setEnablePin(false);
+  gpioE->setOutput(false);
+//  setEnablePin(false);
   delayMsDirty(delayMs);
   return result;
 }
 
 char HD44780::getNextChar(){
   FrameBuffer * fb = getFrameBuffer();
-  char * mem = fb->getBuffer();
+  char *buf = reinterpret_cast<char*>(fb->getBuffer());
   if (charOffset >= (LCD_COLUMNS * LCD_ROWS) ){
     charOffset = 0;
   }
-  mem += charOffset++;
-  return *mem;
+  char result = *(buf + charOffset);
+  charOffset++;
+  return result;
 }
 
 void HD44780::poll(){
+	if (gpioE->getOutput()){		// tylko zbocze na E?
+		gpioE->setOutputDown();
+		return;
+	}
+	if ((charOffset % HD44780::LCD_COLUMNS) == 0){
+		uint8_t lineNr = charOffset / HD44780::LCD_COLUMNS;
+		uint8_t ddAdr = getDDRamAdres(0, lineNr);
+		if (newLine){
+			prepareCommandToWrite(static_cast<LcdCommand>(LCD_DDRAM_ADDR | ddAdr));
+			newLine = false;
+		}
+	}else{
+		char znak = getNextChar();
+		prepareCharToWrite(znak);
+		newLine = true;
+	}
+	gpioE->setOutputUp();
+
   LcdStage stage = lcdStage;
 
-  switch(stage){
-  case LcdStage::START:
-  case LcdStage::GOTO_LINE1:
-    if (!isBusy()){
-      sendCommand(LcdCommand::LCD_HOME);
-      lcdStage = LcdStage::SEND_LINE1;
-    }
-    break;
-  case LcdStage::SEND_LINE1:
-    if (!isBusy()){
-      sendLine(0);
-      lcdStage = LcdStage::GOTO_LINE2;
-    }
-    break;
-  case LcdStage::GOTO_LINE2:
-    if (!isBusy()){
-      gotoXY(0,1);
-      lcdStage = LcdStage::SEND_LINE2;
-    }
-    break;
-  case LcdStage::SEND_LINE2:
-    if (!isBusy()){
-      sendLine(1);
-      lcdStage = LcdStage::START;
-    }
-    break;
-  default:
-    lcdStage = LcdStage::START;
-    break;
-  }
+
 }
 
-void HD44780::process(){
-  LcdStage stage = lcdStage;
-  switch(stage){
-  case LcdStage::START:
-  case LcdStage::GOTO_LINE1:
-    if (!isBusy()){
-      sendCommand(LcdCommand::LCD_HOME);
-      lcdStage = LcdStage::SEND_LINE1;
-    }
-    break;
-  case LcdStage::SEND_LINE1:
-    if (!isBusy()){
-      sendLine(0);
-      lcdStage = LcdStage::GOTO_LINE2;
-    }
-    break;
-  case LcdStage::GOTO_LINE2:
-    if (!isBusy()){
-      gotoXY(0,1);
-      lcdStage = LcdStage::SEND_LINE2;
-    }
-    break;
-  case LcdStage::SEND_LINE2:
-    if (!isBusy()){
-      sendLine(1);
-      lcdStage = LcdStage::START;
-    }
-    break;
-  default:
-    lcdStage = LcdStage::START;
-    break;
-  }
-}
+//void HD44780::process(){
+//  LcdStage stage = lcdStage;
+//  switch(stage){
+//  case LcdStage::START:
+//  case LcdStage::GOTO_LINE1:
+//    if (!isBusy()){
+//      sendCommand(LcdCommand::LCD_HOME);
+//      lcdStage = LcdStage::SEND_LINE1;
+//    }
+//    break;
+//  case LcdStage::SEND_LINE1:
+//    if (!isBusy()){
+//      sendLine(0);
+//      lcdStage = LcdStage::GOTO_LINE2;
+//    }
+//    break;
+//  case LcdStage::GOTO_LINE2:
+//    if (!isBusy()){
+//      gotoXY(0,1);
+//      lcdStage = LcdStage::SEND_LINE2;
+//    }
+//    break;
+//  case LcdStage::SEND_LINE2:
+//    if (!isBusy()){
+//      sendLine(1);
+//      lcdStage = LcdStage::START;
+//    }
+//    break;
+//  default:
+//    lcdStage = LcdStage::START;
+//    break;
+//  }
+//}
 
 
 
