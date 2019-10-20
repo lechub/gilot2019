@@ -45,6 +45,10 @@ public:
     AF0,AF1,AF2,AF3,AF4,AF5,AF6,AF7,AF8,AF9,AF10,AF11,AF12,AF13,AF14,AF15
   }AlternateFunction;
 
+  typedef enum{
+	Low, High
+  }Level;
+
 protected:
   GPIO_TypeDef *	gpio;
   uint8_t	pinNr;
@@ -220,18 +224,29 @@ public:
     setOutput(gpio, pinNr, newstate);
   }
 
-  inline bool getOutput(){
-    return getOutput(gpio, pinNr);
+  inline void setOutput(Level level){
+    setOutput(gpio, pinNr, level == High ? true : false);
   }
+
+//  inline bool getOutput(){
+//    return getOutput(gpio, pinNr);
+//  }
+
+  inline Level getOutput(){
+      return (getOutput(gpio, pinNr) != false ? High : Low);
+    }
 
   inline void toggleOutput(){
     toggleOutput(gpio, pinNr);
   }
 
-  inline bool getInput(){
-    return getInput(gpio, pinNr);
-  }
+//  inline bool getInput(){
+//    return getInput(gpio, pinNr);
+//  }
 
+  inline Level getInput(){
+     return (getInput(gpio, pinNr) != false ? High : Low);
+   }
 
   inline void setup(GpioMode mode, GpioOType oType, GpioPuPd pupd, GpioSpeed speed){
     setMODE(mode);

@@ -224,6 +224,11 @@ FlagStatus FLASH_GetPrefetchBufferStatus(void)
   * @{
   */
 
+
+// L.B.
+#define FLASH_KEY1  0x45670123
+#define FLASH_KEY2  0xCDEF89AB
+
 /**
   * @brief  Unlocks the FLASH control register and program memory access.
   * @param  None
