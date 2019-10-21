@@ -224,8 +224,15 @@ FlagStatus FLASH_GetPrefetchBufferStatus(void)
   * @{
   */
 
+<<<<<<< HEAD
 #define FLASH_KEY1 0x45670123
 #define FLASH_KEY2 0xCDEF89AB
+=======
+
+// L.B.
+#define FLASH_KEY1  0x45670123
+#define FLASH_KEY2  0xCDEF89AB
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 /**
   * @brief  Unlocks the FLASH control register and program memory access.

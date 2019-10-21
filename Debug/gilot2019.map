@@ -1,11 +1,20 @@
 Archive member included to satisfy reference by file (symbol)
 
+<<<<<<< HEAD
 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
                               ./lbutils/FrameBuffer.o (symbol from plugin) (operator delete(void*, unsigned int))
 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
                               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o) (operator delete(void*))
 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o)
+=======
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+                              ./lbutils/FrameBuffer.o (symbol from plugin) (operator delete(void*, unsigned int))
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o) (operator delete(void*))
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                               ./system/src/newlib/_sbrk.o (symbol from plugin) (__errno)
+<<<<<<< HEAD
 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
                               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o) (_impure_ptr)
 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
@@ -28,10 +37,33 @@ Archive member included to satisfy reference by file (symbol)
                               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
                               /tmp/ccbeuiyo.ltrans0.ltrans.o (memset)
+=======
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o) (_impure_ptr)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o) (free)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o) (_free_r)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o) (_malloc_r)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                              /tmp/ccNOPOUW.ltrans0.ltrans.o (__aeabi_uidiv)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+                              /tmp/ccNOPOUW.ltrans0.ltrans.o (__aeabi_idiv)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                              /tmp/ccNOPOUW.ltrans0.ltrans.o (memset)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 Allocating common symbols
 Common symbol       size              file
 
+<<<<<<< HEAD
 __lock___atexit_recursive_mutex
                     0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
 __lock___arc4random_mutex
@@ -50,9 +82,13 @@ __lock___dd_hash_mutex
 __lock___tz_mutex   0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
 __lock___sfp_recursive_mutex
                     0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+=======
+errno               0x4               /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 Discarded input sections
 
+<<<<<<< HEAD
  .group         0x0000000000000000        0xc /tmp/ccAE0BzWdebugobj
  .group         0x0000000000000000        0xc /tmp/ccAE0BzWdebugobj
  .group         0x0000000000000000        0xc /tmp/ccAE0BzWdebugobj
@@ -153,35 +189,91 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .data          0x0000000000000000        0x0 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .bss           0x0000000000000000        0x0 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .text          0x0000000000000000        0x0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+<<<<<<< HEAD
                 0x0000000000000000       0x14 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.__cxa_pure_virtual
+<<<<<<< HEAD
                 0x0000000000000000       0x14 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .rodata._ZZN9__gnu_cxx27__verbose_terminate_handlerEvE8__func__
+<<<<<<< HEAD
                 0x0000000000000000       0x1c /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x1c /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .rodata._ZZ18__cxa_pure_virtualE8__func__
+<<<<<<< HEAD
                 0x0000000000000000       0x13 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x13 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .rodata.abort.str1.4
+<<<<<<< HEAD
                 0x0000000000000000       0x14 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text.abort    0x0000000000000000       0x14 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .bss.current_heap_end.4005
                 0x0000000000000000        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text._sbrk    0x0000000000000000       0x68 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.abort    0x0000000000000000       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.current_heap_end.3961
+                0x0000000000000000        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._sbrk    0x0000000000000000       0x68 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .bss.__dso_handle
+<<<<<<< HEAD
                 0x0000000000000000        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text.raise    0x0000000000000000       0x1e /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text.kill     0x0000000000000000       0x20 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.raise    0x0000000000000000       0x1e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.kill     0x0000000000000000       0x20 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .rodata.__assert_func.str1.4
+<<<<<<< HEAD
                 0x0000000000000000       0x43 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x43 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.__assert_func
+<<<<<<< HEAD
                 0x0000000000000000       0x1c /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x1c /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .rodata.assert_failed.str1.4
+<<<<<<< HEAD
                 0x0000000000000000       0x2b /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x2b /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.assert_failed
+<<<<<<< HEAD
                 0x0000000000000000       0x18 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.NVIC_SystemReset
+<<<<<<< HEAD
                 0x0000000000000000       0x20 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x20 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.__reset_hardware
+<<<<<<< HEAD
                 0x0000000000000000        0x8 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text._ZL13flash_latencym
                 0x0000000000000000       0x34 /tmp/ccbeuiyo.ltrans0.ltrans.o
@@ -195,45 +287,149 @@ Discarded input sections
                 0x0000000000000000        0x6 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text._Z14PendSV_Handlerv
                 0x0000000000000000        0x6 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000        0x8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.NVIC_SetPriority
+                0x0000000000000000       0xe8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.SysTick_Config
+                0x0000000000000000       0x48 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Hardware13errorDispatchENS_9ErrorCodeE
+                0x0000000000000000       0x22 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZL13flash_latencym
+                0x0000000000000000       0x34 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZL12pll_start_lbmm
+                0x0000000000000000       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZL7rccInitv
+                0x0000000000000000       0x2c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Hardware9NVIC_initEv
+                0x0000000000000000        0x8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Hardware4initEv
+                0x0000000000000000       0x58 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Hardware9WDOG_InitEv
+                0x0000000000000000        0x8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Hardware11WDOG_ReloadEv
+                0x0000000000000000        0x8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._Z11NMI_Handlerv
+                0x0000000000000000        0x6 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._Z17HardFault_Handlerv
+                0x0000000000000000        0x6 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._Z11SVC_Handlerv
+                0x0000000000000000        0x6 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._Z14PendSV_Handlerv
+                0x0000000000000000        0x6 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.AsciiBcdToValue
+<<<<<<< HEAD
                 0x0000000000000000       0x70 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x70 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.AsciiBcd2toByte
+<<<<<<< HEAD
                 0x0000000000000000       0x70 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x70 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo7isEmptyEv
+<<<<<<< HEAD
                 0x0000000000000000       0x20 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x20 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo10isNotEmptyEv
+<<<<<<< HEAD
                 0x0000000000000000       0x22 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text._ZN4Fifo3putEh
                 0x0000000000000000       0x6e /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x22 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo3getEv
+<<<<<<< HEAD
                 0x0000000000000000       0x5a /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x5a /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo18getByteAs2HexAsciiEv
+<<<<<<< HEAD
                 0x0000000000000000       0x6c /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x6c /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo20get2BytesAs4HexAsciiEv
+<<<<<<< HEAD
                 0x0000000000000000       0x60 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x60 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo9getUInt16Ev
+<<<<<<< HEAD
                 0x0000000000000000       0x64 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x64 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo9getUInt32EPb
+<<<<<<< HEAD
                 0x0000000000000000       0x5c /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x5c /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo18putByteAs2AsciiBCDEh
+<<<<<<< HEAD
                 0x0000000000000000       0xcc /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0xce /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo20put2BytesAs4AsciiBCDEt
+<<<<<<< HEAD
                 0x0000000000000000       0x3a /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x3a /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo6putAllEPS_
+<<<<<<< HEAD
                 0x0000000000000000       0x64 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x64 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo9putStringEPKc
+<<<<<<< HEAD
                 0x0000000000000000       0x58 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x58 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo9putStringEPKcm
+<<<<<<< HEAD
                 0x0000000000000000       0x70 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x70 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo9putUint16Et
+<<<<<<< HEAD
                 0x0000000000000000       0x5e /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x5e /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo9putUint32Em
+<<<<<<< HEAD
                 0x0000000000000000       0x56 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x56 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo9get_countEv
+<<<<<<< HEAD
                 0x0000000000000000       0x38 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x38 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo6isFullEv
+<<<<<<< HEAD
                 0x0000000000000000       0x4c /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x4c /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN4Fifo5cloneEPS_
+<<<<<<< HEAD
                 0x0000000000000000       0x7e /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text._ZN6VEprom15isWritePossibleEv
                 0x0000000000000000        0xc /tmp/ccbeuiyo.ltrans0.ltrans.o
@@ -249,12 +445,39 @@ Discarded input sections
  .text.my_itoa  0x0000000000000000      0x14a /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text.my_htoa  0x0000000000000000       0x82 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text.my_btoa  0x0000000000000000       0x5e /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x7e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN6VEprom15isWritePossibleEv
+                0x0000000000000000        0xc /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.VirtAddVarTab
+                0x0000000000000000       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.Vars      0x0000000000000000       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN6VEprom4initEv
+                0x0000000000000000       0xac /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN6VEprom9writeWordENS_9VirtAdresEt
+                0x0000000000000000       0xac /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN6VEprom8readWordENS_9VirtAdresEPt
+                0x0000000000000000       0x44 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.my_itoa  0x0000000000000000      0x14e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.my_htoa  0x0000000000000000       0x82 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.my_btoa  0x0000000000000000       0x5e /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.itoaWithPattern
+<<<<<<< HEAD
                 0x0000000000000000       0xd2 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text.power10  0x0000000000000000       0x38 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0xd2 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.power10  0x0000000000000000       0x38 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.my_strcpy
+<<<<<<< HEAD
                 0x0000000000000000       0x5a /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x5c /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.numberWithPattern
+<<<<<<< HEAD
                 0x0000000000000000       0x2e /tmp/ccbeuiyo.ltrans0.ltrans.o
  .rodata._ZL15SOTWARE_VERSION
                 0x0000000000000000        0x2 /tmp/ccbeuiyo.ltrans0.ltrans.o
@@ -371,7 +594,126 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
  .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
  .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+=======
+                0x0000000000000000       0x2e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .rodata._ZL15SOTWARE_VERSION
+                0x0000000000000000        0x2 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .rodata._ZL14OVC_SILENCE_MS
+                0x0000000000000000        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .rodata._ZL22MAX_OPOZN_ZAMK_POZ_sek
+                0x0000000000000000        0x2 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .rodata._ZL13MAX_OVC_LEVEL
+                0x0000000000000000        0x2 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478012setBackLightEb
+                0x0000000000000000       0x24 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478011getDataFifoEv
+                0x0000000000000000       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD447807delayMsEm
+                0x0000000000000000       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478012delayMsDirtyEm
+                0x0000000000000000       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD447805setupEP4GpioS1_S1_PNS_9GpioPack8ES1_
+                0x0000000000000000       0x3e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD447809localInitEv
+                0x0000000000000000      0x120 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478016sendCommandDirtyEhm
+                0x0000000000000000       0x62 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.DataVar   0x0000000000000000        0x2 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.EE_Init  0x0000000000000000      0x3d4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.EE_ReadVariable
+                0x0000000000000000       0xc8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.EE_WriteVariable
+                0x0000000000000000       0x5e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.EE_Format
+                0x0000000000000000       0x68 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.EE_FindValidPage
+                0x0000000000000000       0xb0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.EE_VerifyPageFullWriteVariable
+                0x0000000000000000       0xe0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.EE_PageTransfer
+                0x0000000000000000      0x1c8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_SetLatency
+                0x0000000000000000       0x4c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_PrefetchBufferCmd
+                0x0000000000000000       0x54 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_GetPrefetchBufferStatus
+                0x0000000000000000       0x34 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_Unlock
+                0x0000000000000000       0x2c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_Lock
+                0x0000000000000000       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_ErasePage
+                0x0000000000000000       0x78 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_EraseAllPages
+                0x0000000000000000       0x68 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_ProgramWord
+                0x0000000000000000       0xd0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_ProgramHalfWord
+                0x0000000000000000       0x74 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_Unlock
+                0x0000000000000000       0x2c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_Lock
+                0x0000000000000000       0x1c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_Launch
+                0x0000000000000000       0x1c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_Erase
+                0x0000000000000000       0xdc /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_EnableWRP
+                0x0000000000000000      0x100 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_RDPConfig
+                0x0000000000000000       0xf8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_UserConfig
+                0x0000000000000000      0x100 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_BOOTConfig
+                0x0000000000000000       0xa4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_BOOT0Config
+                0x0000000000000000       0xa4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_BOOT0SWConfig
+                0x0000000000000000       0xa4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_VDDAConfig
+                0x0000000000000000       0xa4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_SRAMParityConfig
+                0x0000000000000000       0xa4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_WriteUser
+                0x0000000000000000       0x80 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_ProgramData
+                0x0000000000000000       0xa4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_GetUser
+                0x0000000000000000       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_GetWRP
+                0x0000000000000000       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_OB_GetRDP
+                0x0000000000000000       0x38 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_ITConfig
+                0x0000000000000000       0x78 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_GetFlagStatus
+                0x0000000000000000       0x64 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_ClearFlag
+                0x0000000000000000       0x34 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_GetStatus
+                0x0000000000000000       0x5c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.FLASH_WaitForLastOperation
+                0x0000000000000000       0x5a /tmp/ccNOPOUW.ltrans0.ltrans.o
+ COMMON         0x0000000000000000        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .text.__errno  0x0000000000000000        0xc /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000000       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .rodata._global_impure_ptr
+<<<<<<< HEAD
                 0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
  .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
  .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
@@ -383,9 +725,27 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
  .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
  .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+=======
+                0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .text.malloc   0x0000000000000000       0x14 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._malloc_r
+<<<<<<< HEAD
                 0x0000000000000000       0xbc /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+=======
+                0x0000000000000000       0xbc /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .bss.__malloc_sbrk_start
+<<<<<<< HEAD
                 0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
  .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
  .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
@@ -425,10 +785,38 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
  .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
  .debug_frame   0x0000000000000000       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+=======
+                0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000000000       0x24 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .ARM.attributes
+<<<<<<< HEAD
                 0x0000000000000000       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
  .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+=======
+                0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000      0x1d4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000000       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 Memory Configuration
 
@@ -446,10 +834,16 @@ MEMORY_ARRAY     0x0000000000000000 0x0000000000000000 xrw
 
 Linker script and memory map
 
+<<<<<<< HEAD
 LOAD /tmp/ccAE0BzWdebugobj
 LOAD /tmp/ccbeuiyo.ltrans0.ltrans.o
 LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a
 LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
+=======
+LOAD /tmp/ccNOPOUW.ltrans0.ltrans.o
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libm.a
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 START GROUP
 LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a
 LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a
@@ -466,7 +860,11 @@ END GROUP
                 0x0000000020001c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 [!provide]                        PROVIDE (_Main_Stack_Limit = __Main_Stack_Limit)
                 0x0000000000000100                _Minimum_Stack_Size = 0x100
+<<<<<<< HEAD
                 0x0000000020000230                PROVIDE (_Heap_Begin = _end_noinit)
+=======
+                0x0000000020000270                PROVIDE (_Heap_Begin = _end_noinit)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                 0x0000000020001c00                PROVIDE (_Heap_Limit = (__stack - __Main_Stack_Size))
 
 .isr_vector     0x0000000008000000      0x294
@@ -474,27 +872,53 @@ END GROUP
                 0x0000000008000000                __vectors_start = ABSOLUTE (.)
                 0x0000000008000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
+<<<<<<< HEAD
  .isr_vector    0x0000000008000000       0xc4 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .isr_vector    0x0000000008000000       0xc4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                 0x0000000008000000                g_pfnVectors
  *(.cfmconfig)
  *(.after_vectors .after_vectors.*)
  .after_vectors
+<<<<<<< HEAD
                 0x00000000080000c4      0x1d0 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x00000000080000c4      0x1d0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                 0x00000000080000c4                _start
                 0x0000000008000268                HardFault_Handler_C
 
+<<<<<<< HEAD
 .inits          0x0000000008000294       0x30
+=======
+.inits          0x0000000008000294       0x34
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                 0x0000000008000294                __data_regions_array_start = .
+<<<<<<< HEAD
                 0x0000000008000294        0x4 LONG 0x80018c0 LOADADDR (.data)
+=======
+                0x0000000008000294        0x4 LONG 0x8001b70 LOADADDR (.data)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                 0x0000000008000298        0x4 LONG 0x20000000 ADDR (.data)
+<<<<<<< HEAD
                 0x000000000800029c        0x4 LONG 0x20000090 (ADDR (.data) + SIZEOF (.data))
                 0x00000000080002a0        0x4 LONG 0x80018c0 LOADADDR (.data_CCMRAM)
+=======
+                0x000000000800029c        0x4 LONG 0x20000094 (ADDR (.data) + SIZEOF (.data))
+                0x00000000080002a0        0x4 LONG 0x8001b70 LOADADDR (.data_CCMRAM)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                 0x00000000080002a4        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x00000000080002a8        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x00000000080002ac                __data_regions_array_end = .
                 0x00000000080002ac                __bss_regions_array_start = .
+<<<<<<< HEAD
                 0x00000000080002ac        0x4 LONG 0x20000090 ADDR (.bss)
                 0x00000000080002b0        0x4 LONG 0x20000230 (ADDR (.bss) + SIZEOF (.bss))
+=======
+                0x00000000080002ac        0x4 LONG 0x20000094 ADDR (.bss)
+                0x00000000080002b0        0x4 LONG 0x20000270 (ADDR (.bss) + SIZEOF (.bss))
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                 0x00000000080002b4        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
                 0x00000000080002b8        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x00000000080002bc                __bss_regions_array_end = .
@@ -510,33 +934,75 @@ END GROUP
                 0x00000000080002bc                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
+<<<<<<< HEAD
  .init_array    0x00000000080002bc        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
                 0x00000000080002c0                PROVIDE (__init_array_end = .)
                 0x00000000080002c0                . = ALIGN (0x4)
                 0x00000000080002c0                PROVIDE (__fini_array_start = .)
+=======
+ .init_array    0x00000000080002bc        0x8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+                0x00000000080002c4                PROVIDE (__init_array_end = .)
+                0x00000000080002c4                . = ALIGN (0x4)
+                0x00000000080002c4                PROVIDE (__fini_array_start = .)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
+<<<<<<< HEAD
  .fini_array    0x00000000080002c0        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
                 0x00000000080002c4                PROVIDE (__fini_array_end = .)
+=======
+ .fini_array    0x00000000080002c4        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+                0x00000000080002c8                PROVIDE (__fini_array_end = .)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .flashtext
  *(.flashtext .flashtext.*)
 
+<<<<<<< HEAD
 .text           0x00000000080002c4     0x15fc
+=======
+.text           0x00000000080002c8     0x18a8
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.text .text.*)
+<<<<<<< HEAD
  .text._exit    0x00000000080002c4        0xa /tmp/ccbeuiyo.ltrans0.ltrans.o
  *fill*         0x00000000080002ce        0x2 
+=======
+ .text._exit    0x00000000080002c8        0xa /tmp/ccNOPOUW.ltrans0.ltrans.o
+ *fill*         0x00000000080002d2        0x2 
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.__initialize_args
+<<<<<<< HEAD
                 0x00000000080002d0       0x20 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x00000000080002d4       0x20 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.__initialize_hardware_early
+<<<<<<< HEAD
                 0x00000000080002f0        0xc /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x00000000080002f4        0xc /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.__initialize_hardware
+<<<<<<< HEAD
                 0x00000000080002fc        0xc /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000008000300        0xc /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.SystemInit
+<<<<<<< HEAD
                 0x0000000008000308       0x8c /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x000000000800030c       0x8c /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.SystemCoreClockUpdate
+<<<<<<< HEAD
                 0x0000000008000394       0xe0 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000008000398       0xdc /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.SetSysClock
+<<<<<<< HEAD
                 0x0000000008000474       0xdc /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text.NVIC_SetPriority
                 0x0000000008000550       0xe8 /tmp/ccbeuiyo.ltrans0.ltrans.o
@@ -603,13 +1069,114 @@ END GROUP
                 0x0000000008000fbc       0x1c /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text._ZN11FrameBufferD0Ev
                 0x0000000008000fd8       0x24 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000008000474       0xdc /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio7setMODEEP12GPIO_TypeDefhNS_8GpioModeE
+                0x0000000008000550       0x4e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio8setSpeedEP12GPIO_TypeDefhNS_9GpioSpeedE
+                0x000000000800059e       0x50 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio11setPullUpDnEP12GPIO_TypeDefhNS_8GpioPuPdE
+                0x00000000080005ee       0x4e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio8setOTypeEP12GPIO_TypeDefhNS_9GpioOTypeE
+                0x000000000800063c       0x56 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio7getModeEP12GPIO_TypeDefh
+                0x0000000008000692       0x30 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio7getPullEP12GPIO_TypeDefh
+                0x00000000080006c2       0x30 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio8getSpeedEP12GPIO_TypeDefh
+                0x00000000080006f2       0x30 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio8getOTypeEP12GPIO_TypeDefh
+                0x0000000008000722       0x32 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio11setOutputUpEP12GPIO_TypeDefh
+                0x0000000008000754       0x24 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio13setOutputDownEP12GPIO_TypeDefh
+                0x0000000008000778       0x26 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio9setOutputEP12GPIO_TypeDefhb
+                0x000000000800079e       0x44 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio9getOutputEP12GPIO_TypeDefh
+                0x00000000080007e2       0x30 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio8getInputEP12GPIO_TypeDefh
+                0x0000000008000812       0x30 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio14setupFromCloneEP12GPIO_TypeDefhS1_h
+                0x0000000008000842       0x9c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio7setMODEENS_8GpioModeE
+                0x00000000080008de       0x26 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio8setSpeedENS_9GpioSpeedE
+                0x0000000008000904       0x26 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio11setPullUpDnENS_8GpioPuPdE
+                0x000000000800092a       0x26 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio8setOTypeENS_9GpioOTypeE
+                0x0000000008000950       0x26 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio9setOutputENS_5LevelE
+                0x0000000008000976       0x2e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio9getOutputEv
+                0x00000000080009a4       0x2a /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio8getInputEv
+                0x00000000080009ce       0x2a /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio5setupENS_8GpioModeENS_9GpioOTypeENS_8GpioPuPdENS_9GpioSpeedE
+                0x00000000080009f8       0x60 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio14setupFromCloneEPS_
+                0x0000000008000a58       0x24 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4GpioC2EP12GPIO_TypeDefh
+                0x0000000008000a7c       0x36 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ *fill*         0x0000000008000ab2        0x2 
+ .text._ZN6Pinout5setupEv
+                0x0000000008000ab4      0x190 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Keyboard11addToBufferENS_3KeyE
+                0x0000000008000c44       0x2e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Keyboard12setColumnLowEh
+                0x0000000008000c72       0xb2 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Keyboard13getRowPressedEv
+                0x0000000008000d24       0x7a /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Keyboard8getKeyAtEhh
+                0x0000000008000d9e       0xaa /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Keyboard13getPressedKeyEv
+                0x0000000008000e48       0x60 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8KeyboardC2EP4GpioS1_S1_S1_S1_S1_S1_
+                0x0000000008000ea8       0x86 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Keyboard5setupEv
+                0x0000000008000f2e       0x82 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Keyboard4pollEv
+                0x0000000008000fb0       0x4c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN8Keyboard16getUnbufferedKeyEv
+                0x0000000008000ffc       0x1a /tmp/ccNOPOUW.ltrans0.ltrans.o
+ *fill*         0x0000000008001016        0x2 
+ .text._ZN6PinoutC2Ev
+                0x0000000008001018      0x1c8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._Z8keysPollv
+                0x00000000080011e0       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text.main     0x00000000080011f8       0x2c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._Z41__static_initialization_and_destruction_0ii.lto_priv.0
+                0x0000000008001224       0xa8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._GLOBAL__sub_I_pinout
+                0x00000000080012cc       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4FifoC2EPhm
+                0x00000000080012e4       0x2e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Fifo3putEh
+                0x0000000008001312       0x6e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN11FrameBufferD2Ev
+                0x0000000008001380       0x1c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN11FrameBufferD0Ev
+                0x000000000800139c       0x24 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN9QuickTask4tickEm
+<<<<<<< HEAD
                 0x0000000008000ffc       0x6c /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x00000000080013c0       0x6c /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text._ZN9QuickTask4pollEv
+<<<<<<< HEAD
                 0x0000000008001068       0x6c /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text._ZN9QuickTaskC2ENS_6QTTypeEPFvvEm
                 0x00000000080010d4       0x9c /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x000000000800142c       0x68 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN9QuickTaskC2ENS_6QTTypeEPFvvEm
+                0x0000000008001494       0x94 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .text.SysTick_Handler
+<<<<<<< HEAD
                 0x0000000008001170        0xe /tmp/ccbeuiyo.ltrans0.ltrans.o
  .text._ZN4Gpio11setOutputUpEP12GPIO_TypeDefh
                 0x000000000800117e       0x24 /tmp/ccbeuiyo.ltrans0.ltrans.o
@@ -690,61 +1257,199 @@ END GROUP
  .text          0x00000000080018ac        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
                 0x00000000080018ac                __aeabi_ldiv0
                 0x00000000080018ac                __aeabi_idiv0
+=======
+                0x0000000008001528        0xe /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio11setOutputUpEv
+                0x0000000008001536       0x1e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio13setOutputDownEv
+                0x0000000008001554       0x1e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN4Gpio9setOutputEb
+                0x0000000008001572       0x26 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN11FrameBufferC2EmmPh
+                0x0000000008001598       0x54 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZNK11FrameBuffer9getBufferEv
+                0x00000000080015ec       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478015prepareDataByteEh
+                0x0000000008001600       0x5e /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478021prepareCommandToWriteENS_10LcdCommandE
+                0x000000000800165e       0x3a /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478018prepareCharToWriteEc
+                0x0000000008001698       0x3a /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD44780C2Ev
+                0x00000000080016d2       0x3c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478013getDDRamAdresEhh
+                0x000000000800170e       0x6a /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478011getInstanceEv
+                0x0000000008001778       0x10 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._Z12pollCallbackv
+                0x0000000008001788       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478014getFrameBufferEv
+                0x000000000800179c       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD4478011getNextCharEv
+                0x00000000080017b4       0x56 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZN7HD447804pollEv
+                0x000000000800180a       0xc2 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._Z41__static_initialization_and_destruction_0ii.lto_priv.1
+                0x00000000080018cc       0x80 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._GLOBAL__sub_I_instance
+                0x000000000800194c       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._GLOBAL__sub_D_instance
+                0x0000000008001964       0x18 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .text._ZdlPvj  0x000000000800197c        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+                0x000000000800197c                operator delete(void*, unsigned int)
+ .text._ZdlPv   0x0000000008001984        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+                0x0000000008001984                operator delete(void*)
+ .text.free     0x000000000800198c       0x14 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+                0x000000000800198c                free
+ .text._free_r  0x00000000080019a0       0x94 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+                0x00000000080019a0                _free_r
+ .text.__malloc_lock
+                0x0000000008001a34        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                0x0000000008001a34                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000008001a36        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                0x0000000008001a36                __malloc_unlock
+ .text          0x0000000008001a38      0x114 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                0x0000000008001a38                __udivsi3
+                0x0000000008001a38                __aeabi_uidiv
+                0x0000000008001b44                __aeabi_uidivmod
+ .text          0x0000000008001b4c        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000008001b4c                __aeabi_ldiv0
+                0x0000000008001b4c                __aeabi_idiv0
+ .text.memset   0x0000000008001b50       0x10 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                0x0000000008001b50                memset
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata._ZTV11FrameBuffer
+<<<<<<< HEAD
                 0x00000000080018b0       0x10 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000008001b60       0x10 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
+<<<<<<< HEAD
  .glue_7        0x00000000080018c0        0x0 linker stubs
+=======
+ .glue_7        0x0000000008001b70        0x0 linker stubs
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.glue_7t)
+<<<<<<< HEAD
  .glue_7t       0x00000000080018c0        0x0 linker stubs
+=======
+ .glue_7t       0x0000000008001b70        0x0 linker stubs
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .vfp11_veneer   0x00000000080018c0        0x0
  .vfp11_veneer  0x00000000080018c0        0x0 linker stubs
+=======
+.vfp11_veneer   0x0000000008001b70        0x0
+ .vfp11_veneer  0x0000000008001b70        0x0 linker stubs
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .v4_bx          0x00000000080018c0        0x0
  .v4_bx         0x00000000080018c0        0x0 linker stubs
+=======
+.v4_bx          0x0000000008001b70        0x0
+ .v4_bx         0x0000000008001b70        0x0 linker stubs
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .iplt           0x00000000080018c0        0x0
  .iplt          0x00000000080018c0        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+=======
+.iplt           0x0000000008001b70        0x0
+ .iplt          0x0000000008001b70        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .rel.dyn        0x00000000080018c0        0x0
  .rel.iplt      0x00000000080018c0        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+=======
+.rel.dyn        0x0000000008001b70        0x0
+ .rel.iplt      0x0000000008001b70        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
+<<<<<<< HEAD
                 0x00000000080018c0                . = ALIGN (0x4)
                 0x00000000080018c0                __exidx_start = .
+=======
+                0x0000000008001b70                . = ALIGN (0x4)
+                0x0000000008001b70                __exidx_start = .
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+<<<<<<< HEAD
                 0x00000000080018c0                __exidx_end = .
                 0x00000000080018c0                . = ALIGN (0x4)
                 0x00000000080018c0                _etext = .
                 0x00000000080018c0                __etext = .
+=======
+                0x0000000008001b70                __exidx_end = .
+                0x0000000008001b70                . = ALIGN (0x4)
+                0x0000000008001b70                _etext = .
+                0x0000000008001b70                __etext = .
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .data_CCMRAM    0x0000000000000000        0x0 load address 0x00000000080018c0
+=======
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008001b70
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000000000000                . = ALIGN (0x4)
+<<<<<<< HEAD
                 0x00000000080018c0                _sidata = LOADADDR (.data)
+=======
+                0x0000000008001b70                _sidata = LOADADDR (.data)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .data           0x0000000020000000       0x90 load address 0x00000000080018c0
+=======
+.data           0x0000000020000000       0x94 load address 0x0000000008001b70
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
  *(.data_begin .data_begin.*)
+<<<<<<< HEAD
  .data_begin    0x0000000020000000        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .data_begin    0x0000000020000000        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.data .data.*)
+<<<<<<< HEAD
  .data.argv.4375
                 0x0000000020000004        0x8 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .data.argv.4310
+                0x0000000020000004        0x8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .data.SystemCoreClock
+<<<<<<< HEAD
                 0x000000002000000c        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x000000002000000c        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .data.AHBPrescTable
+<<<<<<< HEAD
                 0x0000000020000010       0x10 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .data.pins     0x0000000020000020        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000020000010       0x10 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .data.pins     0x0000000020000020        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .data.keys     0x0000000020000024        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .data._ZN9QuickTask6holdedE
+<<<<<<< HEAD
                 0x0000000020000024        0x1 /tmp/ccbeuiyo.ltrans0.ltrans.o
  *fill*         0x0000000020000025        0x3 ff
  .data._impure_ptr
@@ -752,30 +1457,72 @@ END GROUP
                 0x0000000020000028                _impure_ptr
  .data.impure_data
                 0x000000002000002c       0x60 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+=======
+                0x0000000020000028        0x1 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ *fill*         0x0000000020000029        0x3 ff
+ .data._impure_ptr
+                0x000000002000002c        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+                0x000000002000002c                _impure_ptr
+ .data.impure_data
+                0x0000000020000030       0x60 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.data_end .data_end.*)
+<<<<<<< HEAD
  .data_end      0x000000002000008c        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
                 0x0000000020000090                . = ALIGN (0x4)
                 0x0000000020000090                _edata = .
                 0x0000000020000090                __data_end__ = .
+=======
+ .data_end      0x0000000020000090        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+                0x0000000020000094                . = ALIGN (0x4)
+                0x0000000020000094                _edata = .
+                0x0000000020000094                __data_end__ = .
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .igot.plt       0x0000000020000090        0x0 load address 0x0000000008001950
  .igot.plt      0x0000000020000090        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+=======
+.igot.plt       0x0000000020000094        0x0 load address 0x0000000008001c04
+ .igot.plt      0x0000000020000094        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .bss_CCMRAM     0x0000000000000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
+<<<<<<< HEAD
 .bss            0x0000000020000090      0x1a0
                 0x0000000020000090                __bss_start__ = .
                 0x0000000020000090                _sbss = .
+=======
+.bss            0x0000000020000094      0x1dc
+                0x0000000020000094                __bss_start__ = .
+                0x0000000020000094                _sbss = .
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.bss_begin .bss_begin.*)
+<<<<<<< HEAD
  .bss_begin     0x0000000020000090        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .bss_begin     0x0000000020000094        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.bss .bss.*)
+<<<<<<< HEAD
  .bss.name.4374
                 0x0000000020000094        0x1 /tmp/ccbeuiyo.ltrans0.ltrans.o
  *fill*         0x0000000020000095        0x3 
  .bss.pinout    0x0000000020000098       0xd8 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .bss.taskbase  0x0000000020000170        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .bss.name.4309
+                0x0000000020000098        0x1 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ *fill*         0x0000000020000099        0x3 
+ .bss.pinout    0x000000002000009c       0xd8 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.keyboard  0x0000000020000174       0x34 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.keybTask  0x00000000200001a8       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.taskbase  0x00000000200001bc        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .bss._ZN9QuickTask12milisCounterE
+<<<<<<< HEAD
                 0x0000000020000174        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .bss.instance  0x0000000020000178       0x1c /tmp/ccbeuiyo.ltrans0.ltrans.o
  .bss.hd44780Task
@@ -790,6 +1537,22 @@ END GROUP
  .bss.__malloc_free_list
                 0x000000002000021c        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
                 0x000000002000021c                __malloc_free_list
+=======
+                0x00000000200001c0        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.instance  0x00000000200001c4       0x1c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.hd44780Task
+                0x00000000200001e0       0x14 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.dataTab1  0x00000000200001f4       0x21 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ *fill*         0x0000000020000215        0x3 
+ .bss.frame_buffer
+                0x0000000020000218       0x1c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.dataTab2  0x0000000020000234       0x21 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ *fill*         0x0000000020000255        0x3 
+ .bss.dataFifo  0x0000000020000258       0x10 /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .bss.__malloc_free_list
+                0x0000000020000268        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000268                __malloc_free_list
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(COMMON)
  COMMON         0x0000000020000220        0x9 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
                 0x0000000020000220                __lock___atexit_recursive_mutex
@@ -802,28 +1565,51 @@ END GROUP
                 0x0000000020000227                __lock___tz_mutex
                 0x0000000020000228                __lock___sfp_recursive_mutex
  *(.bss_end .bss_end.*)
+<<<<<<< HEAD
  *fill*         0x0000000020000229        0x3 
  .bss_end       0x000000002000022c        0x4 /tmp/ccbeuiyo.ltrans0.ltrans.o
                 0x0000000020000230                . = ALIGN (0x4)
                 0x0000000020000230                __bss_end__ = .
                 0x0000000020000230                _ebss = .
+=======
+ .bss_end       0x000000002000026c        0x4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+                0x0000000020000270                . = ALIGN (0x4)
+                0x0000000020000270                __bss_end__ = .
+                0x0000000020000270                _ebss = .
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
+<<<<<<< HEAD
 .noinit         0x0000000020000230        0x0
                 0x0000000020000230                _noinit = .
+=======
+.noinit         0x0000000020000270        0x0
+                0x0000000020000270                _noinit = .
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.noinit .noinit.*)
+<<<<<<< HEAD
                 0x0000000020000230                . = ALIGN (0x4)
                 0x0000000020000230                _end_noinit = .
+=======
+                0x0000000020000270                . = ALIGN (0x4)
+                0x0000000020000270                _end_noinit = .
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
                 [!provide]                        PROVIDE (end = _end_noinit)
                 [!provide]                        PROVIDE (_end = _end_noinit)
                 [!provide]                        PROVIDE (__end = _end_noinit)
                 [!provide]                        PROVIDE (__end__ = _end_noinit)
 
+<<<<<<< HEAD
 ._check_stack   0x0000000020000230      0x100
                 0x0000000020000330                . = (. + _Minimum_Stack_Size)
  *fill*         0x0000000020000230      0x100 
+=======
+._check_stack   0x0000000020000270      0x100
+                0x0000000020000370                . = (. + _Minimum_Stack_Size)
+ *fill*         0x0000000020000270      0x100 
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .b1text
  *(.b1text)
@@ -870,16 +1656,30 @@ END GROUP
 
 .comment        0x0000000000000000       0x76
  *(.comment)
+<<<<<<< HEAD
  .comment       0x0000000000000000       0x76 /tmp/ccbeuiyo.ltrans0.ltrans.o
                                          0x77 (size before relaxing)
+=======
+ .comment       0x0000000000000000       0x7f /tmp/ccNOPOUW.ltrans0.ltrans.o
+                                         0x80 (size before relaxing)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .ARM.attributes
                 0x0000000000000000       0x2c
  .ARM.attributes
+<<<<<<< HEAD
                 0x0000000000000000       0x2a /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000       0x2f /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .ARM.attributes
+<<<<<<< HEAD
                 0x000000000000002a       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+=======
+                0x000000000000002f       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  .ARM.attributes
+<<<<<<< HEAD
                 0x0000000000000056       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
  .ARM.attributes
                 0x0000000000000082       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
@@ -899,6 +1699,25 @@ END GROUP
                 0x00000000000001b6       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
  .ARM.attributes
                 0x00000000000001d4       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+=======
+                0x000000000000005b       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .ARM.attributes
+                0x0000000000000087       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000000b3       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000000000000df       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x000000000000010b       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000000000000137       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000163       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000181       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000000000000019f       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .debug
  *(.debug)
@@ -912,16 +1731,29 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
+<<<<<<< HEAD
 .debug_aranges  0x0000000000000000      0x548
+=======
+.debug_aranges  0x0000000000000000      0x5b0
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.debug_aranges)
  .debug_aranges
+<<<<<<< HEAD
                 0x0000000000000000      0x548 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+                0x0000000000000000      0x5b0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .debug_pubnames
  *(.debug_pubnames)
 
+<<<<<<< HEAD
 .debug_info     0x0000000000000000     0xfafa
+=======
+.debug_info     0x0000000000000000     0x4a39
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.debug_info .gnu.linkonce.wi.*)
+<<<<<<< HEAD
  .debug_info    0x0000000000000000     0xde37 /tmp/ccAE0BzWdebugobj
                 0x0000000000000000                g_cxx.cpp.2765497b
                 0x0000000000001057                g_exit.c.801bd576
@@ -949,19 +1781,43 @@ END GROUP
                 0x000000000000d350                eeprom.c.b70126aa
                 0x000000000000d69f                stm32f0xx_flash.c.b4151b07
  .debug_info    0x000000000000de37     0x1cc3 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .debug_info    0x0000000000000000     0x4a39 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .debug_abbrev   0x0000000000000000     0x3021
+=======
+.debug_abbrev   0x0000000000000000      0x79b
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.debug_abbrev)
+<<<<<<< HEAD
  .debug_abbrev  0x0000000000000000     0x2f0b /tmp/ccAE0BzWdebugobj
  .debug_abbrev  0x0000000000002f0b      0x116 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .debug_abbrev  0x0000000000000000      0x79b /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .debug_line     0x0000000000000000     0x6179
+=======
+.debug_line     0x0000000000000000     0x1689
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.debug_line)
+<<<<<<< HEAD
  .debug_line    0x0000000000000000     0x4087 /tmp/ccAE0BzWdebugobj
  .debug_line    0x0000000000004087     0x20f2 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+ .debug_line    0x0000000000000000     0x1689 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .debug_frame    0x0000000000000000     0x16e0
+=======
+.debug_frame    0x0000000000000000     0x17a4
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.debug_frame)
+<<<<<<< HEAD
  .debug_frame   0x0000000000000000     0x14c4 /tmp/ccbeuiyo.ltrans0.ltrans.o
  .debug_frame   0x00000000000014c4       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
  .debug_frame   0x00000000000014ec       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
@@ -972,13 +1828,33 @@ END GROUP
  .debug_frame   0x00000000000015f0       0xb0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
  .debug_frame   0x00000000000016a0       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
  .debug_frame   0x00000000000016c0       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+=======
+ .debug_frame   0x0000000000000000     0x164c /tmp/ccNOPOUW.ltrans0.ltrans.o
+ .debug_frame   0x000000000000164c       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .debug_frame   0x0000000000001674       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .debug_frame   0x000000000000169c       0x40 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000016dc       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000001708       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000001734       0x30 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000001764       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000001784       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
+<<<<<<< HEAD
 .debug_str      0x0000000000000000    0x35408
+=======
+.debug_str      0x0000000000000000     0x1af4
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
  *(.debug_str)
+<<<<<<< HEAD
  .debug_str     0x0000000000000000    0x352c8 /tmp/ccAE0BzWdebugobj
                                      0x21caa6 (size before relaxing)
  .debug_str     0x00000000000352c8      0x140 /tmp/ccbeuiyo.ltrans0.ltrans.o
                                         0x160 (size before relaxing)
+=======
+ .debug_str     0x0000000000000000     0x1af4 /tmp/ccNOPOUW.ltrans0.ltrans.o
+                                       0x1c4c (size before relaxing)
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
 .debug_loc
  *(.debug_loc)
@@ -999,6 +1875,7 @@ END GROUP
  *(.debug_varnames)
 OUTPUT(gilot2019.elf elf32-littlearm)
 
+<<<<<<< HEAD
 .debug_macro    0x0000000000000000     0xdb26
  .debug_macro   0x0000000000000000     0x1a16 /tmp/ccAE0BzWdebugobj
  .debug_macro   0x0000000000001a16      0xb44 /tmp/ccAE0BzWdebugobj
@@ -1100,3 +1977,7 @@ OUTPUT(gilot2019.elf elf32-littlearm)
 
 .debug_ranges   0x0000000000000000      0x550
  .debug_ranges  0x0000000000000000      0x550 /tmp/ccbeuiyo.ltrans0.ltrans.o
+=======
+.debug_ranges   0x0000000000000000      0x5d0
+ .debug_ranges  0x0000000000000000      0x5d0 /tmp/ccNOPOUW.ltrans0.ltrans.o
+>>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git

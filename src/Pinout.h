@@ -50,7 +50,7 @@ public:
 
 
 
-  void init(){
+  void setup(){
 
     RCC->AHBENR |= RCC_AHBENR_GPIOAEN | RCC_AHBENR_GPIOBEN
         |RCC_AHBENR_GPIOCEN | RCC_AHBENR_GPIOFEN
@@ -71,13 +71,13 @@ public:
     lcd_D6.setupFromClone(&lcd_E);
     lcd_D7.setupFromClone(&lcd_E);
 
-    keyb_K1.setupFromClone(&lcd_E);
-    keyb_K2.setupFromClone(&lcd_E);
-    keyb_K3.setupFromClone(&lcd_E);
-    keyb_W1.setupFromClone(&lcd_E);
-    keyb_W2.setupFromClone(&lcd_E);
-    keyb_W3.setupFromClone(&lcd_E);
-    keyb_W4.setupFromClone(&lcd_E);
+//    keyb_K1.setupFromClone(&lcd_E);
+//    keyb_K2.setupFromClone(&lcd_E);
+//    keyb_K3.setupFromClone(&lcd_E);
+//    keyb_W1.setupFromClone(&lcd_E);
+//    keyb_W2.setupFromClone(&lcd_E);
+//    keyb_W3.setupFromClone(&lcd_E);
+//    keyb_W4.setupFromClone(&lcd_E);
 
     noz_Action.setupFromClone(&lcd_E);
     noz_detect.setup(Gpio::GpioMode::INPUT, Gpio::GpioOType::NoMatter, Gpio::GpioPuPd::PullUp, Gpio::GpioSpeed::LowSpeed);
