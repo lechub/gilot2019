@@ -5,7 +5,8 @@ src/main.o: ../src/main.cpp ../system/include/diag/Trace.h \
  ../system/include/cmsis/core_cmInstr.h \
  ../system/include/cmsis/cmsis_gcc.h \
  ../system/include/cmsis/core_cmFunc.h \
- ../system/include/cmsis/system_stm32f0xx.h
+ ../system/include/cmsis/system_stm32f0xx.h ../src/Hardware.h \
+ ../lbdrivers/systemDefs.h
 
 ../system/include/diag/Trace.h:
 
@@ -28,3 +29,7 @@ src/main.o: ../src/main.cpp ../system/include/diag/Trace.h \
 ../system/include/cmsis/core_cmFunc.h:
 
 ../system/include/cmsis/system_stm32f0xx.h:
+
+../src/Hardware.h:
+
+../lbdrivers/systemDefs.h:

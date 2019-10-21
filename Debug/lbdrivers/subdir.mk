@@ -8,11 +8,9 @@ C_SRCS += \
 ../lbdrivers/stm32f0xx_flash.c 
 
 CPP_SRCS += \
-../lbdrivers/Eprom.cpp \
 ../lbdrivers/HD44780.cpp 
 
 OBJS += \
-./lbdrivers/Eprom.o \
 ./lbdrivers/HD44780.o \
 ./lbdrivers/eeprom.o \
 ./lbdrivers/stm32f0xx_flash.o 
@@ -22,7 +20,6 @@ C_DEPS += \
 ./lbdrivers/stm32f0xx_flash.d 
 
 CPP_DEPS += \
-./lbdrivers/Eprom.d \
 ./lbdrivers/HD44780.d 
 
 

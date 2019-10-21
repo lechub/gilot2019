@@ -8,10 +8,12 @@ C_SRCS += \
 
 CPP_SRCS += \
 ../src/Hardware.cpp \
+../src/Krokowy.cpp \
 ../src/main.cpp 
 
 OBJS += \
 ./src/Hardware.o \
+./src/Krokowy.o \
 ./src/_write.o \
 ./src/main.o 
 
@@ -20,6 +22,7 @@ C_DEPS += \
 
 CPP_DEPS += \
 ./src/Hardware.d \
+./src/Krokowy.d \
 ./src/main.d 
 
 

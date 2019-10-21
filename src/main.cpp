@@ -33,6 +33,7 @@
 
 #include "QuickTask.h"
 #include "Pinout.h"
+#include "Hardware.h"
 
 // ----------------------------------------------------------------------------
 //
@@ -54,18 +55,24 @@
 #pragma GCC diagnostic ignored "-Wmissing-declarations"
 #pragma GCC diagnostic ignored "-Wreturn-type"
 
+
+Pinout pinout = Pinout();
+Pinout * pins = &pinout;
+
+
+
 int
 main(int argc, char* argv[])
 {
-  // At this stage the system clock should have already been configured
-  // at high speed.
+  pins->init();
+  Hardware::init();
 
-  // Infinite loop
   while (true)
-    {
-	  QuickTask::poll();
+  {
+    QuickTask::poll();
 
-    }
+
+  }
 }
 
 #pragma GCC diagnostic pop

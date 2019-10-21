@@ -1,13 +1,16 @@
-lbdrivers/Eprom.o: ../lbdrivers/Eprom.cpp ../lbdrivers/Eprom.h \
- ../lbdrivers/systemDefs.h ../system/include/cmsis/stm32f0xx.h \
- ../system/include/cmsis/core_cm0.h \
+src/Krokowy.o: ../src/Krokowy.cpp ../src/Krokowy.h ../src/Pinout.h \
+ ../lbdrivers/Gpio.h ../lbdrivers/systemDefs.h \
+ ../system/include/cmsis/stm32f0xx.h ../system/include/cmsis/core_cm0.h \
  ../system/include/cmsis/core_cmInstr.h \
  ../system/include/cmsis/cmsis_gcc.h \
  ../system/include/cmsis/core_cmFunc.h \
- ../system/include/cmsis/system_stm32f0xx.h ../lbdrivers/eeprom.h \
- ../lbdrivers/stm32f0xx_flash.h
+ ../system/include/cmsis/system_stm32f0xx.h
 
-../lbdrivers/Eprom.h:
+../src/Krokowy.h:
+
+../src/Pinout.h:
+
+../lbdrivers/Gpio.h:
 
 ../lbdrivers/systemDefs.h:
 
@@ -22,7 +25,3 @@ lbdrivers/Eprom.o: ../lbdrivers/Eprom.cpp ../lbdrivers/Eprom.h \
 ../system/include/cmsis/core_cmFunc.h:
 
 ../system/include/cmsis/system_stm32f0xx.h:
-
-../lbdrivers/eeprom.h:
-
-../lbdrivers/stm32f0xx_flash.h:
