@@ -9,6 +9,7 @@
 #include "Pinout.h"
 #include "Hardware.h"
 #include "Keyboard.h"
+#include "VEprom.h"
 
 
 Pinout pinout = Pinout();
@@ -33,15 +34,16 @@ QuickTask keybTask(QuickTask::QTType::QT_PERIODIC, keysPoll, Keyboard::TIME_PERI
 
 int main(int argc, char* argv[])
 {
-  Hardware::init();
+	Hardware::init();
+	VEprom::init();
 	pins->setup();
 	keys->setup();
 
 	while (true)
-  {
-    QuickTask::poll();
+	{
+		QuickTask::poll();
 
-  }
+	}
 }
 
 #pragma GCC diagnostic pop
