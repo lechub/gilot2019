@@ -5,14 +5,9 @@ src/main.o: ../src/main.cpp ../system/include/diag/Trace.h \
  ../system/include/cmsis/core_cmInstr.h \
  ../system/include/cmsis/cmsis_gcc.h \
  ../system/include/cmsis/core_cmFunc.h \
-<<<<<<< HEAD
  ../system/include/cmsis/system_stm32f0xx.h ../src/Hardware.h \
- ../lbdrivers/systemDefs.h
-=======
- ../system/include/cmsis/system_stm32f0xx.h ../lbutils/Keyboard.h \
- ../lbutils/Button.h ../lbutils/Fifo.h ../lbutils/myUtils.h \
- ../lbutils/QuickTask.h
->>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
+ ../lbdrivers/systemDefs.h ../lbutils/Keyboard.h ../lbutils/Button.h \
+ ../lbutils/Fifo.h ../lbutils/myUtils.h ../lbutils/QuickTask.h
 
 ../system/include/diag/Trace.h:
 
@@ -36,11 +31,10 @@ src/main.o: ../src/main.cpp ../system/include/diag/Trace.h \
 
 ../system/include/cmsis/system_stm32f0xx.h:
 
-<<<<<<< HEAD
 ../src/Hardware.h:
 
 ../lbdrivers/systemDefs.h:
-=======
+
 ../lbutils/Keyboard.h:
 
 ../lbutils/Button.h:
@@ -50,4 +44,3 @@ src/main.o: ../src/main.cpp ../system/include/diag/Trace.h \
 ../lbutils/myUtils.h:
 
 ../lbutils/QuickTask.h:
->>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git

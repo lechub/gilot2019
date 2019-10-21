@@ -7,16 +7,13 @@
 
 #include "QuickTask.h"
 #include "Pinout.h"
-<<<<<<< HEAD
 #include "Hardware.h"
-=======
 #include "Keyboard.h"
->>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
-
 
 
 Pinout pinout = Pinout();
 Pinout * pins = &pinout;
+
 Keyboard keyboard = Keyboard(&pins->keyb_K1, &pins->keyb_K2, &pins->keyb_K3,
 		&pins->keyb_W1, &pins->keyb_W2, &pins->keyb_W3, &pins->keyb_W4);
 Keyboard * keys = &keyboard;
@@ -33,41 +30,18 @@ QuickTask keybTask(QuickTask::QTType::QT_PERIODIC, keysPoll, Keyboard::TIME_PERI
 #pragma GCC diagnostic ignored "-Wmissing-declarations"
 #pragma GCC diagnostic ignored "-Wreturn-type"
 
-<<<<<<< HEAD
 
-Pinout pinout = Pinout();
-Pinout * pins = &pinout;
-
-
-
-int
-main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
-  pins->init();
   Hardware::init();
-=======
-int main(int argc, char* argv[]){
 	pins->setup();
 	keys->setup();
->>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 
-<<<<<<< HEAD
-  while (true)
+	while (true)
   {
     QuickTask::poll();
-=======
-	// Infinite loop
-	while (true)
-	{
-		QuickTask::poll();
->>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
-
-<<<<<<< HEAD
 
   }
-=======
-	}
->>>>>>> branch 'master' of git@github.com:lechub/gilot2019.git
 }
 
 #pragma GCC diagnostic pop
