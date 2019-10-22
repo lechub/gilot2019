@@ -22,53 +22,20 @@ public:
     Checksum = 0,
     SoftVersion,
     LICZNIK,
-    NAPED,
-    PASSWORD,
-    FLAGS1,
+    DLUGOSC,
+    ILOSC,
+    SREDNICA_WALU,
     Adres,
-    OPOZN_ZAMK_POZAR,
-    KLAW_BISTABILNA,
-    AUTO_OTWARCIE_PO_POZARZE,
-    OVC_LEVEL,        // poziom zadziałania OVC od 0..9 -> 0=wyłączony, 9=od razu po wykryciu
     COUNT,
   }VirtAdres;
 
 
 
   static bool init();
-  //  {
-  //    FLASH_Unlock();
-  //    bool result = true;
-  //    result = (EE_Init() == FLASH_COMPLETE);
-  //    FLASH_Lock();
-  //    return result;
-  //  }
 
   static bool writeWord(VirtAdres virtAdres, uint16_t val);
-  //  {
-  //    if (virtAdres > NB_OF_VAR) return false;
-  //    if (virtAdres > VirtAdres::COUNT) return false;
-  //    FLASH_Unlock();
-  //    uint16_t result = 0;
-  //    result = EE_WriteVariable((uint16_t)virtAdres, val);
-  //    FLASH_Lock();
-  //    return (result == FLASH_COMPLETE);
-  //  }
 
   static bool readWord(VirtAdres virtAdres, uint16_t * result);
-  //  {
-  //    if (virtAdres > NB_OF_VAR) return false;
-  //    if (virtAdres > VirtAdres::COUNT) return false;
-  //    uint16_t res = 0;
-  //    res = EE_ReadVariable((uint16_t)virtAdres, result);
-  //    if (res == 0){    // read ok
-  //      return true;
-  //    }else if (res == 1){  // variable not found
-  //      *result = 0;
-  //      return writeWord(virtAdres, *result);
-  //    }
-  //    return false;
-  //  }
 
   static uint32_t readWord(VirtAdres virtAdres){
     uint16_t result;

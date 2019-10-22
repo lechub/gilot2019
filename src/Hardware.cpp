@@ -82,7 +82,7 @@ static bool pll_start_lb(uint32_t crystal, uint32_t frequency){
   while (((RCC->CFGR) & RCC_CFGR_SWS) != RCC_CFGR_SWS_PLL);	// wait for switch
 
 #endif
-#ifdef STM32F072
+#ifdef STM32F051
   //	uint32_t pllm = 8;
   //	  uint32_t plln = 128;
   //	  uint32_t pllp = 4;
@@ -93,17 +93,18 @@ static bool pll_start_lb(uint32_t crystal, uint32_t frequency){
   RCC->CFGR &= (~RCC_CFGR_SW); // HSI as system clock
   while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_HSI);  // wait for HSI as system clock
 
-  RCC->CR |=  RCC_CR_HSEON;       // enable HSE clock
-  while (!(RCC->CR & RCC_CR_HSERDY)); // wait for stable HSE clock
+//  RCC->CR |=  RCC_CR_HSEON;       // enable HSE clock
+//  while (!(RCC->CR & RCC_CR_HSERDY)); // wait for stable HSE clock
 
   flash_latency(frequency);       // configure Flash latency for desired frequency
 
-  RCC->CFGR = RCC_CFGR_PLLNODIV // nie dziel PLL /2
-      | RCC_CFGR_MCO_PRE_1        // MCO is divided by 1
+  RCC->CFGR = 0
+		  // |RCC_CFGR_PLLNODIV // nie dziel PLL /2
+     // | RCC_CFGR_MCO_PRE_1        // MCO is divided by 1
       | RCC_CFGR_MCO_NOCLOCK      // Clock output disabled
-      | RCC_CFGR_PLLMUL6          // PLL input clock x 6
+      | RCC_CFGR_PLLMUL12          // PLL input clock 8/2 x 12
       | RCC_CFGR_PLLXTPRE_PREDIV1 // PREDIV input clock not divided
-      | RCC_CFGR_PLLSRC_HSE_PREDIV  // HSE/PREDIV selected as PLL input clock
+      | RCC_CFGR_PLLSRC_HSI_DIV2  // HSi/2 selected as PLL input clock
       | RCC_CFGR_HPRE_DIV1  // SYSCLK not divided to HCLK
       | RCC_CFGR_PPRE_DIV1  // HCLK not divided to APB
       | RCC_CFGR_SW_HSI     // ciagle taktowanie z HSI
@@ -116,13 +117,15 @@ static bool pll_start_lb(uint32_t crystal, uint32_t frequency){
   RCC->CFGR |= RCC_CFGR_SW_PLL; // change SYSCLK to PLL
   while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_PLL);  // wait for PLL as system clock
 
+//
+//  RCC->CFGR |= RCC_CFGR_SW_PLL;
+//  while (((RCC->CFGR) & RCC_CFGR_SWS) != RCC_CFGR_SWS_PLL); // wait for switch
 
-  RCC->CFGR |= RCC_CFGR_SW_PLL;
-  while (((RCC->CFGR) & RCC_CFGR_SWS) != RCC_CFGR_SWS_PLL); // wait for switch
-
-  RCC->CFGR &= RCC_CR_HSION;    // wylaczenie HSI
+//  RCC->CFGR &= RCC_CR_HSION;    // wylaczenie HSI
 
 #endif
+
+  SystemCoreClockUpdate();	// na wszelki wypadek
 
   return true;
 
@@ -197,8 +200,6 @@ void Hardware::init(){
   //flash_latency(32000000);
   pll_start_lb(8000000, 32000000);
   //fpu_enable();
-
-  SystemCoreClockUpdate();	// na wszelki wypadek
 
   rccInit();
 

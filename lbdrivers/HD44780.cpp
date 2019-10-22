@@ -97,20 +97,20 @@ bool HD44780::localInit(){
   sendCommandDirty(0x01,100);
 
   sendCommandDirty(0x38,100);
+
+  setBackLight(false);
   return true;
 }
 
 
 
 bool HD44780::sendCommandDirty(uint8_t cmd, uint32_t delayMs){
-  bool result = setCmdOrData(true, cmd);
+  prepareCommandToWrite(static_cast<LcdCommand>(cmd));
   gpioE->setOutput(true);
-//  setEnablePin(true);
   delayMsDirty(2);
   gpioE->setOutput(false);
-//  setEnablePin(false);
   delayMsDirty(delayMs);
-  return result;
+  return true;
 }
 
 char HD44780::getNextChar(){

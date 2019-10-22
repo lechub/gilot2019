@@ -88,6 +88,9 @@ public:
     CURSOR_INVISIBLE  = 0b01100,    // Turn off cursor
   }LcdCommand;
 
+ typedef struct{
+    Gpio * gpios[8];
+  }GpioPack8;
 
 private:
   typedef enum{
@@ -102,16 +105,12 @@ private:
     SEND_LINE2,
   }LcdStage;
 
-  typedef struct{
-    Gpio * gpios[8];
-  }GpioPack8;
 
 
   Gpio * gpioE = nullptr;
   Gpio * gpioRW = nullptr;     // 0 - write, 1 - read
   Gpio * gpioRS = nullptr;    // 0 - instrukcja, 1 - dane
-  GpioPack8 * gpioData;
-  //FrameBuffer * fb = nullptr;
+  GpioPack8 * gpioData = nullptr;
   Gpio * gpioBackLight = nullptr;
 //  Gpio * gpioResetLCD = nullptr;
   uint32_t charOffset = 0;
@@ -160,11 +159,6 @@ public:
 
   static HD44780 * getInstance();
 
-  //bool sendCommand(uint8_t cmd);
-  //inline bool sendCommand(LcdCommand cmd){
-  //  return sendCommand((uint8_t)cmd);
-  //}
-
 
 
   bool sendCommandDirty(uint8_t cmd, uint32_t delayMs);
@@ -172,22 +166,13 @@ public:
     return sendCommandDirty((uint8_t)cmd, delayMs);
   }
 
-  //bool sendData(uint8_t cmd);
-  //bool sendCmdOrData(bool isCMD, uint8_t byteValue);
-  bool setCmdOrData(bool isCMD, uint8_t byteValue);
-  //
-  //  inline void setEnablePin(bool state){
-  //    gpioE->setOutput(state);
-  //  }
+
+  //bool setCmdOrData(bool isCMD, uint8_t byteValue);
 
   // ToDo dorobić busy bit
   inline bool isBusy(){
     return false; //i2c->isBusy();
   }
-
-  //	  //static void (ST7032iFB::* pollFunction)();
-  //	  static ST7032iFB * callbackObject;
-
 
 
   void delayMs(uint32_t milis);
