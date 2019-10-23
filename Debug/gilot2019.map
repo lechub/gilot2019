@@ -1,432 +1,254 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
                               ./lbutils/FrameBuffer.o (symbol from plugin) (operator delete(void*, unsigned int))
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o) (operator delete(void*))
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o) (operator delete(void*))
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
                               ./system/src/newlib/_sbrk.o (symbol from plugin) (__errno)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o) (_impure_ptr)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o) (free)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o) (_free_r)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o) (_malloc_r)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
-                              /tmp/cc4m72sZ.ltrans0.ltrans.o (__aeabi_uidiv)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
-                              /tmp/cc4m72sZ.ltrans0.ltrans.o (__aeabi_idiv)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                              /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
-/home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
-                              /tmp/cc4m72sZ.ltrans0.ltrans.o (memset)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o) (_impure_ptr)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o) (free)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o) (_free_r)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o) (_malloc_r)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                              /tmp/ccFMeIc6.ltrans0.ltrans.o (__aeabi_uidiv)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+                              /tmp/ccFMeIc6.ltrans0.ltrans.o (__aeabi_idiv)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                              /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                              /tmp/ccFMeIc6.ltrans0.ltrans.o (memset)
 
 Allocating common symbols
 Common symbol       size              file
 
-__lock___atexit_recursive_mutex
-                    0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-__lock___arc4random_mutex
-                    0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-errno               0x4               /tmp/cc4m72sZ.ltrans0.ltrans.o
-__lock___env_recursive_mutex
-                    0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-__lock___sinit_recursive_mutex
-                    0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-__lock___malloc_recursive_mutex
-                    0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-__lock___at_quick_exit_mutex
-                    0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-__lock___dd_hash_mutex
-                    0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-__lock___tz_mutex   0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-__lock___sfp_recursive_mutex
-                    0x1               /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+errno               0x4               /tmp/ccFMeIc6.ltrans0.ltrans.o
 
 Discarded input sections
 
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .group         0x0000000000000000        0xc /tmp/ccWXlrtkdebugobj
- .comment       0x0000000000000000      0xb9f /tmp/ccWXlrtkdebugobj
- .text          0x0000000000000000        0x0 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
-                0x0000000000000000       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.__cxa_pure_virtual
-                0x0000000000000000       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata._ZZN9__gnu_cxx27__verbose_terminate_handlerEvE8__func__
-                0x0000000000000000       0x1c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata._ZZ18__cxa_pure_virtualE8__func__
-                0x0000000000000000       0x13 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x13 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata.abort.str1.4
-                0x0000000000000000       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.abort    0x0000000000000000       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.current_heap_end.4005
-                0x0000000000000000        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._sbrk    0x0000000000000000       0x68 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.abort    0x0000000000000000       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.current_heap_end.3961
+                0x0000000000000000        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._sbrk    0x0000000000000000       0x68 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .bss.__dso_handle
-                0x0000000000000000        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.raise    0x0000000000000000       0x1e /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.kill     0x0000000000000000       0x20 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.raise    0x0000000000000000       0x1e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.kill     0x0000000000000000       0x20 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata.__assert_func.str1.4
-                0x0000000000000000       0x43 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x43 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.__assert_func
-                0x0000000000000000       0x1c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata.assert_failed.str1.4
-                0x0000000000000000       0x2b /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x2b /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.assert_failed
-                0x0000000000000000       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.NVIC_SystemReset
-                0x0000000000000000       0x20 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.__reset_hardware
-                0x0000000000000000        0x8 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZL13flash_latencym
-                0x0000000000000000       0x34 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Hardware11WDOG_ReloadEv
-                0x0000000000000000        0x8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._Z11NMI_Handlerv
-                0x0000000000000000        0x6 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x6 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._Z17HardFault_Handlerv
-                0x0000000000000000        0x6 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x6 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._Z11SVC_Handlerv
-                0x0000000000000000        0x6 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x6 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._Z14PendSV_Handlerv
-                0x0000000000000000        0x6 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x6 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.AsciiBcdToValue
-                0x0000000000000000       0x70 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x70 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.AsciiBcd2toByte
-                0x0000000000000000       0x70 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x70 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo7isEmptyEv
-                0x0000000000000000       0x20 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo10isNotEmptyEv
-                0x0000000000000000       0x22 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x22 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo3getEv
-                0x0000000000000000       0x5a /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x5a /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo18getByteAs2HexAsciiEv
-                0x0000000000000000       0x6c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x6c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo20get2BytesAs4HexAsciiEv
-                0x0000000000000000       0x60 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x60 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo9getUInt16Ev
-                0x0000000000000000       0x64 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x64 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo9getUInt32EPb
-                0x0000000000000000       0x5c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x5c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo18putByteAs2AsciiBCDEh
-                0x0000000000000000       0xcc /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xce /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo20put2BytesAs4AsciiBCDEt
-                0x0000000000000000       0x3a /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x3a /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo6putAllEPS_
-                0x0000000000000000       0x64 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x64 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo9putStringEPKc
-                0x0000000000000000       0x58 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x58 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo9putStringEPKcm
-                0x0000000000000000       0x70 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x70 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo9putUint16Et
-                0x0000000000000000       0x5e /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x5e /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo9putUint32Em
-                0x0000000000000000       0x56 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x56 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo9get_countEv
-                0x0000000000000000       0x38 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x38 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo6isFullEv
-                0x0000000000000000       0x4c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x4c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Fifo5cloneEPS_
-                0x0000000000000000       0x7e /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN6VEprom15isWritePossibleEv
-                0x0000000000000000        0xc /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.VirtAddVarTab
-                0x0000000000000000       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.Vars      0x0000000000000000       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN6VEprom4initEv
-                0x0000000000000000       0xac /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN6VEprom9writeWordENS_9VirtAdresEt
-                0x0000000000000000       0xac /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x7e /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN6VEprom8readWordENS_9VirtAdresEPt
-                0x0000000000000000       0x44 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.my_itoa  0x0000000000000000      0x14a /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.my_htoa  0x0000000000000000       0x82 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.my_btoa  0x0000000000000000       0x5e /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x44 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.my_itoa  0x0000000000000000      0x14e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.my_htoa  0x0000000000000000       0x82 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.my_btoa  0x0000000000000000       0x5e /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.itoaWithPattern
-                0x0000000000000000       0xd2 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.power10  0x0000000000000000       0x38 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xd2 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.power10  0x0000000000000000       0x38 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.my_strcpy
-                0x0000000000000000       0x5a /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x5c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.numberWithPattern
-                0x0000000000000000       0x2e /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x2e /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata._ZL15SOTWARE_VERSION
-                0x0000000000000000        0x2 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x2 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata._ZL14OVC_SILENCE_MS
-                0x0000000000000000        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata._ZL22MAX_OPOZN_ZAMK_POZ_sek
-                0x0000000000000000        0x2 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x2 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .rodata._ZL13MAX_OVC_LEVEL
-                0x0000000000000000        0x2 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN7HD4478012setBackLightEb
-                0x0000000000000000       0x24 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000        0x2 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN9QuickTask22delayMsWithActiveTasksEm
+                0x0000000000000000       0x34 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN8Hardware21delayMsWithBackgroundEm
+                0x0000000000000000       0x16 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN7HD4478011getDataFifoEv
-                0x0000000000000000       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN7HD447807delayMsEm
-                0x0000000000000000       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN7HD4478012delayMsDirtyEm
-                0x0000000000000000       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN7HD447805setupEP4GpioS1_S1_PNS_9GpioPack8ES1_
-                0x0000000000000000       0x3e /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN7HD447809localInitEv
-                0x0000000000000000      0x11e /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN7HD4478016sendCommandDirtyEhm
-                0x0000000000000000       0x62 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.DataVar   0x0000000000000000        0x2 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.EE_Init  0x0000000000000000      0x3c8 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.EE_ReadVariable
-                0x0000000000000000       0xc4 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.EE_WriteVariable
-                0x0000000000000000       0x5c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.EE_Format
-                0x0000000000000000       0x68 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.EE_FindValidPage
-                0x0000000000000000       0xac /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.EE_VerifyPageFullWriteVariable
-                0x0000000000000000       0xdc /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.EE_PageTransfer
-                0x0000000000000000      0x1b8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_SetLatency
-                0x0000000000000000       0x4c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x4c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_PrefetchBufferCmd
-                0x0000000000000000       0x54 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x54 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_GetPrefetchBufferStatus
-                0x0000000000000000       0x34 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.FLASH_Unlock
-                0x0000000000000000       0x2c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.FLASH_Lock
-                0x0000000000000000       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.FLASH_ErasePage
-                0x0000000000000000       0x78 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x34 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_EraseAllPages
-                0x0000000000000000       0x68 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x68 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_ProgramWord
-                0x0000000000000000       0xd4 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.FLASH_ProgramHalfWord
-                0x0000000000000000       0x74 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xd0 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_Unlock
-                0x0000000000000000       0x2c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x2c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_Lock
-                0x0000000000000000       0x1c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_Launch
-                0x0000000000000000       0x1c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_Erase
-                0x0000000000000000       0xdc /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xdc /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_EnableWRP
-                0x0000000000000000       0xfc /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000      0x100 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_RDPConfig
-                0x0000000000000000       0xfc /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xf8 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_UserConfig
-                0x0000000000000000      0x100 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000      0x100 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_BOOTConfig
-                0x0000000000000000       0xa8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_BOOT0Config
-                0x0000000000000000       0xa8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_BOOT0SWConfig
-                0x0000000000000000       0xa4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_VDDAConfig
-                0x0000000000000000       0xa8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_SRAMParityConfig
-                0x0000000000000000       0xa8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_WriteUser
-                0x0000000000000000       0x80 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x80 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_ProgramData
-                0x0000000000000000       0xa4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_GetUser
-                0x0000000000000000       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_GetWRP
-                0x0000000000000000       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_OB_GetRDP
-                0x0000000000000000       0x38 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x38 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_ITConfig
-                0x0000000000000000       0x78 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x78 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_GetFlagStatus
-                0x0000000000000000       0x64 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x64 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.FLASH_ClearFlag
-                0x0000000000000000       0x34 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.FLASH_GetStatus
-                0x0000000000000000       0x5c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.FLASH_WaitForLastOperation
-                0x0000000000000000       0x5a /tmp/cc4m72sZ.ltrans0.ltrans.o
- COMMON         0x0000000000000000        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o)
- .text.__errno  0x0000000000000000        0xc /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000000000       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o)
+                0x0000000000000000       0x34 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ COMMON         0x0000000000000000        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .text.__errno  0x0000000000000000        0xc /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000000       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-errno.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
- .text.malloc   0x0000000000000000       0x14 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .text.malloc   0x0000000000000000       0x14 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x0000000000000000       0xbc /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000000000       0xbc /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
  .bss.__malloc_sbrk_start
-                0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .text._sbrk_r  0x0000000000000000       0x24 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000000000       0x24 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text.__retarget_lock_init
-                0x0000000000000000        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text.__retarget_lock_init_recursive
-                0x0000000000000000        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text.__retarget_lock_close
-                0x0000000000000000        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text.__retarget_lock_close_recursive
-                0x0000000000000000        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text.__retarget_lock_acquire
-                0x0000000000000000        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text.__retarget_lock_try_acquire
-                0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text.__retarget_lock_try_acquire_recursive
-                0x0000000000000000        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text.__retarget_lock_release
-                0x0000000000000000        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .text          0x0000000000000000      0x1d4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .debug_frame   0x0000000000000000       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+                0x0000000000000000       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000      0x1d4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000000       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
  .ARM.attributes
-                0x0000000000000000       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000000000000       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
 
 Memory Configuration
 
@@ -444,18 +266,17 @@ MEMORY_ARRAY     0x0000000000000000 0x0000000000000000 xrw
 
 Linker script and memory map
 
-LOAD /tmp/ccWXlrtkdebugobj
-LOAD /tmp/cc4m72sZ.ltrans0.ltrans.o
-LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a
-LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
+LOAD /tmp/ccFMeIc6.ltrans0.ltrans.o
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libm.a
 START GROUP
-LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a
-LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
 END GROUP
 START GROUP
-LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
+LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
 END GROUP
                 0x0000000020002000                __stack = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020002000                _estack = __stack
@@ -464,7 +285,7 @@ END GROUP
                 0x0000000020001c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 [!provide]                        PROVIDE (_Main_Stack_Limit = __Main_Stack_Limit)
                 0x0000000000000100                _Minimum_Stack_Size = 0x100
-                0x000000002000027c                PROVIDE (_Heap_Begin = _end_noinit)
+                0x00000000200002dc                PROVIDE (_Heap_Begin = _end_noinit)
                 0x0000000020001c00                PROVIDE (_Heap_Limit = (__stack - __Main_Stack_Size))
 
 .isr_vector     0x0000000008000000      0x294
@@ -472,27 +293,27 @@ END GROUP
                 0x0000000008000000                __vectors_start = ABSOLUTE (.)
                 0x0000000008000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
- .isr_vector    0x0000000008000000       0xc4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .isr_vector    0x0000000008000000       0xc4 /tmp/ccFMeIc6.ltrans0.ltrans.o
                 0x0000000008000000                g_pfnVectors
  *(.cfmconfig)
  *(.after_vectors .after_vectors.*)
  .after_vectors
-                0x00000000080000c4      0x1d0 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080000c4      0x1d0 /tmp/ccFMeIc6.ltrans0.ltrans.o
                 0x00000000080000c4                _start
                 0x0000000008000268                HardFault_Handler_C
 
-.inits          0x0000000008000294       0x30
+.inits          0x0000000008000294       0x34
                 0x0000000008000294                __data_regions_array_start = .
-                0x0000000008000294        0x4 LONG 0x8001da4 LOADADDR (.data)
+                0x0000000008000294        0x4 LONG 0x8002de4 LOADADDR (.data)
                 0x0000000008000298        0x4 LONG 0x20000000 ADDR (.data)
                 0x000000000800029c        0x4 LONG 0x20000094 (ADDR (.data) + SIZEOF (.data))
-                0x00000000080002a0        0x4 LONG 0x8001da4 LOADADDR (.data_CCMRAM)
+                0x00000000080002a0        0x4 LONG 0x8002de4 LOADADDR (.data_CCMRAM)
                 0x00000000080002a4        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x00000000080002a8        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x00000000080002ac                __data_regions_array_end = .
                 0x00000000080002ac                __bss_regions_array_start = .
                 0x00000000080002ac        0x4 LONG 0x20000094 ADDR (.bss)
-                0x00000000080002b0        0x4 LONG 0x2000027c (ADDR (.bss) + SIZEOF (.bss))
+                0x00000000080002b0        0x4 LONG 0x200002dc (ADDR (.bss) + SIZEOF (.bss))
                 0x00000000080002b4        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
                 0x00000000080002b8        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x00000000080002bc                __bss_regions_array_end = .
@@ -508,350 +329,411 @@ END GROUP
                 0x00000000080002bc                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x00000000080002bc        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
-                0x00000000080002c0                PROVIDE (__init_array_end = .)
-                0x00000000080002c0                . = ALIGN (0x4)
-                0x00000000080002c0                PROVIDE (__fini_array_start = .)
+ .init_array    0x00000000080002bc        0x8 /tmp/ccFMeIc6.ltrans0.ltrans.o
+                0x00000000080002c4                PROVIDE (__init_array_end = .)
+                0x00000000080002c4                . = ALIGN (0x4)
+                0x00000000080002c4                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
- .fini_array    0x00000000080002c0        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
-                0x00000000080002c4                PROVIDE (__fini_array_end = .)
+ .fini_array    0x00000000080002c4        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+                0x00000000080002c8                PROVIDE (__fini_array_end = .)
 
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x00000000080002c4     0x1ae0
+.text           0x00000000080002c8     0x2b1c
  *(.text .text.*)
- .text._exit    0x00000000080002c4        0xa /tmp/cc4m72sZ.ltrans0.ltrans.o
- *fill*         0x00000000080002ce        0x2 
+ .text._exit    0x00000000080002c8        0xa /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x00000000080002d2        0x2 
  .text.__initialize_args
-                0x00000000080002d0       0x20 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080002d4       0x20 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.__initialize_hardware_early
-                0x00000000080002f0        0xc /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080002f4        0xc /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.__initialize_hardware
-                0x00000000080002fc        0xc /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000300        0xc /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.SystemInit
-                0x0000000008000308       0x8c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x000000000800030c       0x8c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.SystemCoreClockUpdate
-                0x0000000008000394       0xe0 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000398       0xdc /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.SetSysClock
-                0x0000000008000474       0xdc /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000474       0xdc /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.NVIC_SetPriority
-                0x0000000008000550       0xe8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000550       0xe8 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text.SysTick_Config
-                0x0000000008000638       0x48 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000638       0x48 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Hardware13errorDispatchENS_9ErrorCodeE
-                0x0000000008000680       0x20 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000680       0x22 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x00000000080006a2        0x2 
+ .text._ZL13flash_latencym
+                0x00000000080006a4       0x34 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZL12pll_start_lbmm
-                0x00000000080006a0       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080006d8       0xb0 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZL7rccInitv
-                0x00000000080006b4       0x2c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000788       0x2c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Hardware9NVIC_initEv
-                0x00000000080006e0        0x8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080007b4        0x8 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Hardware4initEv
-                0x00000000080006e8       0x58 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080007bc       0x54 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Hardware9WDOG_InitEv
-                0x0000000008000740        0x8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000810        0x8 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN9QuickTask4holdEb
+                0x0000000008000818       0x20 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio7setMODEEP12GPIO_TypeDefhNS_8GpioModeE
-                0x0000000008000748       0x4e /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000838       0x4e /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio8setSpeedEP12GPIO_TypeDefhNS_9GpioSpeedE
-                0x0000000008000796       0x50 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000886       0x50 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio11setPullUpDnEP12GPIO_TypeDefhNS_8GpioPuPdE
-                0x00000000080007e6       0x4e /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080008d6       0x4e /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio8setOTypeEP12GPIO_TypeDefhNS_9GpioOTypeE
-                0x0000000008000834       0x56 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000924       0x56 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio7getModeEP12GPIO_TypeDefh
-                0x000000000800088a       0x30 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x000000000800097a       0x30 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio7getPullEP12GPIO_TypeDefh
-                0x00000000080008ba       0x30 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080009aa       0x30 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio8getSpeedEP12GPIO_TypeDefh
-                0x00000000080008ea       0x30 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080009da       0x30 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio8getOTypeEP12GPIO_TypeDefh
-                0x000000000800091a       0x32 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000a0a       0x32 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio11setOutputUpEP12GPIO_TypeDefh
-                0x000000000800094c       0x24 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000a3c       0x24 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio13setOutputDownEP12GPIO_TypeDefh
-                0x0000000008000970       0x26 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000a60       0x26 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio9setOutputEP12GPIO_TypeDefhb
-                0x0000000008000996       0x44 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000a86       0x44 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio9getOutputEP12GPIO_TypeDefh
-                0x00000000080009da       0x30 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000aca       0x30 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio8getInputEP12GPIO_TypeDefh
-                0x0000000008000a0a       0x30 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000afa       0x30 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio14setupFromCloneEP12GPIO_TypeDefhS1_h
-                0x0000000008000a3a       0x9c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000b2a       0x9c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio7setMODEENS_8GpioModeE
-                0x0000000008000ad6       0x26 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000bc6       0x26 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio8setSpeedENS_9GpioSpeedE
-                0x0000000008000afc       0x26 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000bec       0x26 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio11setPullUpDnENS_8GpioPuPdE
-                0x0000000008000b22       0x26 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000c12       0x26 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio8setOTypeENS_9GpioOTypeE
-                0x0000000008000b48       0x26 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000c38       0x26 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio9setOutputENS_5LevelE
-                0x0000000008000b6e       0x2e /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000c5e       0x2e /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio9getOutputEv
-                0x0000000008000b9c       0x2a /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000c8c       0x2a /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio8getInputEv
-                0x0000000008000bc6       0x2a /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000cb6       0x2a /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio5setupENS_8GpioModeENS_9GpioOTypeENS_8GpioPuPdENS_9GpioSpeedE
-                0x0000000008000bf0       0x60 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000ce0       0x60 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4Gpio14setupFromCloneEPS_
-                0x0000000008000c50       0x24 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000d40       0x24 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN4GpioC2EP12GPIO_TypeDefh
-                0x0000000008000c74       0x36 /tmp/cc4m72sZ.ltrans0.ltrans.o
- *fill*         0x0000000008000caa        0x2 
+                0x0000000008000d64       0x36 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x0000000008000d9a        0x2 
  .text._ZN6Pinout5setupEv
-                0x0000000008000cac      0x190 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000d9c       0x50 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Keyboard11addToBufferENS_3KeyE
-                0x0000000008000e3c       0x32 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000dec       0x2e /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Keyboard12setColumnLowEh
-                0x0000000008000e6e       0xb2 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000e1a       0xb2 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Keyboard13getRowPressedEv
-                0x0000000008000f20       0x7a /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000ecc       0x7a /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Keyboard8getKeyAtEhh
-                0x0000000008000f9a       0xaa /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000f46       0xaa /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Keyboard13getPressedKeyEv
-                0x0000000008001044       0x60 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008000ff0       0x60 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8KeyboardC2EP4GpioS1_S1_S1_S1_S1_S1_
-                0x00000000080010a4       0x84 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008001050       0x86 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Keyboard5setupEv
-                0x0000000008001128       0x82 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080010d6       0x82 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Keyboard4pollEv
-                0x00000000080011aa       0x48 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008001158       0x4c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN8Keyboard16getUnbufferedKeyEv
-                0x00000000080011f2       0x1a /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN6PinoutC2Ev
-                0x000000000800120c      0x1c8 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._Z8keysPollv
-                0x00000000080013d4       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.main     0x00000000080013ec       0x30 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._Z41__static_initialization_and_destruction_0ii.lto_priv.0
-                0x000000000800141c       0xa8 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._GLOBAL__sub_I_pinout
-                0x00000000080014c4       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN4FifoC2EPhm
-                0x00000000080014dc       0x2e /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN4Fifo3putEh
-                0x000000000800150a       0x6e /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN11FrameBufferD2Ev
-                0x0000000008001578       0x1c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN11FrameBufferD0Ev
-                0x0000000008001594       0x24 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN9QuickTask4tickEm
-                0x00000000080015b8       0x6c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN9QuickTask4pollEv
-                0x0000000008001624       0x6c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN9QuickTaskC2ENS_6QTTypeEPFvvEm
-                0x0000000008001690       0x9c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text.SysTick_Handler
-                0x000000000800172c        0xe /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN4Gpio11setOutputUpEv
-                0x000000000800173a       0x1e /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN4Gpio13setOutputDownEv
-                0x0000000008001758       0x1e /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN4Gpio9setOutputEb
-                0x0000000008001776       0x26 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN11FrameBufferC2EmmPh
-                0x000000000800179c       0x54 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZNK11FrameBuffer9getBufferEv
-                0x00000000080017f0       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN7HD4478015prepareDataByteEh
-                0x0000000008001804       0x5c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN7HD4478021prepareCommandToWriteENS_10LcdCommandE
-                0x0000000008001860       0x3a /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZN7HD4478018prepareCharToWriteEc
-                0x000000000800189a       0x3a /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x00000000080011a4       0x1a /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer14setRefreshNeedEv
+                0x00000000080011be       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer19checkCursorPositionEv
+                0x00000000080011d2       0x3e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer11cursorRightEv
+                0x0000000008001210       0x3a /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer6gotoXYEmm
+                0x000000000800124a       0x5a /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer5printEc
+                0x00000000080012a4       0x3c /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer5printEPKc
+                0x00000000080012e0       0x30 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer7printXYEmmPKc
+                0x0000000008001310       0x2c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN7HD44780C2Ev
-                0x00000000080018d4       0x3c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x000000000800133c       0x42 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x000000000800137e        0x2 
+ .text._ZN6PinoutC2Ev
+                0x0000000008001380      0x1c8 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._Z8keysPollv
+                0x0000000008001548       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.main     0x0000000008001560       0x88 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._Z41__static_initialization_and_destruction_0ii.lto_priv.0
+                0x00000000080015e8      0x128 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._GLOBAL__sub_I_pinout
+                0x0000000008001710       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN4FifoC2EPhm
+                0x0000000008001728       0x2e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN4Fifo3putEh
+                0x0000000008001756       0x6e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBufferD2Ev
+                0x00000000080017c4       0x1c /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN11FrameBufferD0Ev
+                0x00000000080017e0       0x24 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN9QuickTask4tickEm
+                0x0000000008001804       0x6c /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN9QuickTask4pollEv
+                0x0000000008001870       0x68 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN9QuickTaskC2ENS_6QTTypeEPFvvEm
+                0x00000000080018d8       0x94 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.SysTick_Handler
+                0x000000000800196c        0xe /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN6VEprom15isWritePossibleEv
+                0x000000000800197a        0xc /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x0000000008001986        0x2 
+ .text._ZN6VEprom4initEv
+                0x0000000008001988       0xac /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN6VEprom9writeWordENS_9VirtAdresEt
+                0x0000000008001a34       0xac /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN4Gpio11setOutputUpEv
+                0x0000000008001ae0       0x1e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN4Gpio13setOutputDownEv
+                0x0000000008001afe       0x1e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN4Gpio9setOutputEb
+                0x0000000008001b1c       0x26 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x0000000008001b42        0x2 
+ .text._ZN11FrameBufferC2EmmPh
+                0x0000000008001b44       0x54 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZNK11FrameBuffer9getBufferEv
+                0x0000000008001b98       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN7HD4478015prepareDataByteEh
+                0x0000000008001bac       0x5e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN7HD4478021prepareCommandToWriteENS_10LcdCommandE
+                0x0000000008001c0a       0x3a /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN7HD4478018prepareCharToWriteEc
+                0x0000000008001c44       0x3a /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN7HD4478012setBackLightEb
+                0x0000000008001c7e       0x24 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN7HD4478013getDDRamAdresEhh
-                0x0000000008001910       0x6a /tmp/cc4m72sZ.ltrans0.ltrans.o
- *fill*         0x000000000800197a        0x2 
+                0x0000000008001ca2       0x6a /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN9QuickTask10getCounterEv
+                0x0000000008001d0c       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN9QuickTask23delayMsWithStoppedTasksEm
+                0x0000000008001d20       0x2e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN8Hardware12delayMsDirtyEm
+                0x0000000008001d4e       0x16 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN7HD4478011getInstanceEv
-                0x000000000800197c       0x10 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008001d64       0x10 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._Z12pollCallbackv
-                0x000000000800198c       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008001d74       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN7HD4478014getFrameBufferEv
-                0x00000000080019a0       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008001d88       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN7HD4478012delayMsDirtyEm
+                0x0000000008001da0       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN7HD447805setupEP4GpioS1_S1_PNS_9GpioPack8ES1_
+                0x0000000008001db8       0x3e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN7HD447809localInitEv
+                0x0000000008001df6      0x12a /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZN7HD4478016sendCommandDirtyEhm
+                0x0000000008001f20       0x58 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN7HD4478011getNextCharEv
-                0x00000000080019b8       0x56 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008001f78       0x56 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._ZN7HD447804pollEv
-                0x0000000008001a0e       0xc0 /tmp/cc4m72sZ.ltrans0.ltrans.o
- *fill*         0x0000000008001ace        0x2 
+                0x0000000008001fce       0xc2 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._Z41__static_initialization_and_destruction_0ii.lto_priv.1
-                0x0000000008001ad0       0x80 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008002090       0x80 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._GLOBAL__sub_I_instance
-                0x0000000008001b50       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008002110       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .text._GLOBAL__sub_D_instance
-                0x0000000008001b68       0x18 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._GLOBAL__I_65535_0__cxx.o.5201
-                0x0000000008001b80       0x10 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .text._ZdlPvj  0x0000000008001b90        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
-                0x0000000008001b90                operator delete(void*, unsigned int)
- .text._ZdlPv   0x0000000008001b98        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
-                0x0000000008001b98                operator delete(void*)
- .text.free     0x0000000008001ba0       0x14 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
-                0x0000000008001ba0                free
- .text._free_r  0x0000000008001bb4       0x94 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
-                0x0000000008001bb4                _free_r
+                0x0000000008002128       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.EE_Init  0x0000000008002140      0x3d4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.EE_ReadVariable
+                0x0000000008002514       0xc8 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.EE_WriteVariable
+                0x00000000080025dc       0x5e /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x000000000800263a        0x2 
+ .text.EE_Format
+                0x000000000800263c       0x68 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.EE_FindValidPage
+                0x00000000080026a4       0xb0 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.EE_VerifyPageFullWriteVariable
+                0x0000000008002754       0xe0 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.EE_PageTransfer
+                0x0000000008002834      0x1c8 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.FLASH_Unlock
+                0x00000000080029fc       0x2c /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.FLASH_Lock
+                0x0000000008002a28       0x18 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.FLASH_ErasePage
+                0x0000000008002a40       0x78 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.FLASH_ProgramHalfWord
+                0x0000000008002ab8       0x74 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.FLASH_GetStatus
+                0x0000000008002b2c       0x5c /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text.FLASH_WaitForLastOperation
+                0x0000000008002b88       0x5a /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .text._ZdlPvj  0x0000000008002be2        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+                0x0000000008002be2                operator delete(void*, unsigned int)
+ .text._ZdlPv   0x0000000008002bea        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+                0x0000000008002bea                operator delete(void*)
+ *fill*         0x0000000008002bf2        0x2 
+ .text.free     0x0000000008002bf4       0x14 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+                0x0000000008002bf4                free
+ .text._free_r  0x0000000008002c08       0x94 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+                0x0000000008002c08                _free_r
  .text.__malloc_lock
-                0x0000000008001c48       0x10 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
-                0x0000000008001c48                __malloc_lock
+                0x0000000008002c9c        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                0x0000000008002c9c                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008001c58       0x10 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
-                0x0000000008001c58                __malloc_unlock
- .text.__retarget_lock_acquire_recursive
-                0x0000000008001c68        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000008001c68                __retarget_lock_acquire_recursive
- .text.__retarget_lock_release_recursive
-                0x0000000008001c6a        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000008001c6a                __retarget_lock_release_recursive
- .text.memset   0x0000000008001c6c       0x10 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
-                0x0000000008001c6c                memset
- .text          0x0000000008001c7c      0x114 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
-                0x0000000008001c7c                __udivsi3
-                0x0000000008001c7c                __aeabi_uidiv
-                0x0000000008001d88                __aeabi_uidivmod
- .text          0x0000000008001d90        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                0x0000000008001d90                __aeabi_ldiv0
-                0x0000000008001d90                __aeabi_idiv0
+                0x0000000008002c9e        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                0x0000000008002c9e                __malloc_unlock
+ .text          0x0000000008002ca0      0x114 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                0x0000000008002ca0                __udivsi3
+                0x0000000008002ca0                __aeabi_uidiv
+                0x0000000008002dac                __aeabi_uidivmod
+ .text          0x0000000008002db4        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000008002db4                __aeabi_ldiv0
+                0x0000000008002db4                __aeabi_idiv0
+ .text.memset   0x0000000008002db8       0x10 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                0x0000000008002db8                memset
  *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.main.str1.4
+                0x0000000008002dc8        0xc /tmp/ccFMeIc6.ltrans0.ltrans.o
+                                          0xb (size before relaxing)
  .rodata._ZTV11FrameBuffer
-                0x0000000008001d94       0x10 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000008002dd4       0x10 /tmp/ccFMeIc6.ltrans0.ltrans.o
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x0000000008001da4        0x0 linker stubs
+ .glue_7        0x0000000008002de4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008001da4        0x0 linker stubs
+ .glue_7t       0x0000000008002de4        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008001da4        0x0
- .vfp11_veneer  0x0000000008001da4        0x0 linker stubs
+.vfp11_veneer   0x0000000008002de4        0x0
+ .vfp11_veneer  0x0000000008002de4        0x0 linker stubs
 
-.v4_bx          0x0000000008001da4        0x0
- .v4_bx         0x0000000008001da4        0x0 linker stubs
+.v4_bx          0x0000000008002de4        0x0
+ .v4_bx         0x0000000008002de4        0x0 linker stubs
 
-.iplt           0x0000000008001da4        0x0
- .iplt          0x0000000008001da4        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+.iplt           0x0000000008002de4        0x0
+ .iplt          0x0000000008002de4        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
 
-.rel.dyn        0x0000000008001da4        0x0
- .rel.iplt      0x0000000008001da4        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+.rel.dyn        0x0000000008002de4        0x0
+ .rel.iplt      0x0000000008002de4        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008001da4                . = ALIGN (0x4)
-                0x0000000008001da4                __exidx_start = .
+                0x0000000008002de4                . = ALIGN (0x4)
+                0x0000000008002de4                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000008001da4                __exidx_end = .
-                0x0000000008001da4                . = ALIGN (0x4)
-                0x0000000008001da4                _etext = .
-                0x0000000008001da4                __etext = .
+                0x0000000008002de4                __exidx_end = .
+                0x0000000008002de4                . = ALIGN (0x4)
+                0x0000000008002de4                _etext = .
+                0x0000000008002de4                __etext = .
 
-.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008001da4
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008002de4
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000000000000                . = ALIGN (0x4)
-                0x0000000008001da4                _sidata = LOADADDR (.data)
+                0x0000000008002de4                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x94 load address 0x0000000008001da4
+.data           0x0000000020000000       0x94 load address 0x0000000008002de4
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
  *(.data_begin .data_begin.*)
- .data_begin    0x0000000020000000        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .data_begin    0x0000000020000000        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  *(.data .data.*)
- .data.argv.4375
-                0x0000000020000004        0x8 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .data.argv.4310
+                0x0000000020000004        0x8 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .data.SystemCoreClock
-                0x000000002000000c        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x000000002000000c        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .data.AHBPrescTable
-                0x0000000020000010       0x10 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .data.pins     0x0000000020000020        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .data.keys     0x0000000020000024        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000020000010       0x10 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .data.pins     0x0000000020000020        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .data.keys     0x0000000020000024        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .data._ZN9QuickTask6holdedE
-                0x0000000020000028        0x1 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000020000028        0x1 /tmp/ccFMeIc6.ltrans0.ltrans.o
  *fill*         0x0000000020000029        0x3 ff
  .data._impure_ptr
-                0x000000002000002c        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x000000002000002c        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
                 0x000000002000002c                _impure_ptr
  .data.impure_data
-                0x0000000020000030       0x60 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000020000030       0x60 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
  *(.data_end .data_end.*)
- .data_end      0x0000000020000090        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .data_end      0x0000000020000090        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
                 0x0000000020000094                . = ALIGN (0x4)
                 0x0000000020000094                _edata = .
                 0x0000000020000094                __data_end__ = .
 
-.igot.plt       0x0000000020000094        0x0 load address 0x0000000008001e38
- .igot.plt      0x0000000020000094        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+.igot.plt       0x0000000020000094        0x0 load address 0x0000000008002e78
+ .igot.plt      0x0000000020000094        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
 
 .bss_CCMRAM     0x0000000000000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
-.bss            0x0000000020000094      0x1e8
+.bss            0x0000000020000094      0x248
                 0x0000000020000094                __bss_start__ = .
                 0x0000000020000094                _sbss = .
  *(.bss_begin .bss_begin.*)
- .bss_begin     0x0000000020000094        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .bss_begin     0x0000000020000094        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.name.4374
-                0x0000000020000098        0x1 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .bss.name.4309
+                0x0000000020000098        0x1 /tmp/ccFMeIc6.ltrans0.ltrans.o
  *fill*         0x0000000020000099        0x3 
- .bss.pinout    0x000000002000009c       0xd8 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.keyboard  0x0000000020000174       0x34 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.keybTask  0x00000000200001a8       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.taskbase  0x00000000200001bc        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .bss.pinout    0x000000002000009c       0xd8 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.keyboard  0x0000000020000174       0x34 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.hd44780   0x00000000200001a8       0x1c /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.lcd       0x00000000200001c4        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.gpioP8    0x00000000200001c8       0x20 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.keybTask  0x00000000200001e8       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.taskbase  0x00000000200001fc        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
  .bss._ZN9QuickTask12milisCounterE
-                0x00000000200001c0        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.instance  0x00000000200001c4       0x1c /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000020000200        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.VirtAddVarTab
+                0x0000000020000204       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.Vars      0x0000000020000218       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.instance  0x000000002000022c       0x1c /tmp/ccFMeIc6.ltrans0.ltrans.o
  .bss.hd44780Task
-                0x00000000200001e0       0x14 /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.dataTab1  0x00000000200001f4       0x21 /tmp/cc4m72sZ.ltrans0.ltrans.o
- *fill*         0x0000000020000215        0x3 
+                0x0000000020000248       0x14 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.dataTab1  0x000000002000025c       0x21 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x000000002000027d        0x3 
  .bss.frame_buffer
-                0x0000000020000218       0x1c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .bss.dataTab2  0x0000000020000234       0x21 /tmp/cc4m72sZ.ltrans0.ltrans.o
- *fill*         0x0000000020000255        0x3 
- .bss.dataFifo  0x0000000020000258       0x10 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000020000280       0x1c /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.dataTab2  0x000000002000029c       0x21 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x00000000200002bd        0x3 
+ .bss.dataFifo  0x00000000200002c0       0x10 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .bss.DataVar   0x00000000200002d0        0x2 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ *fill*         0x00000000200002d2        0x2 
  .bss.__malloc_free_list
-                0x0000000020000268        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020000268                __malloc_free_list
+                0x00000000200002d4        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000200002d4                __malloc_free_list
  *(COMMON)
- COMMON         0x000000002000026c        0x9 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x000000002000026c                __lock___atexit_recursive_mutex
-                0x000000002000026d                __lock___arc4random_mutex
-                0x000000002000026e                __lock___env_recursive_mutex
-                0x000000002000026f                __lock___sinit_recursive_mutex
-                0x0000000020000270                __lock___malloc_recursive_mutex
-                0x0000000020000271                __lock___at_quick_exit_mutex
-                0x0000000020000272                __lock___dd_hash_mutex
-                0x0000000020000273                __lock___tz_mutex
-                0x0000000020000274                __lock___sfp_recursive_mutex
  *(.bss_end .bss_end.*)
- *fill*         0x0000000020000275        0x3 
- .bss_end       0x0000000020000278        0x4 /tmp/cc4m72sZ.ltrans0.ltrans.o
-                0x000000002000027c                . = ALIGN (0x4)
-                0x000000002000027c                __bss_end__ = .
-                0x000000002000027c                _ebss = .
+ .bss_end       0x00000000200002d8        0x4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+                0x00000000200002dc                . = ALIGN (0x4)
+                0x00000000200002dc                __bss_end__ = .
+                0x00000000200002dc                _ebss = .
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
-.noinit         0x000000002000027c        0x0
-                0x000000002000027c                _noinit = .
+.noinit         0x00000000200002dc        0x0
+                0x00000000200002dc                _noinit = .
  *(.noinit .noinit.*)
-                0x000000002000027c                . = ALIGN (0x4)
-                0x000000002000027c                _end_noinit = .
+                0x00000000200002dc                . = ALIGN (0x4)
+                0x00000000200002dc                _end_noinit = .
                 [!provide]                        PROVIDE (end = _end_noinit)
                 [!provide]                        PROVIDE (_end = _end_noinit)
                 [!provide]                        PROVIDE (__end = _end_noinit)
                 [!provide]                        PROVIDE (__end__ = _end_noinit)
 
-._check_stack   0x000000002000027c      0x100
-                0x000000002000037c                . = (. + _Minimum_Stack_Size)
- *fill*         0x000000002000027c      0x100 
+._check_stack   0x00000000200002dc      0x100
+                0x00000000200003dc                . = (. + _Minimum_Stack_Size)
+ *fill*         0x00000000200002dc      0x100 
 
 .b1text
  *(.b1text)
@@ -896,37 +778,35 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x0000000000000000       0x76
+.comment        0x0000000000000000       0x7f
  *(.comment)
- .comment       0x0000000000000000       0x76 /tmp/cc4m72sZ.ltrans0.ltrans.o
-                                         0x77 (size before relaxing)
+ .comment       0x0000000000000000       0x7f /tmp/ccFMeIc6.ltrans0.ltrans.o
+                                         0x80 (size before relaxing)
 
 .ARM.attributes
-                0x0000000000000000       0x2c
+                0x0000000000000000       0x31
  .ARM.attributes
-                0x0000000000000000       0x2a /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000       0x2f /tmp/ccFMeIc6.ltrans0.ltrans.o
  .ARM.attributes
-                0x000000000000002a       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
+                0x000000000000002f       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
  .ARM.attributes
-                0x0000000000000056       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
+                0x000000000000005b       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
  .ARM.attributes
-                0x0000000000000082       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000000000087       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000000000000ae       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
+                0x00000000000000b3       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
  .ARM.attributes
-                0x00000000000000da       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                0x00000000000000df       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x0000000000000106       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x000000000000010b       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000000000000132       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x0000000000000137       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x000000000000015e       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000000000163       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000000000000018a       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x0000000000000181       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000000000001b6       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .ARM.attributes
-                0x00000000000001d4       0x1e /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x000000000000019f       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
 
 .debug
  *(.debug)
@@ -940,73 +820,42 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0x5b0
+.debug_aranges  0x0000000000000000      0x618
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000      0x5b0 /tmp/cc4m72sZ.ltrans0.ltrans.o
+                0x0000000000000000      0x618 /tmp/ccFMeIc6.ltrans0.ltrans.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x107c4
+.debug_info     0x0000000000000000     0x4f1c
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x0000000000000000     0xe89f /tmp/ccWXlrtkdebugobj
-                0x0000000000000000                g_cxx.cpp.2765497b
-                0x0000000000001057                g_exit.c.801bd576
-                0x00000000000019fa                g_sbrk.c.8c5c7574
-                0x000000000000238d                g_startup.c.b3cbb6ce
-                0x00000000000025cc                g_syscalls.c.3ece47e2
-                0x000000000000300f                assert.c.7365c628
-                0x0000000000003a14                Trace.c.d4fcfe93
-                0x0000000000003a35                trace_impl.c.9ff815f0
-                0x0000000000003a56                g_initialize_hardware.c.be797707
-                0x0000000000003af2                g_reset_hardware.c.d10696b9
-                0x0000000000003c4a                exception_handlers.c.f378b47e
-                0x000000000000469a                system_stm32f0xx.c.693c94a1
-                0x0000000000004966                vectors_stm32f0xx.c.0ddc8e7a
-                0x0000000000004a1c                Hardware.cpp.9d457cec
-                0x0000000000005490                Krokowy.cpp.a59f4d67
-                0x0000000000005e58                g_write.c.00bec38f
-                0x0000000000005e79                main.cpp.d2264b22
-                0x0000000000008aec                Fifo.cpp.cd103a85
-                0x0000000000009382                FrameBuffer.cpp.1e77a504
-                0x000000000000a531                QuickTask.cpp.0b7de6ce
-                0x000000000000a9bd                VEprom.cpp.b847a4dc
-                0x000000000000ad62                myUtils.c.e923ed30
-                0x000000000000afe4                HD44780.cpp.dc72745e
-                0x000000000000ddb8                eeprom.c.b70126aa
-                0x000000000000e107                stm32f0xx_flash.c.c1d47ba5
- .debug_info    0x000000000000e89f     0x1f25 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x4f1c /tmp/ccFMeIc6.ltrans0.ltrans.o
 
-.debug_abbrev   0x0000000000000000     0x31a1
+.debug_abbrev   0x0000000000000000      0x7a8
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000     0x308b /tmp/ccWXlrtkdebugobj
- .debug_abbrev  0x000000000000308b      0x116 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x7a8 /tmp/ccFMeIc6.ltrans0.ltrans.o
 
-.debug_line     0x0000000000000000     0x643c
+.debug_line     0x0000000000000000     0x17b9
  *(.debug_line)
- .debug_line    0x0000000000000000     0x40c5 /tmp/ccWXlrtkdebugobj
- .debug_line    0x00000000000040c5     0x2377 /tmp/cc4m72sZ.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x17b9 /tmp/ccFMeIc6.ltrans0.ltrans.o
 
-.debug_frame    0x0000000000000000     0x1888
+.debug_frame    0x0000000000000000     0x193c
  *(.debug_frame)
- .debug_frame   0x0000000000000000     0x166c /tmp/cc4m72sZ.ltrans0.ltrans.o
- .debug_frame   0x000000000000166c       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_ops.o)
- .debug_frame   0x0000000000001694       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a(del_op.o)
- .debug_frame   0x00000000000016bc       0x40 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-malloc.o)
- .debug_frame   0x00000000000016fc       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000001728       0x30 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000000000001758       0x40 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000001798       0xb0 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
- .debug_frame   0x0000000000001848       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000001868       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000000     0x17e4 /tmp/ccFMeIc6.ltrans0.ltrans.o
+ .debug_frame   0x00000000000017e4       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .debug_frame   0x000000000000180c       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .debug_frame   0x0000000000001834       0x40 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000001874       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000000018a0       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000018cc       0x30 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000018fc       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000000000000191c       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
 
-.debug_str      0x0000000000000000    0x35771
+.debug_str      0x0000000000000000     0x1b6f
  *(.debug_str)
- .debug_str     0x0000000000000000    0x35631 /tmp/ccWXlrtkdebugobj
-                                     0x21d24b (size before relaxing)
- .debug_str     0x0000000000035631      0x140 /tmp/cc4m72sZ.ltrans0.ltrans.o
-                                        0x160 (size before relaxing)
+ .debug_str     0x0000000000000000     0x1b6f /tmp/ccFMeIc6.ltrans0.ltrans.o
+                                       0x1cc4 (size before relaxing)
 
 .debug_loc
  *(.debug_loc)
@@ -1027,104 +876,5 @@ END GROUP
  *(.debug_varnames)
 OUTPUT(gilot2019.elf elf32-littlearm)
 
-.debug_macro    0x0000000000000000     0xdb5b
- .debug_macro   0x0000000000000000     0x1a4b /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000001a4b      0xb44 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000258f      0x16f /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000026fe       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000270e      0x3ed /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002afb       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002b0b       0x18 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002b23       0x22 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002b45       0x58 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002b9d       0x94 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002c31       0x35 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002c66       0x34 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002c9a       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002cb0      0x10e /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002dbe       0x94 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002e52       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002e68       0x43 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002eab       0x57 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002f02       0x34 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002f36       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002f46       0x58 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000002f9e      0x182 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000003120      0x35c /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000347c       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000003492       0x29 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000034bb       0x1c /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000034d7       0xde /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000035b5       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000035c5       0x6a /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000362f       0x1c /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000364b       0x52 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000369d       0x40 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000036dd       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000036ed       0x40 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000372d       0xd5 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000003802       0x1c /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000381e       0x3d /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000385b       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000003871       0x35 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000038a6      0x51a /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000003dc0      0xa72 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004832       0x34 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004866      0x10e /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004974       0x8d /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004a01       0x43 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004a44      0x339 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004d7d       0x35 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004db2      0x174 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004f26       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000004f36      0x23b /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005171      0x34e /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000054bf       0x1c /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000054db       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000054eb       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000054fb       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000550b       0x35 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005540      0x122 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005662       0x88 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x00000000000056ea       0x7c /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005766       0x17 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000577d      0x118 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005895      0x189 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005a1e       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005a34       0x1c /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005a50       0x7a /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005aca       0x35 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005aff       0x26 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005b25      0x30d /tmp/ccWXlrtkdebugobj
- .debug_macro   0x0000000000005e32     0x631c /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c14e       0x3b /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c189       0x22 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c1ab       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c1bb       0xcf /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c28a       0x20 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c2aa       0xbe /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c368       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c378      0x30d /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c685      0x103 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c788       0x3a /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c7c2       0x82 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000c844      0x3e5 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000cc29       0x46 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000cc6f       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000cc85       0x97 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000cd1c      0x104 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000ce20       0x10 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000ce30       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000ce46      0x137 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000cf7d      0x432 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000d3af       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000d3c5      0x17b /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000d540      0x23d /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000d77d       0x64 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000d7e1       0x22 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000d803       0x16 /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000d819      0x10b /tmp/ccWXlrtkdebugobj
- .debug_macro   0x000000000000d924      0x237 /tmp/ccWXlrtkdebugobj
-
-.debug_ranges   0x0000000000000000      0x5d0
- .debug_ranges  0x0000000000000000      0x5d0 /tmp/cc4m72sZ.ltrans0.ltrans.o
+.debug_ranges   0x0000000000000000      0x638
+ .debug_ranges  0x0000000000000000      0x638 /tmp/ccFMeIc6.ltrans0.ltrans.o
