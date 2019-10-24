@@ -3,54 +3,11 @@
 
 #include <stdint.h>
 #include "Gpio.h"
-#include "FrameBuffer.h"
+#include "FrameBufferAccess.h"
 
-//HD44780 command summary
-/*
-clear display 	                                0x01
-Return cursor to home, and un-shift display 	0x02
-move cursor right, don’t shift display 	        0x04
-move cursor right, do shift display (left) 	0x05
-move cursor right, don’t shift display  	0x06
-move cursor right, do shift display (left) 	0x07
-turn display off 	                        0x08
-display on, cursor off, 	                0x0C
-display on, cursor on, steady cursor 	        0x0E
-display on, cursor on, blinking cursor 	        0x0F
-shift cursor left 	                        0x10
-shift cursor right 	                        0x14
-shift display left 	                        0x18
-shift display right 	                        0x1C
-set cursor position                             0x80+position
- */
 
 class HD44780{
 public:
-  //some commands that are defined
-  //#define SET_DDRAM_ADDR  0x80    // must "OR" in the address
-  //#define RETURN_HOME     0x02
-  //#define CLEAR_DISPLAY   0x01
-
-  //	static constexpr uint16_t COLUMNS = 16;
-  //	static constexpr uint16_t ROWS = 2;
-  //	static constexpr uint16_t LCD_DATA_AMOUNT = HD44780::COLUMNS * HD44780::ROWS +5;
-
-
-  //assumes timing specified at LCD Vdd=4.4-5.5v
-
-  //#define CURSOR_VISIBLE 0 //Set 1 for visible cursor,  0 for invisible
-  //#define CURSOR_BLINK   0 //Set 1 for blinking cursor, 0 for continuous
-  //
-  //#define CMD_BYTE  0x00
-  //#define CHAR_BYTE 0x01
-
-  //	static constexpr uint8_t CURSOR_VISIBLE = 0; //Set 1 for visible cursor,  0 for invisible
-  //	static constexpr uint8_t CURSOR_BLINK   = 0; //Set 1 for blinking cursor, 0 for continuous
-
-  //	static constexpr uint8_t CMD_BYTE  = 0x00;
-  //	static constexpr uint8_t CHAR_BYTE = 0x01;
-
-
 
   static constexpr  uint8_t LCD_DDRAM_ADDR = 0x80;    // must "OR" in the address
   static constexpr  uint8_t LCD_CGRAM_ADDR = 0x40;  // Start address of LCD CGRAM
@@ -69,7 +26,7 @@ public:
   static constexpr  uint8_t CMD = 0x00;
   static constexpr  uint8_t DATA = 0b01000000;
 
-  static constexpr  uint32_t LCD_REFRESH_INTERVAL_MILISECOND  = 150;
+  static constexpr  uint32_t LCD_REFRESH_INTERVAL_MILISECOND  = 15;
 
 
   typedef enum {
@@ -93,17 +50,17 @@ public:
   }GpioPack8;
 
 private:
-  typedef enum{
-    START,
-    //    WAIT_GOTO_L1,
-    GOTO_LINE1,
-    //    WAIT_LINE1,
-    SEND_LINE1,
-    //    WAIT_GOTO_L2,
-    GOTO_LINE2,
-    //    WAIT_LINE2,
-    SEND_LINE2,
-  }LcdStage;
+//  typedef enum{
+//    START,
+//    //    WAIT_GOTO_L1,
+//    GOTO_LINE1,
+//    //    WAIT_LINE1,
+//    SEND_LINE1,
+//    //    WAIT_GOTO_L2,
+//    GOTO_LINE2,
+//    //    WAIT_LINE2,
+//    SEND_LINE2,
+//  }LcdStage;
 
 
 
@@ -114,7 +71,7 @@ private:
   Gpio * gpioBackLight = nullptr;
 //  Gpio * gpioResetLCD = nullptr;
   uint32_t charOffset = 0;
-  LcdStage lcdStage = LcdStage::START;
+ // LcdStage lcdStage = LcdStage::START;
   bool newLine = true;
 
 private:

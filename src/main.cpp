@@ -20,8 +20,8 @@ Keyboard keyboard = Keyboard(&pins->keyb_K1, &pins->keyb_K2, &pins->keyb_K3,
 		&pins->keyb_W1, &pins->keyb_W2, &pins->keyb_W3, &pins->keyb_W4);
 Keyboard * keys = &keyboard;
 
-HD44780 hd44780 = HD44780();
-FrameBuffer * lcd = hd44780.getFrameBuffer(); //nullptr;
+HD44780 *hd44780 = HD44780::getInstance();
+FrameBuffer * lcd = hd44780->getFrameBuffer(); //nullptr;
 
 HD44780::GpioPack8 gpioP8 = {
 		&pins->lcd_D0,
@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 
 	pins->setup();
 
-	hd44780.setup(&pins->lcd_E, &pins->lcd_RW, &pins->lcd_RS, &gpioP8, &pins->lcd_bckLight);
+	hd44780->setup(&pins->lcd_E, &pins->lcd_RW, &pins->lcd_RS, &gpioP8, &pins->lcd_bckLight);
 	//lcd = hd44780.getFrameBuffer();
 
 	keys->setup();

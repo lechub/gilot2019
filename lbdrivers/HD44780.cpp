@@ -17,11 +17,11 @@
 HD44780 instance = HD44780();
 
 HD44780 * HD44780::getInstance(){
-  return &instance;
+	return &instance;
 }
 
 void pollCallback(){
-  HD44780::getInstance()->poll();
+	HD44780::getInstance()->poll();
 }
 
 // periodycznie wykonywana funkcja monitor() opakowana w aku_callback()
@@ -29,123 +29,129 @@ QuickTask hd44780Task(QuickTask::QT_PERIODIC, pollCallback, HD44780::LCD_REFRESH
 
 
 uint8_t dataTab1[HD44780::LCD_CHARS_AMOUNT];
-FrameBuffer frame_buffer(HD44780::LCD_COLUMNS, HD44780::LCD_ROWS, dataTab1);
+FrameBufferAccess frame_bufferAccess(HD44780::LCD_COLUMNS, HD44780::LCD_ROWS, dataTab1);
 
 FrameBuffer * HD44780::getFrameBuffer(){
-  return &frame_buffer;
+	return &frame_bufferAccess;
 }
 
 uint8_t dataTab2[HD44780::LCD_CHARS_AMOUNT];
 Fifo dataFifo(dataTab2, HD44780::LCD_CHARS_AMOUNT);
 
 Fifo * HD44780::getDataFifo(){
-  return &dataFifo;
+	return &dataFifo;
 }
 
 
 void HD44780::delayMs(uint32_t milis){
-  Hardware::delayMsWithBackground(milis);
+	Hardware::delayMsWithBackground(milis);
 }
 
 void HD44780::delayMsDirty(uint32_t milis){
-  Hardware::delayMsDirty(milis);
+	Hardware::delayMsDirty(milis);
 }
 
 
 // LCD initialization procedure
 bool HD44780::setup(Gpio * gpioLcdE, Gpio * gpioLcdRW, Gpio * gpioLcdRS, HD44780::GpioPack8 * gpioLcdD, Gpio * backLightPin){
-  gpioE = gpioLcdE;
-  gpioRW = gpioLcdRW;
-  gpioRS = gpioLcdRS;
-  gpioData = gpioLcdD;
-  gpioBackLight = backLightPin;
+	gpioE = gpioLcdE;
+	gpioRW = gpioLcdRW;
+	gpioRS = gpioLcdRS;
+	gpioData = gpioLcdD;
+	gpioBackLight = backLightPin;
 
-  return localInit();
+	return localInit();
 }
 
 bool HD44780::localInit(){
-  gpioE->setup(Gpio::GpioMode::OUTPUT, Gpio::GpioOType::PushPull, Gpio::GpioPuPd::NoPull, Gpio::GpioSpeed::HighSpeed);
-  gpioRW->setupFromClone(gpioE);
-  gpioBackLight->setupFromClone(gpioE);
-  gpioRS->setupFromClone(gpioE);
-  for (uint8_t i = 0; i < 8; i++){
-    gpioData->gpios[i]->setupFromClone(gpioE);
-  }
+	gpioE->setup(Gpio::GpioMode::OUTPUT, Gpio::GpioOType::PushPull, Gpio::GpioPuPd::NoPull, Gpio::GpioSpeed::HighSpeed);
+	gpioRW->setupFromClone(gpioE);
+	gpioBackLight->setupFromClone(gpioE);
+	gpioRS->setupFromClone(gpioE);
+	for (uint8_t i = 0; i < 8; i++){
+		gpioData->gpios[i]->setupFromClone(gpioE);
+	}
 
-  lcdStage = LcdStage::START;
+	//lcdStage = LcdStage::START;
 
-  setBackLight(true);
-  //setResetPin(false);
-  delayMsDirty(50);
-  //setResetPin(true);
-  delayMsDirty(100);
+	setBackLight(true);
+	//setResetPin(false);
+	delayMsDirty(50);
+	//setResetPin(true);
+	delayMsDirty(100);
 
-  sendCommandDirty(0x38, 300);
-  sendCommandDirty(0x39, 300);
+	sendCommandDirty(0x38, 300);
+	sendCommandDirty(0x39, 300);
 
-  sendCommandDirty(0x14, 100);
+	sendCommandDirty(0x14, 100);
 #ifdef LCD5V
-  sendCommandDirty(0x79,100);
-  sendCommandDirty(0x50,100);
-  sendCommandDirty(0x6c,100);
+	sendCommandDirty(0x79,100);
+	sendCommandDirty(0x50,100);
+	sendCommandDirty(0x6c,100);
 #else
-  sendCommandDirty(0x74,30);
-  sendCommandDirty(0x54,30);
-  sendCommandDirty(0x6f,30);
+	sendCommandDirty(0x74,30);
+	sendCommandDirty(0x54,30);
+	sendCommandDirty(0x6f,30);
 #endif
-  sendCommandDirty(0x0c,100);
-  sendCommandDirty(0x01,100);
+	sendCommandDirty(0x0c,100);
+	sendCommandDirty(0x01,100);
 
-  sendCommandDirty(0x38,100);
+	sendCommandDirty(0x38,100);
 
-  setBackLight(false);
-  return true;
+	setBackLight(false);
+	return true;
 }
 
 
 
 bool HD44780::sendCommandDirty(uint8_t cmd, uint32_t delayMs){
-  prepareCommandToWrite(static_cast<LcdCommand>(cmd));
-  gpioE->setOutput(true);
-  delayMsDirty(2);
-  gpioE->setOutput(false);
-  delayMsDirty(delayMs);
-  return true;
+	prepareCommandToWrite(static_cast<LcdCommand>(cmd));
+	gpioE->setOutput(true);
+	delayMsDirty(2);
+	gpioE->setOutput(false);
+	delayMsDirty(delayMs);
+	return true;
 }
 
-char HD44780::getNextChar(){
-  FrameBuffer * fb = getFrameBuffer();
-  char *buf = reinterpret_cast<char*>(fb->getBuffer());
-  if (charOffset >= (LCD_COLUMNS * LCD_ROWS) ){
-    charOffset = 0;
-  }
-  char result = *(buf + charOffset);
-  charOffset++;
-  return result;
-}
+//char HD44780::getNextChar(){
+//	//FrameBufferAccess * fba = getFrameBuffer();
+//	char *buf = reinterpret_cast<char*>(frame_bufferAccess.getBuffer());
+//	if (charOffset >= (LCD_COLUMNS * LCD_ROWS) ){
+//		charOffset = 0;
+//	}
+//	char result = *(buf + charOffset);
+//	charOffset++;
+//	return result;
+//}
 
 void HD44780::poll(){
-	if (gpioE->getOutput()){		// tylko zbocze na E?
+	if (gpioE->getOutput() == Gpio::Level::High){		// tylko zbocze na E?
 		gpioE->setOutputDown();
 		return;
 	}
-	if ((charOffset % HD44780::LCD_COLUMNS) == 0){
+	if (!frame_bufferAccess.isRefreshNeeded()) return;
+
+	if (((charOffset % HD44780::LCD_COLUMNS) == 0)&&(newLine)){
+		if (charOffset == 0) frame_bufferAccess.refreshStart();
 		uint8_t lineNr = charOffset / HD44780::LCD_COLUMNS;
 		uint8_t ddAdr = getDDRamAdres(0, lineNr);
-		if (newLine){
-			prepareCommandToWrite(static_cast<LcdCommand>(LCD_DDRAM_ADDR | ddAdr));
-			newLine = false;
-		}
+		prepareCommandToWrite(static_cast<LcdCommand>(LCD_DDRAM_ADDR | ddAdr));
+		newLine = false;
 	}else{
-		char znak = getNextChar();
+		char *buf = reinterpret_cast<char*>(frame_bufferAccess.getBuffer());
+		if (charOffset >= (LCD_COLUMNS * LCD_ROWS) ){
+			charOffset = 0;
+			frame_bufferAccess.refreshStop();
+		}
+		char znak = *(buf + charOffset);
+		charOffset++;
+
 		prepareCharToWrite(znak);
 		newLine = true;
 	}
 	gpioE->setOutputUp();
 
-  LcdStage stage = lcdStage;
-
-
+	//	LcdStage stage = lcdStage;
 }
 
 //void HD44780::process(){

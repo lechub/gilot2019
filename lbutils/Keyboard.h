@@ -66,13 +66,13 @@ private:
 		gpioCol3->setOutput(Gpio::Level::High);
 		switch(nrColumn){
 		case 1:	gpioCol1->setOutput(Gpio::Level::Low);
-		while (gpioCol1->getOutput() == Gpio::Level::Low){};
+		//while (gpioCol1->getOutput() == Gpio::Level::Low){};
 		break;
 		case 2:	gpioCol2->setOutput(Gpio::Level::Low);
-		while (gpioCol2->getOutput() == Gpio::Level::Low){};
+		//while (gpioCol2->getOutput() == Gpio::Level::Low){};
 		break;
 		case 3:	gpioCol3->setOutput(Gpio::Level::Low);
-		while (gpioCol3->getOutput() == Gpio::Level::Low){};
+		//while (gpioCol3->getOutput() == Gpio::Level::Low){};
 		break;
 		default:
 			break;
