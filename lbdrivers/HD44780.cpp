@@ -145,7 +145,6 @@ void HD44780::poll(){
 			charOffset = 0;
 			frame_bufferAccess.refreshStop();
 		}
-
 		prepareCharToWrite(znak);
 		newLine = true;
 	}

@@ -11,7 +11,12 @@
 #include "Pinout.h"
 
 class Krokowy {
+
+
 public:
+
+  static constexpr uint32_t STEP_ANGLE_MILI = 1800; // 1,8 stopnia
+
   typedef enum{
     NONE,
     FORWARD,
