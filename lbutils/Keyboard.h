@@ -20,7 +20,7 @@ class Keyboard {
 
 public:
 	static constexpr uint16_t BUFFERSIZE = 4;	// rozmiar bufora znakow
-	static constexpr uint32_t TIME_PERIOD_KEYB_MS = 10;
+	static constexpr uint32_t TIME_PERIOD_KEYB_MS = 5;
 
 	typedef enum{
 		NONE = 0,
@@ -123,7 +123,7 @@ private:
 
 	// unbuffered key state
 	Key getPressedKey(){
-		for( int col = 1; col <= 3; col++){
+		for( uint8_t col = 1; col <= 3; col++){
 			setColumnLow(col);
 			uint8_t row = getRowPressed();
 			if ( row == 0){
@@ -169,6 +169,31 @@ public:
 
 	Key getKey(){
 		return getFromBuffer();
+	}
+
+	static char keyToChar(Key key){
+		switch(key){
+		case Key::ASTERIX: return '*';
+		case Key::HASH: return '#';
+		case Key::KEY0: return '0';
+		case Key::KEY1: return '1';
+		case Key::KEY2: return '2';
+		case Key::KEY3: return '3';
+		case Key::KEY4: return '4';
+		case Key::KEY5: return '5';
+		case Key::KEY6: return '6';
+		case Key::KEY7: return '7';
+		case Key::KEY8: return '8';
+		case Key::KEY9: return '9';
+		case Key::NONE:
+		default:
+			return '\0';
+		}
+	}
+
+	char getCharKey(){
+		Key key = getFromBuffer();
+		return keyToChar(key);
 	}
 
 	Key getUnbufferedKey(){

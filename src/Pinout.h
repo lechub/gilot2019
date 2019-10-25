@@ -29,13 +29,13 @@ public:
   Gpio lcd_D7       = Gpio(GPIOB, 9);
   //   Gpio lcd_D1        = Gpio(GPIOB, 3);
 
-  Gpio keyb_K1      = Gpio(GPIOB, 12);
-  Gpio keyb_K2      = Gpio(GPIOB, 13);
-  Gpio keyb_K3      = Gpio(GPIOB, 14);
-  Gpio keyb_W1      = Gpio(GPIOB, 15);
-  Gpio keyb_W2      = Gpio(GPIOA, 8);
-  Gpio keyb_W3      = Gpio(GPIOA, 9);
-  Gpio keyb_W4      = Gpio(GPIOA, 10);
+  Gpio keyb_W1      = Gpio(GPIOB, 12);
+  Gpio keyb_W2      = Gpio(GPIOB, 13);
+  Gpio keyb_W3      = Gpio(GPIOB, 14);
+  Gpio keyb_W4      = Gpio(GPIOB, 15);
+  Gpio keyb_K1      = Gpio(GPIOA, 8);
+  Gpio keyb_K2      = Gpio(GPIOA, 9);
+  Gpio keyb_K3      = Gpio(GPIOA, 10);
 
   Gpio noz_Action   = Gpio(GPIOA, 0);
   Gpio noz_detect   = Gpio(GPIOA, 1);

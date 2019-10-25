@@ -26,7 +26,7 @@ public:
   static constexpr  uint8_t CMD = 0x00;
   static constexpr  uint8_t DATA = 0b01000000;
 
-  static constexpr  uint32_t LCD_REFRESH_INTERVAL_MILISECOND  = 15;
+  static constexpr  uint32_t LCD_REFRESH_INTERVAL_MILISECOND  = 2;
 
 
   typedef enum {

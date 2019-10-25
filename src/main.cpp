@@ -1,16 +1,15 @@
 
 // ----------------------------------------------------------------------------
 
-#include <stdio.h>
-#include <stdlib.h>
+
 #include "diag/Trace.h"
 
 #include "QuickTask.h"
-#include "Pinout.h"
+#include "main.h"
 #include "Hardware.h"
-#include "Keyboard.h"
 #include "VEprom.h"
 #include "HD44780.h"
+#include "Praca.h"
 
 
 Pinout pinout = Pinout();
@@ -60,8 +59,12 @@ int main(int argc, char* argv[])
 
 	keys->setup();
 
+	Praca::getInstance()->setup();
+
 	QuickTask::hold(false);
 	lcd->printXY(0,0,"1234567890");
+	lcd->homeScreen();
+	lcd->forceRefresh();
 
 
 	while (true)

@@ -35,7 +35,7 @@ private:
 		CursorMode	cursor;
 
 //		bool refreshInProgress = false;
-		bool refreshNeed;  //
+		volatile bool refreshNeed;  //
 
 protected:
 
@@ -100,6 +100,10 @@ public:
 				destination->put(*(getBuffer() + offset + i));
 			}
 			return true;
+		}
+
+		inline void forceRefresh(){
+			setRefreshNeed();
 		}
 
 		void getCursor(uint32_t &column, uint32_t &row){

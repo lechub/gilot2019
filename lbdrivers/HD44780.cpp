@@ -139,12 +139,12 @@ void HD44780::poll(){
 		newLine = false;
 	}else{
 		char *buf = reinterpret_cast<char*>(frame_bufferAccess.getBuffer());
+		char znak = *(buf + charOffset);
+		charOffset++;
 		if (charOffset >= (LCD_COLUMNS * LCD_ROWS) ){
 			charOffset = 0;
 			frame_bufferAccess.refreshStop();
 		}
-		char znak = *(buf + charOffset);
-		charOffset++;
 
 		prepareCharToWrite(znak);
 		newLine = true;
