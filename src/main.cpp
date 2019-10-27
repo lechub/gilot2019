@@ -11,6 +11,8 @@
 #include "HD44780.h"
 #include "Praca.h"
 
+void keysPoll();
+
 
 Pinout pinout = Pinout();
 Pinout * pins = &pinout;
@@ -21,6 +23,11 @@ Keyboard * keys = &keyboard;
 
 HD44780 *hd44780 = HD44780::getInstance();
 FrameBuffer * lcd = hd44780->getFrameBuffer(); //nullptr;
+
+Krokowy krok = Krokowy(&pins->mot_step, &pins->mot_dir, &pins->mot_enable,
+		&pins->mot_sleep, &pins->mot_ms1, &pins->mot_ms2 );
+
+Krokowy * krokowy = &krok;
 
 HD44780::GpioPack8 gpioP8 = {
 		&pins->lcd_D0,
@@ -33,7 +40,8 @@ HD44780::GpioPack8 gpioP8 = {
 		&pins->lcd_D7
 };
 
-void keysPoll(){
+
+void keysPoll(){		// klawiatura przez HMI
 	keys->poll();
 }
 QuickTask keybTask(QuickTask::QTType::QT_PERIODIC, keysPoll, Keyboard::TIME_PERIOD_KEYB_MS);
@@ -55,11 +63,12 @@ int main(int argc, char* argv[])
 	pins->setup();
 
 	hd44780->setup(&pins->lcd_E, &pins->lcd_RW, &pins->lcd_RS, &gpioP8, &pins->lcd_bckLight);
-	//lcd = hd44780.getFrameBuffer();
 
 	keys->setup();
 
 	Praca::getInstance()->setup();
+
+	krokowy->setup();
 
 	QuickTask::hold(false);
 	lcd->printXY(0,0,"1234567890");

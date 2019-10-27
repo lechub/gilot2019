@@ -14,8 +14,9 @@
 #include "VEprom.h"
 #include "FrameBuffer.h"
 #include "Pinout.h"
+#include "Krokowy.h"
 
 extern Keyboard * keys;
 extern FrameBuffer * lcd;
 extern Pinout * pins;
-
+extern Krokowy * krokowy;

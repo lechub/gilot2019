@@ -39,6 +39,7 @@ private:
 	Gpio *gpioRow4;
 
 	Key oldKey = Key::NONE;
+	Key newKey = Key::NONE;
 
 	// bufor znakow - od najstarszego na najmlodszego. Brak znaku to 'Key::NONE'
 	uint8_t buffer[BUFFERSIZE];
@@ -129,9 +130,11 @@ private:
 			if ( row == 0){
 				continue;
 			}
-			return getKeyAt(col, row);
+			newKey = getKeyAt(col, row);
+			return newKey;
 		}
-		return Key::NONE;
+		newKey = Key::NONE;
+		return newKey;
 	}
 
 
@@ -197,7 +200,8 @@ public:
 	}
 
 	Key getUnbufferedKey(){
-		return getPressedKey();
+		return newKey;
+		//return getPressedKey();
 	}
 
 };

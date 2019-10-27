@@ -19,191 +19,203 @@ Archive member included to satisfy reference by file (symbol)
 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
                               /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
-                              /tmp/ccoVXclE.ltrans0.ltrans.o (__aeabi_uidiv)
+                              /tmp/cco3cGFK.ltrans0.ltrans.o (__aeabi_uidiv)
 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
-                              /tmp/ccoVXclE.ltrans0.ltrans.o (__aeabi_idiv)
+                              /tmp/cco3cGFK.ltrans0.ltrans.o (__aeabi_idiv)
 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
                               /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
-                              /tmp/ccoVXclE.ltrans0.ltrans.o (memset)
+                              /tmp/cco3cGFK.ltrans0.ltrans.o (memset)
 
 Allocating common symbols
 Common symbol       size              file
 
-errno               0x4               /tmp/ccoVXclE.ltrans0.ltrans.o
+errno               0x4               /tmp/cco3cGFK.ltrans0.ltrans.o
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /tmp/ccoVXclE.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccoVXclE.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
-                0x0000000000000000       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.__cxa_pure_virtual
-                0x0000000000000000       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata._ZZN9__gnu_cxx27__verbose_terminate_handlerEvE8__func__
-                0x0000000000000000       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata._ZZ18__cxa_pure_virtualE8__func__
-                0x0000000000000000       0x13 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x13 /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata.abort.str1.4
-                0x0000000000000000       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.abort    0x0000000000000000       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.abort    0x0000000000000000       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
  .bss.current_heap_end.3961
-                0x0000000000000000        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._sbrk    0x0000000000000000       0x68 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._sbrk    0x0000000000000000       0x68 /tmp/cco3cGFK.ltrans0.ltrans.o
  .bss.__dso_handle
-                0x0000000000000000        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.raise    0x0000000000000000       0x1e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.kill     0x0000000000000000       0x20 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.raise    0x0000000000000000       0x1e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.kill     0x0000000000000000       0x20 /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata.__assert_func.str1.4
-                0x0000000000000000       0x43 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x43 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.__assert_func
-                0x0000000000000000       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata.assert_failed.str1.4
-                0x0000000000000000       0x2b /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x2b /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.assert_failed
-                0x0000000000000000       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.NVIC_SystemReset
-                0x0000000000000000       0x20 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.__reset_hardware
-                0x0000000000000000        0x8 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN8Hardware11WDOG_ReloadEv
-                0x0000000000000000        0x8 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._Z11NMI_Handlerv
-                0x0000000000000000        0x6 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x6 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._Z17HardFault_Handlerv
-                0x0000000000000000        0x6 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x6 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._Z11SVC_Handlerv
-                0x0000000000000000        0x6 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x6 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._Z14PendSV_Handlerv
-                0x0000000000000000        0x6 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL15SOTWARE_VERSION.lto_priv.12
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL14OVC_SILENCE_MS.lto_priv.9
-                0x0000000000000000        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL22MAX_OPOZN_ZAMK_POZ_sek.lto_priv.6
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL13MAX_OVC_LEVEL.lto_priv.3
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL15SOTWARE_VERSION.lto_priv.13
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL14OVC_SILENCE_MS.lto_priv.10
-                0x0000000000000000        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL22MAX_OPOZN_ZAMK_POZ_sek.lto_priv.7
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL13MAX_OVC_LEVEL.lto_priv.4
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.AsciiBcdToValue
-                0x0000000000000000       0x70 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.AsciiBcd2toByte
-                0x0000000000000000       0x70 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo18getByteAs2HexAsciiEv
-                0x0000000000000000       0x6c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo20get2BytesAs4HexAsciiEv
-                0x0000000000000000       0x60 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo9getUInt16Ev
-                0x0000000000000000       0x64 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo9getUInt32EPb
-                0x0000000000000000       0x5c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo18putByteAs2AsciiBCDEh
-                0x0000000000000000       0xce /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo20put2BytesAs4AsciiBCDEt
-                0x0000000000000000       0x3a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo6putAllEPS_
-                0x0000000000000000       0x64 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo9putStringEPKc
-                0x0000000000000000       0x58 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo9putStringEPKcm
-                0x0000000000000000       0x70 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo9putUint16Et
-                0x0000000000000000       0x5e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo9putUint32Em
-                0x0000000000000000       0x56 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo9get_countEv
-                0x0000000000000000       0x38 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo6isFullEv
-                0x0000000000000000       0x4c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo5cloneEPS_
-                0x0000000000000000       0x7e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN6VEprom8readWordENS_9VirtAdresEPt
-                0x0000000000000000       0x44 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.my_itoa  0x0000000000000000      0x14e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.my_htoa  0x0000000000000000       0x82 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.my_btoa  0x0000000000000000       0x5e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.itoaWithPattern
-                0x0000000000000000       0xd2 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.power10  0x0000000000000000       0x38 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.my_strcpy
-                0x0000000000000000       0x5c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.numberWithPattern
-                0x0000000000000000       0x2e /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL15SOTWARE_VERSION.lto_priv.14
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
- .rodata._ZL14OVC_SILENCE_MS.lto_priv.11
-                0x0000000000000000        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x6 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL15SOTWARE_VERSION.lto_priv.16
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL14OVC_SILENCE_MS.lto_priv.12
+                0x0000000000000000        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata._ZL22MAX_OPOZN_ZAMK_POZ_sek.lto_priv.8
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL13MAX_OVC_LEVEL.lto_priv.4
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7Krokowy2goEm
+                0x0000000000000000       0x50 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7Krokowy11setStepModeENS_8StepModeE
+                0x0000000000000000       0x8e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL15SOTWARE_VERSION.lto_priv.17
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL14OVC_SILENCE_MS.lto_priv.13
+                0x0000000000000000        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL22MAX_OPOZN_ZAMK_POZ_sek.lto_priv.9
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata._ZL13MAX_OVC_LEVEL.lto_priv.5
-                0x0000000000000000        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL15SOTWARE_VERSION.lto_priv.18
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL14OVC_SILENCE_MS.lto_priv.14
+                0x0000000000000000        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL22MAX_OPOZN_ZAMK_POZ_sek.lto_priv.10
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL13MAX_OVC_LEVEL.lto_priv.6
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.AsciiBcdToValue
+                0x0000000000000000       0x70 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.AsciiBcd2toByte
+                0x0000000000000000       0x70 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo18getByteAs2HexAsciiEv
+                0x0000000000000000       0x6c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo20get2BytesAs4HexAsciiEv
+                0x0000000000000000       0x60 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo9getUInt16Ev
+                0x0000000000000000       0x64 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo9getUInt32EPb
+                0x0000000000000000       0x5c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo18putByteAs2AsciiBCDEh
+                0x0000000000000000       0xce /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo20put2BytesAs4AsciiBCDEt
+                0x0000000000000000       0x3a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo6putAllEPS_
+                0x0000000000000000       0x64 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo9putStringEPKc
+                0x0000000000000000       0x58 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo9putStringEPKcm
+                0x0000000000000000       0x70 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo9putUint16Et
+                0x0000000000000000       0x5e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo9putUint32Em
+                0x0000000000000000       0x56 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo9get_countEv
+                0x0000000000000000       0x38 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo6isFullEv
+                0x0000000000000000       0x4c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo5cloneEPS_
+                0x0000000000000000       0x7e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN6VEprom8readWordENS_9VirtAdresEPt
+                0x0000000000000000       0x44 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.my_itoa  0x0000000000000000      0x14e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.my_htoa  0x0000000000000000       0x82 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.my_btoa  0x0000000000000000       0x5e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.itoaWithPattern
+                0x0000000000000000       0xd2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.power10  0x0000000000000000       0x38 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.my_strcpy
+                0x0000000000000000       0x5c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.numberWithPattern
+                0x0000000000000000       0x2e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL15SOTWARE_VERSION.lto_priv.19
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL14OVC_SILENCE_MS.lto_priv.15
+                0x0000000000000000        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL22MAX_OPOZN_ZAMK_POZ_sek.lto_priv.11
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .rodata._ZL13MAX_OVC_LEVEL.lto_priv.7
+                0x0000000000000000        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN9QuickTask22delayMsWithActiveTasksEm
-                0x0000000000000000       0x34 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x34 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN8Hardware21delayMsWithBackgroundEm
-                0x0000000000000000       0x16 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x16 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN7HD4478011getDataFifoEv
-                0x0000000000000000       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN7HD447807delayMsEm
-                0x0000000000000000       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_SetLatency
-                0x0000000000000000       0x4c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x4c /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_PrefetchBufferCmd
-                0x0000000000000000       0x54 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x54 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_GetPrefetchBufferStatus
-                0x0000000000000000       0x34 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x34 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_EraseAllPages
-                0x0000000000000000       0x68 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x68 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_ProgramWord
-                0x0000000000000000       0xd0 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xd0 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_Unlock
-                0x0000000000000000       0x2c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x2c /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_Lock
-                0x0000000000000000       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_Launch
-                0x0000000000000000       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_Erase
-                0x0000000000000000       0xdc /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xdc /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_EnableWRP
-                0x0000000000000000      0x100 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000      0x100 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_RDPConfig
-                0x0000000000000000       0xf8 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xf8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_UserConfig
-                0x0000000000000000      0x100 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000      0x100 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_BOOTConfig
-                0x0000000000000000       0xa4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_BOOT0Config
-                0x0000000000000000       0xa4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_BOOT0SWConfig
-                0x0000000000000000       0xa4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_VDDAConfig
-                0x0000000000000000       0xa4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_SRAMParityConfig
-                0x0000000000000000       0xa4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_WriteUser
-                0x0000000000000000       0x80 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x80 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_ProgramData
-                0x0000000000000000       0xa4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_GetUser
-                0x0000000000000000       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_GetWRP
-                0x0000000000000000       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_OB_GetRDP
-                0x0000000000000000       0x38 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x38 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_ITConfig
-                0x0000000000000000       0x78 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x78 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_GetFlagStatus
-                0x0000000000000000       0x64 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x64 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_ClearFlag
-                0x0000000000000000       0x34 /tmp/ccoVXclE.ltrans0.ltrans.o
- COMMON         0x0000000000000000        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x34 /tmp/cco3cGFK.ltrans0.ltrans.o
+ COMMON         0x0000000000000000        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
  .data          0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
  .bss           0x0000000000000000        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
@@ -276,7 +288,7 @@ MEMORY_ARRAY     0x0000000000000000 0x0000000000000000 xrw
 
 Linker script and memory map
 
-LOAD /tmp/ccoVXclE.ltrans0.ltrans.o
+LOAD /tmp/cco3cGFK.ltrans0.ltrans.o
 LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a
 LOAD /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libm.a
 START GROUP
@@ -295,7 +307,7 @@ END GROUP
                 0x0000000020001c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 [!provide]                        PROVIDE (_Main_Stack_Limit = __Main_Stack_Limit)
                 0x0000000000000100                _Minimum_Stack_Size = 0x100
-                0x00000000200002dc                PROVIDE (_Heap_Begin = _end_noinit)
+                0x000000002000031c                PROVIDE (_Heap_Begin = _end_noinit)
                 0x0000000020001c00                PROVIDE (_Heap_Limit = (__stack - __Main_Stack_Size))
 
 .isr_vector     0x0000000008000000      0x294
@@ -303,27 +315,27 @@ END GROUP
                 0x0000000008000000                __vectors_start = ABSOLUTE (.)
                 0x0000000008000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
- .isr_vector    0x0000000008000000       0xc4 /tmp/ccoVXclE.ltrans0.ltrans.o
+ .isr_vector    0x0000000008000000       0xc4 /tmp/cco3cGFK.ltrans0.ltrans.o
                 0x0000000008000000                g_pfnVectors
  *(.cfmconfig)
  *(.after_vectors .after_vectors.*)
  .after_vectors
-                0x00000000080000c4      0x1d0 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080000c4      0x1d0 /tmp/cco3cGFK.ltrans0.ltrans.o
                 0x00000000080000c4                _start
                 0x0000000008000268                HardFault_Handler_C
 
-.inits          0x0000000008000294       0x3c
+.inits          0x0000000008000294       0x40
                 0x0000000008000294                __data_regions_array_start = .
-                0x0000000008000294        0x4 LONG 0x80032c8 LOADADDR (.data)
+                0x0000000008000294        0x4 LONG 0x80035cc LOADADDR (.data)
                 0x0000000008000298        0x4 LONG 0x20000000 ADDR (.data)
-                0x000000000800029c        0x4 LONG 0x20000094 (ADDR (.data) + SIZEOF (.data))
-                0x00000000080002a0        0x4 LONG 0x80032c8 LOADADDR (.data_CCMRAM)
+                0x000000000800029c        0x4 LONG 0x20000098 (ADDR (.data) + SIZEOF (.data))
+                0x00000000080002a0        0x4 LONG 0x80035cc LOADADDR (.data_CCMRAM)
                 0x00000000080002a4        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x00000000080002a8        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x00000000080002ac                __data_regions_array_end = .
                 0x00000000080002ac                __bss_regions_array_start = .
-                0x00000000080002ac        0x4 LONG 0x20000094 ADDR (.bss)
-                0x00000000080002b0        0x4 LONG 0x200002dc (ADDR (.bss) + SIZEOF (.bss))
+                0x00000000080002ac        0x4 LONG 0x20000098 ADDR (.bss)
+                0x00000000080002b0        0x4 LONG 0x2000031c (ADDR (.bss) + SIZEOF (.bss))
                 0x00000000080002b4        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
                 0x00000000080002b8        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x00000000080002bc                __bss_regions_array_end = .
@@ -339,478 +351,502 @@ END GROUP
                 0x00000000080002bc                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x00000000080002bc        0xc /tmp/ccoVXclE.ltrans0.ltrans.o
-                0x00000000080002c8                PROVIDE (__init_array_end = .)
-                0x00000000080002c8                . = ALIGN (0x4)
-                0x00000000080002c8                PROVIDE (__fini_array_start = .)
+ .init_array    0x00000000080002bc       0x10 /tmp/cco3cGFK.ltrans0.ltrans.o
+                0x00000000080002cc                PROVIDE (__init_array_end = .)
+                0x00000000080002cc                . = ALIGN (0x4)
+                0x00000000080002cc                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
- .fini_array    0x00000000080002c8        0x8 /tmp/ccoVXclE.ltrans0.ltrans.o
-                0x00000000080002d0                PROVIDE (__fini_array_end = .)
+ .fini_array    0x00000000080002cc        0x8 /tmp/cco3cGFK.ltrans0.ltrans.o
+                0x00000000080002d4                PROVIDE (__fini_array_end = .)
 
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x00000000080002d0     0x2ff8
+.text           0x00000000080002d4     0x32f8
  *(.text .text.*)
- .text._exit    0x00000000080002d0        0xa /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x00000000080002da        0x2 
+ .text._exit    0x00000000080002d4        0xa /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x00000000080002de        0x2 
  .text.__initialize_args
-                0x00000000080002dc       0x20 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080002e0       0x20 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.__initialize_hardware_early
-                0x00000000080002fc        0xc /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000300        0xc /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.__initialize_hardware
-                0x0000000008000308        0xc /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x000000000800030c        0xc /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.SystemInit
-                0x0000000008000314       0x8c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000318       0x8c /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.SystemCoreClockUpdate
-                0x00000000080003a0       0xdc /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080003a4       0xdc /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.SetSysClock
-                0x000000000800047c       0xdc /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000480       0xdc /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.NVIC_SetPriority
-                0x0000000008000558       0xe8 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x000000000800055c       0xe8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.SysTick_Config
-                0x0000000008000640       0x48 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000644       0x48 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN8Hardware13errorDispatchENS_9ErrorCodeE
-                0x0000000008000688       0x22 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x00000000080006aa        0x2 
+                0x000000000800068c       0x22 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x00000000080006ae        0x2 
  .text._ZL13flash_latencym
-                0x00000000080006ac       0x34 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080006b0       0x34 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZL12pll_start_lbmm
-                0x00000000080006e0       0xb0 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080006e4       0xb0 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZL7rccInitv
-                0x0000000008000790       0x2c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000794       0x2c /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN8Hardware9NVIC_initEv
-                0x00000000080007bc        0x8 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080007c0        0x8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN8Hardware4initEv
-                0x00000000080007c4       0x54 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080007c8       0x54 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN8Hardware9WDOG_InitEv
-                0x0000000008000818        0x8 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo7isEmptyEv
-                0x0000000008000820       0x20 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo10isNotEmptyEv
-                0x0000000008000840       0x22 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard13getFromBufferEv
-                0x0000000008000862       0x44 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x00000000080008a6        0x2 
- .text._ZN8Keyboard9keyToCharENS_3KeyE
-                0x00000000080008a8       0x5c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard10getCharKeyEv
-                0x0000000008000904       0x2c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer19checkCursorPositionEv
-                0x0000000008000930       0x44 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer11cursorRightEv
-                0x0000000008000974       0x40 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer5printEc
-                0x00000000080009b4       0x42 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x00000000080009f6        0x2 
- .text._ZN5Praca11getInstanceEv
-                0x00000000080009f8       0x10 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._Z9pollPracav
-                0x0000000008000a08       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN5PracaC2Ev
-                0x0000000008000a1c       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN5PracaD2Ev
-                0x0000000008000a38       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN5PracaD0Ev
-                0x0000000008000a54       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN5Praca4pollEv
-                0x0000000008000a78       0x48 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._Z41__static_initialization_and_destruction_0ii.lto_priv.0
-                0x0000000008000ac0       0x58 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._GLOBAL__sub_I_praca
-                0x0000000008000b18       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._GLOBAL__sub_D_praca
-                0x0000000008000b30       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN9QuickTask4holdEb
-                0x0000000008000b48       0x20 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x000000000800081c        0x8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio7setMODEEP12GPIO_TypeDefhNS_8GpioModeE
-                0x0000000008000b68       0x4e /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000824       0x4e /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio8setSpeedEP12GPIO_TypeDefhNS_9GpioSpeedE
-                0x0000000008000bb6       0x50 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000872       0x50 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio11setPullUpDnEP12GPIO_TypeDefhNS_8GpioPuPdE
-                0x0000000008000c06       0x4e /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080008c2       0x4e /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio8setOTypeEP12GPIO_TypeDefhNS_9GpioOTypeE
-                0x0000000008000c54       0x56 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000910       0x56 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio7getModeEP12GPIO_TypeDefh
-                0x0000000008000caa       0x30 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000966       0x30 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio7getPullEP12GPIO_TypeDefh
-                0x0000000008000cda       0x30 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000996       0x30 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio8getSpeedEP12GPIO_TypeDefh
-                0x0000000008000d0a       0x30 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080009c6       0x30 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio8getOTypeEP12GPIO_TypeDefh
-                0x0000000008000d3a       0x32 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080009f6       0x32 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio11setOutputUpEP12GPIO_TypeDefh
-                0x0000000008000d6c       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000a28       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio13setOutputDownEP12GPIO_TypeDefh
-                0x0000000008000d90       0x26 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000a4c       0x26 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio9setOutputEP12GPIO_TypeDefhb
-                0x0000000008000db6       0x44 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio8getInputEP12GPIO_TypeDefh
-                0x0000000008000dfa       0x30 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio14setupFromCloneEP12GPIO_TypeDefhS1_h
-                0x0000000008000e2a       0x9c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio7setMODEENS_8GpioModeE
-                0x0000000008000ec6       0x26 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio8setSpeedENS_9GpioSpeedE
-                0x0000000008000eec       0x26 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio11setPullUpDnENS_8GpioPuPdE
-                0x0000000008000f12       0x26 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio8setOTypeENS_9GpioOTypeE
-                0x0000000008000f38       0x26 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio9setOutputENS_5LevelE
-                0x0000000008000f5e       0x2e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio8getInputEv
-                0x0000000008000f8c       0x2a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio5setupENS_8GpioModeENS_9GpioOTypeENS_8GpioPuPdENS_9GpioSpeedE
-                0x0000000008000fb6       0x60 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio14setupFromCloneEPS_
-                0x0000000008001016       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4GpioC2EP12GPIO_TypeDefh
-                0x000000000800103a       0x36 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard11addToBufferENS_3KeyE
-                0x0000000008001070       0x2e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard12setColumnLowEh
-                0x000000000800109e       0x70 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard13getRowPressedEv
-                0x000000000800110e       0x7a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard8getKeyAtEhh
-                0x0000000008001188       0xaa /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard13getPressedKeyEv
-                0x0000000008001232       0x72 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8KeyboardC2EP4GpioS1_S1_S1_S1_S1_S1_
-                0x00000000080012a4       0x86 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard5setupEv
-                0x000000000800132a       0x82 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard4pollEv
-                0x00000000080013ac       0x4c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Keyboard16getUnbufferedKeyEv
-                0x00000000080013f8       0x1a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer12forceRefreshEv
-                0x0000000008001412       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer6gotoXYEmm
-                0x000000000800142e       0x60 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer5printEPKc
-                0x000000000800148e       0x30 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer7printXYEmmPKc
-                0x00000000080014be       0x2c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer10homeScreenEv
-                0x00000000080014ea       0x2a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN6Pinout5setupEv
-                0x0000000008001514       0x50 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN5Praca5setupEv
-                0x0000000008001564       0x10 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN6PinoutC2Ev
-                0x0000000008001574      0x1c8 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._Z8keysPollv
-                0x000000000800173c       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.main     0x0000000008001754       0xac /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._Z41__static_initialization_and_destruction_0ii.lto_priv.1
-                0x0000000008001800      0x12c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._GLOBAL__sub_I_pinout
-                0x000000000800192c       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4FifoC2EPhm
-                0x0000000008001944       0x2e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo3putEh
-                0x0000000008001972       0x6e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Fifo3getEv
-                0x00000000080019e0       0x5a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer12refreshStartEv
-                0x0000000008001a3a       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer11refreshStopEv
-                0x0000000008001a4e        0xe /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer14setRefreshNeedEv
-                0x0000000008001a5c       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer15isRefreshNeededEv
-                0x0000000008001a70       0x16 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZNK11FrameBuffer9getBufferEv
-                0x0000000008001a86       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x0000000008001a9a        0x2 
- .text._ZN11FrameBufferD2Ev
-                0x0000000008001a9c       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBufferD0Ev
-                0x0000000008001ab8       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN9QuickTask4tickEm
-                0x0000000008001adc       0x6c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN9QuickTask4pollEv
-                0x0000000008001b48       0x68 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN9QuickTaskC2ENS_6QTTypeEPFvvEm
-                0x0000000008001bb0       0x94 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.SysTick_Handler
-                0x0000000008001c44        0xe /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN6VEprom15isWritePossibleEv
-                0x0000000008001c52        0xc /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x0000000008001c5e        0x2 
- .text._ZN6VEprom4initEv
-                0x0000000008001c60       0xac /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN6VEprom9writeWordENS_9VirtAdresEt
-                0x0000000008001d0c       0xac /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000a72       0x44 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio9getOutputEP12GPIO_TypeDefh
-                0x0000000008001db8       0x30 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000ab6       0x30 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio14setupFromCloneEP12GPIO_TypeDefhS1_h
+                0x0000000008000ae6       0x9c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio7setMODEENS_8GpioModeE
+                0x0000000008000b82       0x26 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio8setSpeedENS_9GpioSpeedE
+                0x0000000008000ba8       0x26 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio11setPullUpDnENS_8GpioPuPdE
+                0x0000000008000bce       0x26 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio8setOTypeENS_9GpioOTypeE
+                0x0000000008000bf4       0x26 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio11setOutputUpEv
-                0x0000000008001de8       0x1e /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000c1a       0x1e /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio13setOutputDownEv
-                0x0000000008001e06       0x1e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN4Gpio9setOutputEb
-                0x0000000008001e24       0x26 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000c38       0x1e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio9setOutputENS_5LevelE
+                0x0000000008000c56       0x2e /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._ZN4Gpio9getOutputEv
-                0x0000000008001e4a       0x2a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBufferC2EmmPh
-                0x0000000008001e74       0x5c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN11FrameBuffer11clearScreenEv
-                0x0000000008001ed0       0x3e /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x0000000008001f0e        0x2 
- .text._ZN17FrameBufferAccessC2EmmPh
-                0x0000000008001f10       0x30 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN17FrameBufferAccessD2Ev
-                0x0000000008001f40       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN17FrameBufferAccessD0Ev
-                0x0000000008001f64       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZNK17FrameBufferAccess9getBufferEv
-                0x0000000008001f88       0x1a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN17FrameBufferAccess15isRefreshNeededEv
-                0x0000000008001fa2       0x1a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN17FrameBufferAccess11refreshStopEv
-                0x0000000008001fbc       0x16 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN17FrameBufferAccess12refreshStartEv
-                0x0000000008001fd2       0x16 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478015prepareDataByteEh
-                0x0000000008001fe8       0x5e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478021prepareCommandToWriteENS_10LcdCommandE
-                0x0000000008002046       0x3a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478018prepareCharToWriteEc
-                0x0000000008002080       0x3a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD44780C2Ev
-                0x00000000080020ba       0x3c /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478012setBackLightEb
-                0x00000000080020f6       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478013getDDRamAdresEhh
-                0x000000000800211a       0x6a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN9QuickTask10getCounterEv
-                0x0000000008002184       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN9QuickTask23delayMsWithStoppedTasksEm
-                0x0000000008002198       0x2e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN8Hardware12delayMsDirtyEm
-                0x00000000080021c6       0x16 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478011getInstanceEv
-                0x00000000080021dc       0x10 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._Z12pollCallbackv
-                0x00000000080021ec       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478014getFrameBufferEv
-                0x0000000008002200       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478012delayMsDirtyEm
-                0x0000000008002218       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD447805setupEP4GpioS1_S1_PNS_9GpioPack8ES1_
-                0x0000000008002230       0x3e /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD447809localInitEv
-                0x000000000800226e      0x124 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZN7HD4478016sendCommandDirtyEhm
-                0x0000000008002392       0x58 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x00000000080023ea        0x2 
- .text._ZN7HD447804pollEv
-                0x00000000080023ec      0x10c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008000c84       0x2a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio5setupENS_8GpioModeENS_9GpioOTypeENS_8GpioPuPdENS_9GpioSpeedE
+                0x0000000008000cae       0x60 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio14setupFromCloneEPS_
+                0x0000000008000d0e       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7Krokowy6enableEb
+                0x0000000008000d32       0x44 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x0000000008000d76        0x2 
+ .text._ZN7Krokowy11getInstanceEv
+                0x0000000008000d78       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._Z16krokPollCallbackv
+                0x0000000008000d8c       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7Krokowy4pollEv
+                0x0000000008000da0       0xea /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7Krokowy5setupEv
+                0x0000000008000e8a       0xa8 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x0000000008000f32        0x2 
+ .text._Z41__static_initialization_and_destruction_0ii.lto_priv.0
+                0x0000000008000f34       0x38 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._GLOBAL__sub_I__ZN7Krokowy11getInstanceEv
+                0x0000000008000f6c       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo7isEmptyEv
+                0x0000000008000f84       0x20 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo10isNotEmptyEv
+                0x0000000008000fa4       0x22 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard13getFromBufferEv
+                0x0000000008000fc6       0x44 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x000000000800100a        0x2 
+ .text._ZN8Keyboard9keyToCharENS_3KeyE
+                0x000000000800100c       0x5c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard10getCharKeyEv
+                0x0000000008001068       0x2c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer19checkCursorPositionEv
+                0x0000000008001094       0x44 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer11cursorRightEv
+                0x00000000080010d8       0x40 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer5printEc
+                0x0000000008001118       0x42 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x000000000800115a        0x2 
+ .text._ZN5Praca11getInstanceEv
+                0x000000000800115c       0x10 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._Z9pollPracav
+                0x000000000800116c       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN5PracaC2Ev
+                0x0000000008001180       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN5PracaD2Ev
+                0x000000000800119c       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN5PracaD0Ev
+                0x00000000080011b8       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN5Praca4pollEv
+                0x00000000080011dc       0x48 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._Z41__static_initialization_and_destruction_0ii.lto_priv.1
+                0x0000000008001224       0x58 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._GLOBAL__sub_I_praca
+                0x000000000800127c       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._GLOBAL__sub_D_praca
+                0x0000000008001294       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN9QuickTask4holdEb
+                0x00000000080012ac       0x20 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio8getInputEP12GPIO_TypeDefh
+                0x00000000080012cc       0x30 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio8getInputEv
+                0x00000000080012fc       0x2a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4GpioC2EP12GPIO_TypeDefh
+                0x0000000008001326       0x36 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard11addToBufferENS_3KeyE
+                0x000000000800135c       0x2e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard12setColumnLowEh
+                0x000000000800138a       0x70 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard13getRowPressedEv
+                0x00000000080013fa       0x7a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard8getKeyAtEhh
+                0x0000000008001474       0xaa /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard13getPressedKeyEv
+                0x000000000800151e       0x72 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8KeyboardC2EP4GpioS1_S1_S1_S1_S1_S1_
+                0x0000000008001590       0x86 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard5setupEv
+                0x0000000008001616       0x82 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard4pollEv
+                0x0000000008001698       0x4c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Keyboard16getUnbufferedKeyEv
+                0x00000000080016e4       0x1a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer12forceRefreshEv
+                0x00000000080016fe       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer6gotoXYEmm
+                0x000000000800171a       0x60 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer5printEPKc
+                0x000000000800177a       0x30 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer7printXYEmmPKc
+                0x00000000080017aa       0x2c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer10homeScreenEv
+                0x00000000080017d6       0x2a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN6Pinout5setupEv
+                0x0000000008001800       0x50 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7KrokowyC2EP4GpioS1_S1_S1_S1_S1_
+                0x0000000008001850       0x54 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN5Praca5setupEv
+                0x00000000080018a4       0x12 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x00000000080018b6        0x2 
+ .text._ZN6PinoutC2Ev
+                0x00000000080018b8      0x1c8 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._Z8keysPollv
+                0x0000000008001a80       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.main     0x0000000008001a98       0xb8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._Z41__static_initialization_and_destruction_0ii.lto_priv.2
-                0x00000000080024f8       0x80 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008001b50      0x174 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._GLOBAL__sub_I_pinout
+                0x0000000008001cc4       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4FifoC2EPhm
+                0x0000000008001cdc       0x2e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo3putEh
+                0x0000000008001d0a       0x6e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Fifo3getEv
+                0x0000000008001d78       0x5a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer12refreshStartEv
+                0x0000000008001dd2       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer11refreshStopEv
+                0x0000000008001de6        0xe /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer14setRefreshNeedEv
+                0x0000000008001df4       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer15isRefreshNeededEv
+                0x0000000008001e08       0x16 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZNK11FrameBuffer9getBufferEv
+                0x0000000008001e1e       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x0000000008001e32        0x2 
+ .text._ZN11FrameBufferD2Ev
+                0x0000000008001e34       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBufferD0Ev
+                0x0000000008001e50       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN9QuickTask4tickEm
+                0x0000000008001e74       0x6c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN9QuickTask4pollEv
+                0x0000000008001ee0       0x68 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN9QuickTaskC2ENS_6QTTypeEPFvvEm
+                0x0000000008001f48       0x94 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.SysTick_Handler
+                0x0000000008001fdc        0xe /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN6VEprom15isWritePossibleEv
+                0x0000000008001fea        0xc /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x0000000008001ff6        0x2 
+ .text._ZN6VEprom4initEv
+                0x0000000008001ff8       0xac /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN6VEprom9writeWordENS_9VirtAdresEt
+                0x00000000080020a4       0xac /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN4Gpio9setOutputEb
+                0x0000000008002150       0x26 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x0000000008002176        0x2 
+ .text._ZN11FrameBufferC2EmmPh
+                0x0000000008002178       0x5c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN11FrameBuffer11clearScreenEv
+                0x00000000080021d4       0x3e /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x0000000008002212        0x2 
+ .text._ZN17FrameBufferAccessC2EmmPh
+                0x0000000008002214       0x30 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN17FrameBufferAccessD2Ev
+                0x0000000008002244       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN17FrameBufferAccessD0Ev
+                0x0000000008002268       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZNK17FrameBufferAccess9getBufferEv
+                0x000000000800228c       0x1a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN17FrameBufferAccess15isRefreshNeededEv
+                0x00000000080022a6       0x1a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN17FrameBufferAccess11refreshStopEv
+                0x00000000080022c0       0x16 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN17FrameBufferAccess12refreshStartEv
+                0x00000000080022d6       0x16 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478015prepareDataByteEh
+                0x00000000080022ec       0x5e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478021prepareCommandToWriteENS_10LcdCommandE
+                0x000000000800234a       0x3a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478018prepareCharToWriteEc
+                0x0000000008002384       0x3a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD44780C2Ev
+                0x00000000080023be       0x3c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478012setBackLightEb
+                0x00000000080023fa       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478013getDDRamAdresEhh
+                0x000000000800241e       0x6a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN9QuickTask10getCounterEv
+                0x0000000008002488       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN9QuickTask23delayMsWithStoppedTasksEm
+                0x000000000800249c       0x2e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN8Hardware12delayMsDirtyEm
+                0x00000000080024ca       0x16 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478011getInstanceEv
+                0x00000000080024e0       0x10 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._Z12pollCallbackv
+                0x00000000080024f0       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478014getFrameBufferEv
+                0x0000000008002504       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478012delayMsDirtyEm
+                0x000000000800251c       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD447805setupEP4GpioS1_S1_PNS_9GpioPack8ES1_
+                0x0000000008002534       0x3e /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD447809localInitEv
+                0x0000000008002572      0x124 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZN7HD4478016sendCommandDirtyEhm
+                0x0000000008002696       0x58 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x00000000080026ee        0x2 
+ .text._ZN7HD447804pollEv
+                0x00000000080026f0      0x10c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._Z41__static_initialization_and_destruction_0ii.lto_priv.3
+                0x00000000080027fc       0x80 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._GLOBAL__sub_I_instance
-                0x0000000008002578       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x000000000800287c       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text._GLOBAL__sub_D_instance
-                0x0000000008002590       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
- .text.EE_Init  0x00000000080025a8      0x3d4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008002894       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text.EE_Init  0x00000000080028ac      0x3d4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.EE_ReadVariable
-                0x000000000800297c       0xc8 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008002c80       0xc8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.EE_WriteVariable
-                0x0000000008002a44       0x5e /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x0000000008002aa2        0x2 
+                0x0000000008002d48       0x5e /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x0000000008002da6        0x2 
  .text.EE_Format
-                0x0000000008002aa4       0x68 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008002da8       0x68 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.EE_FindValidPage
-                0x0000000008002b0c       0xb0 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008002e10       0xb0 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.EE_VerifyPageFullWriteVariable
-                0x0000000008002bbc       0xe0 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008002ec0       0xe0 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.EE_PageTransfer
-                0x0000000008002c9c      0x1c8 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008002fa0      0x1c8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_Unlock
-                0x0000000008002e64       0x2c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008003168       0x2c /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_Lock
-                0x0000000008002e90       0x18 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008003194       0x18 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_ErasePage
-                0x0000000008002ea8       0x78 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080031ac       0x78 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_ProgramHalfWord
-                0x0000000008002f20       0x74 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008003224       0x74 /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_GetStatus
-                0x0000000008002f94       0x5c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008003298       0x5c /tmp/cco3cGFK.ltrans0.ltrans.o
  .text.FLASH_WaitForLastOperation
-                0x0000000008002ff0       0x5a /tmp/ccoVXclE.ltrans0.ltrans.o
- .text._ZdlPvj  0x000000000800304a        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
-                0x000000000800304a                operator delete(void*, unsigned int)
- .text._ZdlPv   0x0000000008003052        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
-                0x0000000008003052                operator delete(void*)
- *fill*         0x000000000800305a        0x2 
- .text.free     0x000000000800305c       0x14 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
-                0x000000000800305c                free
- .text._free_r  0x0000000008003070       0x94 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
-                0x0000000008003070                _free_r
+                0x00000000080032f4       0x5a /tmp/cco3cGFK.ltrans0.ltrans.o
+ .text._ZdlPvj  0x000000000800334e        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+                0x000000000800334e                operator delete(void*, unsigned int)
+ .text._ZdlPv   0x0000000008003356        0x8 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+                0x0000000008003356                operator delete(void*)
+ *fill*         0x000000000800335e        0x2 
+ .text.free     0x0000000008003360       0x14 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+                0x0000000008003360                free
+ .text._free_r  0x0000000008003374       0x94 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+                0x0000000008003374                _free_r
  .text.__malloc_lock
-                0x0000000008003104        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
-                0x0000000008003104                __malloc_lock
+                0x0000000008003408        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                0x0000000008003408                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008003106        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
-                0x0000000008003106                __malloc_unlock
- .text          0x0000000008003108      0x114 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
-                0x0000000008003108                __udivsi3
-                0x0000000008003108                __aeabi_uidiv
-                0x0000000008003214                __aeabi_uidivmod
- .text          0x000000000800321c        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
-                0x000000000800321c                __aeabi_ldiv0
-                0x000000000800321c                __aeabi_idiv0
- .text.memset   0x0000000008003220       0x10 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
-                0x0000000008003220                memset
+                0x000000000800340a        0x2 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000800340a                __malloc_unlock
+ .text          0x000000000800340c      0x114 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                0x000000000800340c                __udivsi3
+                0x000000000800340c                __aeabi_uidiv
+                0x0000000008003518                __aeabi_uidivmod
+ .text          0x0000000008003520        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000008003520                __aeabi_ldiv0
+                0x0000000008003520                __aeabi_idiv0
+ .text.memset   0x0000000008003524       0x10 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+                0x0000000008003524                memset
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata._ZN8Keyboard9keyToCharENS_3KeyE
-                0x0000000008003230       0x34 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008003534       0x34 /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata._ZTV5Praca
-                0x0000000008003264       0x10 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008003568       0x10 /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata.main.str1.4
-                0x0000000008003274        0xc /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008003578        0xc /tmp/cco3cGFK.ltrans0.ltrans.o
                                           0xb (size before relaxing)
  .rodata._ZTV11FrameBuffer
-                0x0000000008003280       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000008003584       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
  .rodata._ZTV17FrameBufferAccess
-                0x00000000080032a4       0x24 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000080035a8       0x24 /tmp/cco3cGFK.ltrans0.ltrans.o
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x00000000080032c8        0x0 linker stubs
+ .glue_7        0x00000000080035cc        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080032c8        0x0 linker stubs
+ .glue_7t       0x00000000080035cc        0x0 linker stubs
 
-.vfp11_veneer   0x00000000080032c8        0x0
- .vfp11_veneer  0x00000000080032c8        0x0 linker stubs
+.vfp11_veneer   0x00000000080035cc        0x0
+ .vfp11_veneer  0x00000000080035cc        0x0 linker stubs
 
-.v4_bx          0x00000000080032c8        0x0
- .v4_bx         0x00000000080032c8        0x0 linker stubs
+.v4_bx          0x00000000080035cc        0x0
+ .v4_bx         0x00000000080035cc        0x0 linker stubs
 
-.iplt           0x00000000080032c8        0x0
- .iplt          0x00000000080032c8        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+.iplt           0x00000000080035cc        0x0
+ .iplt          0x00000000080035cc        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
 
-.rel.dyn        0x00000000080032c8        0x0
- .rel.iplt      0x00000000080032c8        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+.rel.dyn        0x00000000080035cc        0x0
+ .rel.iplt      0x00000000080035cc        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080032c8                . = ALIGN (0x4)
-                0x00000000080032c8                __exidx_start = .
+                0x00000000080035cc                . = ALIGN (0x4)
+                0x00000000080035cc                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000080032c8                __exidx_end = .
-                0x00000000080032c8                . = ALIGN (0x4)
-                0x00000000080032c8                _etext = .
-                0x00000000080032c8                __etext = .
+                0x00000000080035cc                __exidx_end = .
+                0x00000000080035cc                . = ALIGN (0x4)
+                0x00000000080035cc                _etext = .
+                0x00000000080035cc                __etext = .
 
-.data_CCMRAM    0x0000000000000000        0x0 load address 0x00000000080032c8
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x00000000080035cc
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000000000000                . = ALIGN (0x4)
-                0x00000000080032c8                _sidata = LOADADDR (.data)
+                0x00000000080035cc                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x94 load address 0x00000000080032c8
+.data           0x0000000020000000       0x98 load address 0x00000000080035cc
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
  *(.data_begin .data_begin.*)
- .data_begin    0x0000000020000000        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+ .data_begin    0x0000000020000000        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  *(.data .data.*)
  .data.argv.4310
-                0x0000000020000004        0x8 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000020000004        0x8 /tmp/cco3cGFK.ltrans0.ltrans.o
  .data.SystemCoreClock
-                0x000000002000000c        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x000000002000000c        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .data.AHBPrescTable
-                0x0000000020000010       0x10 /tmp/ccoVXclE.ltrans0.ltrans.o
- .data.pins     0x0000000020000020        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
- .data.keys     0x0000000020000024        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000020000010       0x10 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .data.pins     0x0000000020000020        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .data.keys     0x0000000020000024        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .data.krokowy  0x0000000020000028        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .data._ZN9QuickTask6holdedE
-                0x0000000020000028        0x1 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x0000000020000029        0x3 ff
+                0x000000002000002c        0x1 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x000000002000002d        0x3 ff
  .data._impure_ptr
-                0x000000002000002c        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
-                0x000000002000002c                _impure_ptr
+                0x0000000020000030        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+                0x0000000020000030                _impure_ptr
  .data.impure_data
-                0x0000000020000030       0x60 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
+                0x0000000020000034       0x60 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-impure.o)
  *(.data_end .data_end.*)
- .data_end      0x0000000020000090        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
-                0x0000000020000094                . = ALIGN (0x4)
-                0x0000000020000094                _edata = .
-                0x0000000020000094                __data_end__ = .
+ .data_end      0x0000000020000094        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+                0x0000000020000098                . = ALIGN (0x4)
+                0x0000000020000098                _edata = .
+                0x0000000020000098                __data_end__ = .
 
-.igot.plt       0x0000000020000094        0x0 load address 0x000000000800335c
- .igot.plt      0x0000000020000094        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+.igot.plt       0x0000000020000098        0x0 load address 0x0000000008003664
+ .igot.plt      0x0000000020000098        0x0 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
 
 .bss_CCMRAM     0x0000000000000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
-.bss            0x0000000020000094      0x248
-                0x0000000020000094                __bss_start__ = .
-                0x0000000020000094                _sbss = .
+.bss            0x0000000020000098      0x284
+                0x0000000020000098                __bss_start__ = .
+                0x0000000020000098                _sbss = .
  *(.bss_begin .bss_begin.*)
- .bss_begin     0x0000000020000094        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+ .bss_begin     0x0000000020000098        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  *(.bss .bss.*)
  .bss.name.4309
-                0x0000000020000098        0x1 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x0000000020000099        0x3 
- .bss.praca     0x000000002000009c        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x000000002000009c        0x1 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x000000002000009d        0x3 
+ .bss.krokowyTask
+                0x00000000200000a0       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.praca     0x00000000200000b4        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .bss.taskPraca
-                0x00000000200000a0       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.pinout    0x00000000200000b4       0xd8 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.keyboard  0x000000002000018c       0x34 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.hd44780   0x00000000200001c0        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.lcd       0x00000000200001c4        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.gpioP8    0x00000000200001c8       0x20 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.keybTask  0x00000000200001e8       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.taskbase  0x00000000200001fc        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x00000000200000b8       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.pinout    0x00000000200000cc       0xd8 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.keyboard  0x00000000200001a4       0x34 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.hd44780   0x00000000200001d8        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.lcd       0x00000000200001dc        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.krok      0x00000000200001e0       0x28 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.gpioP8    0x0000000020000208       0x20 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.keybTask  0x0000000020000228       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.taskbase  0x000000002000023c        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .bss._ZN9QuickTask12milisCounterE
-                0x0000000020000200        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000020000240        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
  .bss.VirtAddVarTab
-                0x0000000020000204       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.Vars      0x0000000020000218       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.instance  0x000000002000022c       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000020000244       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.Vars      0x0000000020000258       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.instance  0x000000002000026c       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
  .bss.hd44780Task
-                0x0000000020000248       0x14 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.dataTab1  0x000000002000025c       0x21 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x000000002000027d        0x3 
- .bss.frame_bufferAccess
-                0x0000000020000280       0x1c /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.dataTab2  0x000000002000029c       0x21 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000020000288       0x14 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.dataTab1  0x000000002000029c       0x21 /tmp/cco3cGFK.ltrans0.ltrans.o
  *fill*         0x00000000200002bd        0x3 
- .bss.dataFifo  0x00000000200002c0       0x10 /tmp/ccoVXclE.ltrans0.ltrans.o
- .bss.DataVar   0x00000000200002d0        0x2 /tmp/ccoVXclE.ltrans0.ltrans.o
- *fill*         0x00000000200002d2        0x2 
+ .bss.frame_bufferAccess
+                0x00000000200002c0       0x1c /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.dataTab2  0x00000000200002dc       0x21 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x00000000200002fd        0x3 
+ .bss.dataFifo  0x0000000020000300       0x10 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .bss.DataVar   0x0000000020000310        0x2 /tmp/cco3cGFK.ltrans0.ltrans.o
+ *fill*         0x0000000020000312        0x2 
  .bss.__malloc_free_list
-                0x00000000200002d4        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
-                0x00000000200002d4                __malloc_free_list
+                0x0000000020000314        0x4 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000314                __malloc_free_list
  *(COMMON)
  *(.bss_end .bss_end.*)
- .bss_end       0x00000000200002d8        0x4 /tmp/ccoVXclE.ltrans0.ltrans.o
-                0x00000000200002dc                . = ALIGN (0x4)
-                0x00000000200002dc                __bss_end__ = .
-                0x00000000200002dc                _ebss = .
+ .bss_end       0x0000000020000318        0x4 /tmp/cco3cGFK.ltrans0.ltrans.o
+                0x000000002000031c                . = ALIGN (0x4)
+                0x000000002000031c                __bss_end__ = .
+                0x000000002000031c                _ebss = .
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
-.noinit         0x00000000200002dc        0x0
-                0x00000000200002dc                _noinit = .
+.noinit         0x000000002000031c        0x0
+                0x000000002000031c                _noinit = .
  *(.noinit .noinit.*)
-                0x00000000200002dc                . = ALIGN (0x4)
-                0x00000000200002dc                _end_noinit = .
+                0x000000002000031c                . = ALIGN (0x4)
+                0x000000002000031c                _end_noinit = .
                 [!provide]                        PROVIDE (end = _end_noinit)
                 [!provide]                        PROVIDE (_end = _end_noinit)
                 [!provide]                        PROVIDE (__end = _end_noinit)
                 [!provide]                        PROVIDE (__end__ = _end_noinit)
 
-._check_stack   0x00000000200002dc      0x100
-                0x00000000200003dc                . = (. + _Minimum_Stack_Size)
- *fill*         0x00000000200002dc      0x100 
+._check_stack   0x000000002000031c      0x100
+                0x000000002000041c                . = (. + _Minimum_Stack_Size)
+ *fill*         0x000000002000031c      0x100 
 
 .b1text
  *(.b1text)
@@ -857,13 +893,13 @@ END GROUP
 
 .comment        0x0000000000000000       0x7f
  *(.comment)
- .comment       0x0000000000000000       0x7f /tmp/ccoVXclE.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x7f /tmp/cco3cGFK.ltrans0.ltrans.o
                                          0x80 (size before relaxing)
 
 .ARM.attributes
                 0x0000000000000000       0x31
  .ARM.attributes
-                0x0000000000000000       0x2f /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000       0x2f /tmp/cco3cGFK.ltrans0.ltrans.o
  .ARM.attributes
                 0x000000000000002f       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
  .ARM.attributes
@@ -897,42 +933,42 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0x6e0
+.debug_aranges  0x0000000000000000      0x730
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000      0x6e0 /tmp/ccoVXclE.ltrans0.ltrans.o
+                0x0000000000000000      0x730 /tmp/cco3cGFK.ltrans0.ltrans.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x5a6a
+.debug_info     0x0000000000000000     0x5f8d
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x0000000000000000     0x5a6a /tmp/ccoVXclE.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x5f8d /tmp/cco3cGFK.ltrans0.ltrans.o
 
-.debug_abbrev   0x0000000000000000      0x81a
+.debug_abbrev   0x0000000000000000      0x818
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000      0x81a /tmp/ccoVXclE.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x818 /tmp/cco3cGFK.ltrans0.ltrans.o
 
-.debug_line     0x0000000000000000     0x19dc
+.debug_line     0x0000000000000000     0x1af5
  *(.debug_line)
- .debug_line    0x0000000000000000     0x19dc /tmp/ccoVXclE.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x1af5 /tmp/cco3cGFK.ltrans0.ltrans.o
 
-.debug_frame    0x0000000000000000     0x1c54
+.debug_frame    0x0000000000000000     0x1d88
  *(.debug_frame)
- .debug_frame   0x0000000000000000     0x1afc /tmp/ccoVXclE.ltrans0.ltrans.o
- .debug_frame   0x0000000000001afc       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
- .debug_frame   0x0000000000001b24       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
- .debug_frame   0x0000000000001b4c       0x40 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
- .debug_frame   0x0000000000001b8c       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000001bb8       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000000000001be4       0x30 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000001c14       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
- .debug_frame   0x0000000000001c34       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000     0x1c30 /tmp/cco3cGFK.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001c30       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_ops.o)
+ .debug_frame   0x0000000000001c58       0x28 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(del_op.o)
+ .debug_frame   0x0000000000001c80       0x40 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000001cc0       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000001cec       0x2c /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000001d18       0x30 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000001d48       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000001d68       0x20 /home/opt/arm-toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memset.o)
 
-.debug_str      0x0000000000000000     0x1bde
+.debug_str      0x0000000000000000     0x1d2f
  *(.debug_str)
- .debug_str     0x0000000000000000     0x1bde /tmp/ccoVXclE.ltrans0.ltrans.o
-                                       0x1d38 (size before relaxing)
+ .debug_str     0x0000000000000000     0x1d2f /tmp/cco3cGFK.ltrans0.ltrans.o
+                                       0x1e9d (size before relaxing)
 
 .debug_loc
  *(.debug_loc)
@@ -953,5 +989,5 @@ END GROUP
  *(.debug_varnames)
 OUTPUT(gilot2019.elf elf32-littlearm)
 
-.debug_ranges   0x0000000000000000      0x6e8
- .debug_ranges  0x0000000000000000      0x6e8 /tmp/ccoVXclE.ltrans0.ltrans.o
+.debug_ranges   0x0000000000000000      0x738
+ .debug_ranges  0x0000000000000000      0x738 /tmp/cco3cGFK.ltrans0.ltrans.o

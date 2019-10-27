@@ -24,6 +24,8 @@ public:
 	virtual bool isRefreshNeeded(){ return FrameBuffer::isRefreshNeeded(); }// tylko przeslania widocznosc
 	virtual void refreshStop(){ FrameBuffer::refreshStop(); }
 	virtual void refreshStart(){ FrameBuffer::refreshStart(); }
+	virtual void setBackLight(bool enable) = 0;
+	virtual bool isBackLightOn() = 0;
 };
 
 #endif /* FRAMEBUFFERACCESS_H_ */

@@ -34,10 +34,14 @@ private:
 
 		CursorMode	cursor;
 
+		bool backLightIndicator = false;
+
 //		bool refreshInProgress = false;
 		volatile bool refreshNeed;  //
 
 protected:
+
+		virtual bool setBackLight() = 0;
 
 		virtual void inline refreshStart(){
 			refreshNeed = false;		// wlasnie sie rozpoczyna resresh, wiec będzie odświerzone juz niebawem
@@ -91,6 +95,8 @@ public:
 		inline uint32_t getROWS()const {return ROWS;}
 		inline uint32_t getCOLUMNS()const {return COLUMNS;}
 
+		virtual void setBackLight(bool enable) = 0;
+		virtual bool isBackLightOn() = 0;
 
 		bool	getLine(uint32_t lineNr, Fifo * destination){
 			if (lineNr >= getROWS()) return false;
@@ -203,6 +209,10 @@ public:
 
 		void cursorMode(CursorMode mode){
 			cursor = mode;
+		}
+
+		bool editWithPattern(const char *pattern, uint32_t value){
+			printNumbersWithPattern(pattern, value);
 		}
 
 		bool printNumbersWithPattern(const char *pattern, uint32_t value){
