@@ -34,22 +34,20 @@ private:
 
 		CursorMode	cursor;
 
-		bool backLightIndicator = false;
 
-//		bool refreshInProgress = false;
+		//		bool refreshInProgress = false;
 		volatile bool refreshNeed;  //
 
 protected:
-
-		virtual bool setBackLight() = 0;
+		bool backLightIndicator = false;
 
 		virtual void inline refreshStart(){
 			refreshNeed = false;		// wlasnie sie rozpoczyna resresh, wiec będzie odświerzone juz niebawem
-//			refreshInProgress = true;	// jedziemy z pisaniem
+			//			refreshInProgress = true;	// jedziemy z pisaniem
 		}
 
 		virtual void inline refreshStop(){
-//			refreshInProgress = false;
+			//			refreshInProgress = false;
 		}
 
 		virtual void inline setRefreshNeed(){
@@ -95,8 +93,11 @@ public:
 		inline uint32_t getROWS()const {return ROWS;}
 		inline uint32_t getCOLUMNS()const {return COLUMNS;}
 
-		virtual void setBackLight(bool enable) = 0;
 		virtual bool isBackLightOn() = 0;
+
+		void setBackLight(bool enable){
+			backLightIndicator = enable;
+		}
 
 		bool	getLine(uint32_t lineNr, Fifo * destination){
 			if (lineNr >= getROWS()) return false;
@@ -211,9 +212,9 @@ public:
 			cursor = mode;
 		}
 
-		bool editWithPattern(const char *pattern, uint32_t value){
-			printNumbersWithPattern(pattern, value);
-		}
+//		bool editWithPattern(const char *pattern, uint32_t value){
+//			printNumbersWithPattern(pattern, value);
+//		}
 
 		bool printNumbersWithPattern(const char *pattern, uint32_t value){
 			char buff[MAX_TEMP_BUFFER];

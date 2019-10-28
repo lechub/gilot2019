@@ -125,6 +125,7 @@ bool HD44780::sendCommandDirty(uint8_t cmd, uint32_t delayMs){
 //}
 
 void HD44780::poll(){
+	gpioBackLight->setOutput(frame_bufferAccess.isBackLightOn() ? Gpio::Level::High : Gpio::Level::Low);
 	if (gpioE->getOutput() == Gpio::Level::High){		// tylko zbocze na E?
 		gpioE->setOutputDown();
 		return;
