@@ -34,9 +34,10 @@ public:
 	virtual ~FieldOfNumbers();
 
 	bool setup(const char * fieldPattern, int32_t initValue );
-	bool print();
+	bool print(char * destination);
 	bool setNumber(uint8_t digit);
 	bool setNumber(uint32_t position, uint8_t digit);
+	bool backspace();
 	uint32_t getValue();
 
 };
