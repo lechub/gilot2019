@@ -34,6 +34,7 @@ public:
   }EKRAN;
 
 
+
 private:
 
   static constexpr uint32_t REFRESH_DELAY_MS = 338;

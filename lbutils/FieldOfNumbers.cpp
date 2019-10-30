@@ -25,22 +25,22 @@ uint8_t FieldOfNumbers::fillTempBuffer(char * buf){
 		x = x/10;
 		buf[i] = div10 + '0';
 		if (x == 0){
-			i++;
-			while(i >= 0){
+			if (minus){
+				buf[--i] = '-';
+			}
+			while(--i >= 0){
 				buf[i] = '0';
 			}
 		}
 	}
-	if (minus) buf[0] = '-';
-//	buf[0] = minus ? '-' : '0';
+//	if (minus) buf[0] = '-';
 }
 
 uint32_t FieldOfNumbers::countChars(char znak){
 	const char * str = pattern;
 	uint32_t result = 0;
 	while(*str != '\0'){
-		if (*str == znak) result++;
-		str++;
+		if (*str++ == znak) result++;
 	}
 	return result;
 }
@@ -56,22 +56,17 @@ bool FieldOfNumbers::print(char * destination){
 	while(*patt != '\0'){
 		if(*patt == digitsTrail){
 			*destination = (bufOffset < 0) ? ' ' : tempBuffer[bufOffset];
+			bufOffset++;
 		}else if(*patt == digitsOrdinal){
 			*destination = (bufOffset < 0) ? '0' : tempBuffer[bufOffset];
+			bufOffset++;
 		}else{
 			*destination = *patt;
 		}
 		patt++;
 		destination++;
-		bufOffset++;
 	}
 	return true;
 }
 
-//bool FieldOfNumbers::printNumbersWithPattern(){
-//			char buff[MAX_TEMP_BUFFER];
-//			if (strlen(pattern) >= MAX_TEMP_BUFFER) return false;
-//			bool result = numberWithPattern(pattern, value, (char*)buff);
-//			print((const char*)buff);
-//			return result;
-//		}
+

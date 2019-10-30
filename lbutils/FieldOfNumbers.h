@@ -38,7 +38,14 @@ public:
 	bool setNumber(uint8_t digit);
 	bool setNumber(uint32_t position, uint8_t digit);
 	bool backspace();
-	uint32_t getValue();
+
+	uint32_t getValue()const{
+		return value;
+	}
+
+	void setValue(uint32_t newValue){
+		value = newValue;
+	}
 
 };
 
