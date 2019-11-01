@@ -82,7 +82,7 @@ public:
 	bool isStopped();
 	bool stop();
 	bool go(uint32_t length_mm);
-	inline uint32_t getLengthToGo()const{ return lengthToGo; }
+	inline uint32_t getLengthToGo()const{ return lengthToGo/1000; }
 	bool setup();
 
 

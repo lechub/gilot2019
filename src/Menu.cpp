@@ -13,8 +13,10 @@
 //#include "FrameBuffer.h"
 //#include "HMI.h"
 #include "Praca.h"
-//#include "CSP.h"
 
+#include "NumberEditor.h"
+
+using namespace HMI;
 
 void Menu::goToEkran(EKRAN nowyEkran){
 	ekran = nowyEkran;
@@ -111,7 +113,12 @@ void Menu::printPattern(const char * pattern, uint32_t value){
 	}
 }
 
-
+//--------------------------------------->1234567890123456<
+NumberEditor neUstDlugosc = NumberEditor("DLUGOSC:00000 mm", 50);
+NumberEditor neUstIlosc   = NumberEditor("ILOSC:00000 szt.", 1000);
+NumberEditor neUstKalibr  = NumberEditor("KALIBRAC.:000 mm", 1000);
+NumberEditor neToGo 	  = NumberEditor(" [000] ", 1);
+NumberEditor neToCut 	  = NumberEditor(        "<00000> ", 1);
 
 void Menu::showEkran(){
 
@@ -129,29 +136,31 @@ void Menu::showEkran(){
 
 
 	case e_READY:  {
-		lcd->gotoXY(0,0);
-		//--------------------------->1234567890123456<
-		lcd->printNumbersWithPattern("DLUGOSC: 000 mm ", VEprom::readWord(VEprom::VirtAdres::DLUGOSC));
-		lcd->gotoXY(0,1);
-		lcd->printNumbersWithPattern("ILOSC:00000 szt.", VEprom::readWord(VEprom::VirtAdres::ILOSC));
-		break;
-	}
+		neUstDlugosc.setValue(VEprom::readWord(VEprom::VirtAdres::DLUGOSC));
+		neUstIlosc.setValue(VEprom::readWord(VEprom::VirtAdres::ILOSC));
+		lcd->gotoXY(0, 0);
+		lcd->print(&neUstDlugosc);
+		lcd->gotoXY(0, 1);
+		lcd->print(&neUstIlosc);
+	}break;
 
 	case e_PRACA_MOTOR: {
 		//--------------->1234567890123456<
 		lcd->printXY(0,0, "    PRZESUW    ");  // przerwa
-		lcd->gotoXY(0,1);
-		//--------------------------->1234567890123456<
-		lcd->printNumbersWithPattern("[00000]",krokowy->getLengthToGo());
-		lcd->printNumbersWithPattern(        "<000000>",Praca::getInstance()->getCountToGo());
+
+		neToGo.setValue(krokowy->getLengthToGo());
+		neToCut.setValue(Praca::getInstance()->getCountToGo());
+		lcd->print(&neToGo);
+		lcd->print(&neToCut);
 	}break;
 
 	case e_PRACA_KNIFE:{
 		//--------------->1234567890123456<
 		lcd->printXY(0,0, "   CIECIE   ");  // przerwa
 		lcd->gotoXY(0,1);
-		//--------------------------->1234567890123456<
-		lcd->printNumbersWithPattern( "   <000000>    ",Praca::getInstance()->getCountToGo());
+		neToCut.setValue(Praca::getInstance()->getCountToGo());
+		lcd->print( "Zostalo");
+		lcd->print(&neToCut);
 	}break;
 
 	/*    e_UST_DLUGOSC,		// ustawienie dlugosci ciecia
@@ -162,24 +171,21 @@ void Menu::showEkran(){
 		//----------------->1234567890123456<
 		lcd->printXY(0, 0, " USTAW DLUGOSC  ");  // przerwa
 		lcd->gotoXY(0,1);
-		//------------------->1234567890123456<
-		lcd->editWithPattern("  <0000> mm     ", tmpValue);
+		lcd->print(&neUstDlugosc);
 	} break;
 
 	case e_UST_ILOSC:{
 		//----------------->1234567890123456<
 		lcd->printXY(0, 0, "   USTAW ILOSC  ");  // przerwa
 		lcd->gotoXY(0,1);
-		//------------------->1234567890123456<
-		lcd->editWithPattern("  <000000> mm   ", tmpValue);
+		lcd->print(&neUstIlosc);
 	} break;
 
 	case e_UST_KALIBR:{
 		//----------------->1234567890123456<
 		lcd->printXY(0, 0, "  USTAW KALIBR. ");  // przerwa
 		lcd->gotoXY(0,1);
-		//------------------->1234567890123456<
-		lcd->editWithPattern("  <000000> mm   ", tmpValue);
+		lcd->print(&neUstKalibr);
 	} break;
 
 	case e_DEBUG:{

@@ -12,6 +12,9 @@
 #include <string.h>
 #include "Fifo.h"
 #include "myUtils.h"
+#include "NumberEditor.h"
+
+using namespace HMI;
 
 class FrameBuffer {
 public:
@@ -181,6 +184,15 @@ public:
 			}
 		}
 
+		bool print(NumberEditor * ne){
+			uint32_t bufsize =  ne->getFieldSize();
+			if (bufsize > 20) return false;
+			char buff[bufsize];
+			ne->print(buff);
+			print(buff);
+			return true;
+		}
+
 		void printXY(uint32_t col, uint32_t row, const char * str){
 			gotoXY(col, row);
 			print(str);
@@ -212,9 +224,9 @@ public:
 			cursor = mode;
 		}
 
-//		bool editWithPattern(const char *pattern, uint32_t value){
-//			printNumbersWithPattern(pattern, value);
-//		}
+		//		bool editWithPattern(const char *pattern, uint32_t value){
+		//			printNumbersWithPattern(pattern, value);
+		//		}
 
 		bool printNumbersWithPattern(const char *pattern, uint32_t value){
 			char buff[MAX_TEMP_BUFFER];
