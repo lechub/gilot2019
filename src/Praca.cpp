@@ -19,47 +19,51 @@ void pollPraca(){
 	Praca::getInstance()->poll();
 }
 
-QuickTask taskPraca = QuickTask(QuickTask::QTType::QT_PERIODIC, pollPraca, Praca::TIME_PERIOD_MONITOR_MS);
+QuickTask taskPraca = QuickTask(QuickTask::QTType::QT_PERIODIC, pollPraca, Praca::POLL_PERIOD_MS);
 
-
-Praca::Praca() {
-	// TODO Auto-generated constructor stub
-
+bool Praca::setup(){
+	stopWork();
+	return true;
 }
 
-Praca::~Praca() {
-	// TODO Auto-generated destructor stub
+bool Praca::startWorkCycle(){
+	knife->stop();
+	krokowy->go(VEprom::readWord(VEprom::VirtAdres::DLUGOSC));
+	return true;
 }
 
+bool Praca::stopWork(){
+	krokowy->stop();
+	knife->stop();
+	countToGo = VEprom::readWord(VEprom::VirtAdres::ILOSC);
+	return true;
+}
 
+bool Praca::isAllDone(){
+	if (countToGo > 0){
+		return false;
+	}
+	stopWork();
+	return true;
+
+}
 
 void Praca::poll(){
-	char znak = keys->getCharKey();
-	if (znak != '\0'){
-		lcd->print(znak);
+
+	if (isStartup()){
+		startupDelayMs += POLL_PERIOD_MS;
 	}
 
+	// wlaczac podswietlenie na TIME_BACKLIGHT_ACTIVE_MS milisekund po nacisnieciu jakiegos klawisza
+	if (keys->getUnbufferedKey() !=  Keyboard::Key::NONE){
+		backlightTimeMs = 0;
+	}
 
-	// z HMI
+	if (backlightTimeMs < TIME_BACKLIGHT_ACTIVE_MS){
+		backlightTimeMs += POLL_PERIOD_MS;
+		lcd->setBackLight(true);
+	}else {
+		lcd->setBackLight(false);
+	}
 
-	   // Po uruchomieniu mrugamy diodami przez @HMI::TIME_STARTUP_INDICATION_MS
-	   if (isStartup()){
-	     startupDelayMs += TIME_PERIOD_MONITOR_MS;
-	   }
-
-	   // wlaczac podswietlenie na TIME_BACKLIGHT_ACTIVE_MS milisekund po nacisnieciu jakiegos klawisza
-	   if (keys->getUnbufferedKey() !=  Keyboard::Key::NONE){
-	     backlightTimeMs = 0;
-	   }
-
-	   if (backlightTimeMs < TIME_BACKLIGHT_ACTIVE_MS){
-	     backlightTimeMs += TIME_PERIOD_MONITOR_MS;
-	     lcd->setBackLight(true);
-	   }else {
-	     lcd->setBackLight(false);
-	   }
-
-	   // reszta kolejki odpytywania
-//	   keyboard->poll();
-//	   menu->poll();
 }

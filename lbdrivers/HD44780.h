@@ -27,6 +27,7 @@ public:
   static constexpr  uint8_t DATA = 0b01000000;
 
   static constexpr  uint32_t LCD_REFRESH_INTERVAL_MILISECOND  = 2;
+  static constexpr  uint32_t LCD_REFRESH_FORCE_MILISECOND  = 2323;
 
 
   typedef enum {
@@ -73,6 +74,9 @@ private:
   uint32_t charOffset = 0;
  // LcdStage lcdStage = LcdStage::START;
   bool newLine = true;
+
+  bool refreshInProgress = false;
+  uint32_t refrehForceCounter = 0;
 
 private:
   bool localInit();

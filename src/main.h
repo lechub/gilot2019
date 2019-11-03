@@ -15,8 +15,15 @@
 #include "FrameBuffer.h"
 #include "Pinout.h"
 #include "Krokowy.h"
+#include "Knife.h"
+
 
 extern Keyboard * keys;
 extern FrameBuffer * lcd;
 extern Pinout * pins;
 extern Krokowy * krokowy;
+extern Knife * knife;
+
+//extern Praca * praca;
+//extern Krokowy * krokowy;
+

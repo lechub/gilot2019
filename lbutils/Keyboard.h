@@ -20,7 +20,7 @@ class Keyboard {
 
 public:
 	static constexpr uint16_t BUFFERSIZE = 4;	// rozmiar bufora znakow
-	static constexpr uint32_t TIME_PERIOD_KEYB_MS = 5;
+	static constexpr uint32_t POLL_PERIOD_MS = 5;
 
 	typedef enum{
 		NONE = 0,
@@ -159,7 +159,7 @@ public:
 	}
 
 	void poll(){
-		Key newKey = getUnbufferedKey();
+		Key newKey = getPressedKey();
 		if (oldKey != newKey){
 			oldKey = newKey;
 			if (newKey != NONE) addToBuffer(newKey);
@@ -175,24 +175,46 @@ public:
 	}
 
 	static char keyToChar(Key key){
-		switch(key){
-		case Key::ASTERIX: return '*';
-		case Key::HASH: return '#';
-		case Key::KEY0: return '0';
-		case Key::KEY1: return '1';
-		case Key::KEY2: return '2';
-		case Key::KEY3: return '3';
-		case Key::KEY4: return '4';
-		case Key::KEY5: return '5';
-		case Key::KEY6: return '6';
-		case Key::KEY7: return '7';
-		case Key::KEY8: return '8';
-		case Key::KEY9: return '9';
-		case Key::NONE:
-		default:
-			return '\0';
+			switch(key){
+			case Key::ASTERIX: return '*';
+			case Key::HASH: return '#';
+			case Key::KEY0: return '0';
+			case Key::KEY1: return '1';
+			case Key::KEY2: return '2';
+			case Key::KEY3: return '3';
+			case Key::KEY4: return '4';
+			case Key::KEY5: return '5';
+			case Key::KEY6: return '6';
+			case Key::KEY7: return '7';
+			case Key::KEY8: return '8';
+			case Key::KEY9: return '9';
+			case Key::NONE:
+			default:
+				return '\0';
+			}
 		}
-	}
+
+	static uint8_t keyToInt(Key key){
+			switch(key){
+			case Key::ASTERIX: return 10;
+			case Key::HASH: return 20;
+			case Key::KEY0: return 0;
+			case Key::KEY1: return 1;
+			case Key::KEY2: return 2;
+			case Key::KEY3: return 3;
+			case Key::KEY4: return 4;
+			case Key::KEY5: return 5;
+			case Key::KEY6: return 6;
+			case Key::KEY7: return 7;
+			case Key::KEY8: return 8;
+			case Key::KEY9: return 9;
+			case Key::NONE:
+			default:
+				return 30;
+			}
+		}
+
+
 
 	char getCharKey(){
 		Key key = getFromBuffer();

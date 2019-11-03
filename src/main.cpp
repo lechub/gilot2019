@@ -10,6 +10,7 @@
 #include "VEprom.h"
 #include "HD44780.h"
 #include "Praca.h"
+#include "Menu.h"
 
 void keysPoll();
 
@@ -29,6 +30,11 @@ Krokowy krok = Krokowy(&pins->mot_step, &pins->mot_dir, &pins->mot_enable,
 
 Krokowy * krokowy = &krok;
 
+Knife noz = Knife(&pins->noz_Action, &pins->noz_detect );
+
+Knife * knife = &noz;
+
+
 HD44780::GpioPack8 gpioP8 = {
 		&pins->lcd_D0,
 		&pins->lcd_D1,
@@ -44,7 +50,16 @@ HD44780::GpioPack8 gpioP8 = {
 void keysPoll(){		// klawiatura przez HMI
 	keys->poll();
 }
-QuickTask keybTask(QuickTask::QTType::QT_PERIODIC, keysPoll, Keyboard::TIME_PERIOD_KEYB_MS);
+QuickTask keybTask(QuickTask::QTType::QT_PERIODIC, keysPoll, Keyboard::POLL_PERIOD_MS);
+
+
+Menu menu = Menu();
+void menuPoll(){		// klawiatura przez HMI
+	menu.poll();
+	knife->poll();
+}
+QuickTask menuTask(QuickTask::QTType::QT_PERIODIC, menuPoll, Menu::POLL_PERIOD_MS);
+
 
 // Sample pragmas to cope with warnings. Please note the related line at
 // the end of this function, used to pop the compiler diagnostics status.
@@ -69,12 +84,14 @@ int main(int argc, char* argv[])
 	Praca::getInstance()->setup();
 
 	krokowy->setup();
+	knife->setup();
 
 	QuickTask::hold(false);
 	lcd->printXY(0,0,"1234567890");
 	lcd->homeScreen();
 	lcd->forceRefresh();
 
+	menu.init(lcd);
 
 	while (true)
 	{

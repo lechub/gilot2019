@@ -13,6 +13,7 @@
 //#include "FrameBuffer.h"
 //#include "HMI.h"
 #include "Praca.h"
+#include "VEprom.h"
 
 #include "NumberEditor.h"
 
@@ -23,8 +24,7 @@ void Menu::goToEkran(EKRAN nowyEkran){
 	if (ekran == EKRAN::e_INIT) {
 		krokowy->stop();
 	}
-
-	editMode = false;
+	//editMode = false;
 
 	lcd->clearScreen();
 	showEkran();
@@ -33,53 +33,94 @@ void Menu::goToEkran(EKRAN nowyEkran){
 
 void Menu::poll(){
 
+	if (ekran == e_INIT){
+		if(!Praca::getInstance()->isStartup()) goToEkran(EKRAN::e_READY);
+	}
+
+	showEkran();
+
 	Keyboard::Key key = keys->getKey();
 
-	//	// przywracanie ekranu glownego jesli klawiatura jest nieuzywana
-	//	if ((key == Keyboard::Key::NONE)&&
-	//			(!HMI::getInstance()->isBackLightInUse())&&
-	//			(ekran != e_MAIN)){
-	//		goToEkran(EKRAN::e_MAIN);
-	//	}
-
 	switch(ekran){
-
 	case e_INIT:{ // jakikolwiek klawisz albo czas startup
-		//		if ( key != Keyboard::Key::NONE) goToEkran(EKRAN::e_READY);
-		//		if (!HMI::getInstance()->isStartup()) goToEkran(EKRAN::e_MAIN);
-		break;
-	}
+		if ( key == Keyboard::Key::ASTERIX){
+			neIlosc.setCursorAt(0);
+			goToEkran(EKRAN::e_UST_KALIBR);
+		}else if ( key != Keyboard::Key::NONE){
+			goToEkran(EKRAN::e_READY);
+		}else if (!Praca::getInstance()->isStartup()) {
+			goToEkran(EKRAN::e_READY);
+		}
+	}break;
 
 	case e_READY:  {
 		if (key == Keyboard::Key::HASH){
-			Praca::getInstance()->startWork();
+			Praca::getInstance()->startWorkCycle();
+			goToEkran(e_PRACA_MOTOR);
 		}else if (key == Keyboard::Key::ASTERIX){
+			neDlugosc.setCursorAt(0);
+			neIlosc.setCursorAt(0);
 			goToEkran(EKRAN::e_UST_DLUGOSC);
 		}
 	}break;
 
-	case e_PRACA_MOTOR:
+	case e_PRACA_MOTOR:{
+		if (key != Keyboard::Key::NONE){
+			Praca::getInstance()->stopWork();
+			goToEkran(EKRAN::e_READY);
+		}else if (krokowy->isStopped()){
+			knife->start();
+			goToEkran(EKRAN::e_PRACA_KNIFE);
+		}
+	}break;
+
 	case e_PRACA_KNIFE:	{
-		Praca::getInstance()->stopWork();
-		goToEkran(EKRAN::e_READY);
+		if (key != Keyboard::Key::NONE){
+			Praca::getInstance()->stopWork();
+			goToEkran(EKRAN::e_READY);
+		}else if (knife->isStopped()){
+			Praca::getInstance()->cycleWasDone();
+			if(Praca::getInstance()->isAllDone()){
+				goToEkran(EKRAN::e_READY);
+			}else{
+				Praca::getInstance()->startWorkCycle();
+				goToEkran(e_PRACA_MOTOR);
+			}
+		}
 	}break;
 
 	case e_UST_DLUGOSC: {
 		if (key == Keyboard::Key::HASH){
-			Praca::getInstance()->setLength(tmpValue);
-			goToEkran(EKRAN::e_UST_DLUGOSC);
-		}
-		if (key == Keyboard::Key::ASTERIX){
+			VEprom::writeWord(VEprom::VirtAdres::DLUGOSC, neDlugosc.getValue());
+			goToEkran(EKRAN::e_UST_ILOSC);
+		}else if (key == Keyboard::Key::ASTERIX){
 			goToEkran(EKRAN::e_READY);
+		}else if (key != Keyboard::Key::NONE){
+			neDlugosc.setDigit(Keyboard::keyToInt(key));
 		}
-	}break;
-	case e_UST_ILOSC: {
-		if (key == Keyboard::Key::HASH){
-			Praca::getInstance()->setQuantity(tmpValue);
-		}
-		goToEkran(EKRAN::e_READY);
 	}break;
 
+	case e_UST_ILOSC: {
+		if (key == Keyboard::Key::HASH){
+			VEprom::writeWord(VEprom::VirtAdres::ILOSC, neIlosc.getValue());
+			goToEkran(EKRAN::e_READY);
+		}else if (key == Keyboard::Key::ASTERIX){
+			goToEkran(EKRAN::e_READY);
+		}else if (key != Keyboard::Key::NONE){
+			neIlosc.setDigit(Keyboard::keyToInt(key));
+		}
+	}break;
+
+	case e_UST_KALIBR: {
+		if (key == Keyboard::Key::HASH){
+			VEprom::writeWord(VEprom::VirtAdres::KALIBRACJA, neKalibr.getValue());
+			goToEkran(EKRAN::e_READY);
+		}else if (key == Keyboard::Key::ASTERIX){
+			goToEkran(EKRAN::e_READY);
+		}else if (key != Keyboard::Key::NONE){
+			neKalibr.setDigit(Keyboard::keyToInt(key));
+		}
+	}break;
 
 	case e_DEBUG:  {
 
@@ -88,37 +129,9 @@ void Menu::poll(){
 	default: break;
 	}
 
-	showEkran();
+
 }
 
-
-
-void Menu::printPattern(const char * pattern, uint32_t value){
-	lcd->printNumbersWithPattern(pattern, value);
-	if (editMode){
-		const char * ptr = pattern;
-		while (*ptr != '\0'){ptr++;}
-		char znak;
-		uint16_t offset = 0;
-		do{
-			znak = char(*ptr);
-			if (isdigit(znak)) break;
-			ptr--;
-			offset++;
-		}while (ptr >= pattern);
-		lcd->cursorLeft(offset);
-		lcd->cursorMode(FrameBuffer::CursorMode::BLINK);
-	}else{
-		lcd->cursorMode(FrameBuffer::CursorMode::HIDDEN);
-	}
-}
-
-//--------------------------------------->1234567890123456<
-NumberEditor neUstDlugosc = NumberEditor("DLUGOSC:00000 mm", 50);
-NumberEditor neUstIlosc   = NumberEditor("ILOSC:00000 szt.", 1000);
-NumberEditor neUstKalibr  = NumberEditor("KALIBRAC.:000 mm", 1000);
-NumberEditor neToGo 	  = NumberEditor(" [000] ", 1);
-NumberEditor neToCut 	  = NumberEditor(        "<00000> ", 1);
 
 void Menu::showEkran(){
 
@@ -136,12 +149,12 @@ void Menu::showEkran(){
 
 
 	case e_READY:  {
-		neUstDlugosc.setValue(VEprom::readWord(VEprom::VirtAdres::DLUGOSC));
-		neUstIlosc.setValue(VEprom::readWord(VEprom::VirtAdres::ILOSC));
+		neDlugosc.setValue(VEprom::readWord(VEprom::VirtAdres::DLUGOSC));
+		neIlosc.setValue(VEprom::readWord(VEprom::VirtAdres::ILOSC));
 		lcd->gotoXY(0, 0);
-		lcd->print(&neUstDlugosc);
+		lcd->print(&neDlugosc);
 		lcd->gotoXY(0, 1);
-		lcd->print(&neUstIlosc);
+		lcd->print(&neIlosc);
 	}break;
 
 	case e_PRACA_MOTOR: {
@@ -163,29 +176,25 @@ void Menu::showEkran(){
 		lcd->print(&neToCut);
 	}break;
 
-	/*    e_UST_DLUGOSC,		// ustawienie dlugosci ciecia
-	       e_UST_ILOSC,		// ustawienie ilosci blaszek
-	       e_UST_KALIBR,		// ustawienie danych kalibracyjnych
-	       e_DEBUG,	*/
 	case e_UST_DLUGOSC:{
 		//----------------->1234567890123456<
 		lcd->printXY(0, 0, " USTAW DLUGOSC  ");  // przerwa
 		lcd->gotoXY(0,1);
-		lcd->print(&neUstDlugosc);
+		lcd->print(&neDlugosc);
 	} break;
 
 	case e_UST_ILOSC:{
 		//----------------->1234567890123456<
 		lcd->printXY(0, 0, "   USTAW ILOSC  ");  // przerwa
 		lcd->gotoXY(0,1);
-		lcd->print(&neUstIlosc);
+		lcd->print(&neIlosc);
 	} break;
 
 	case e_UST_KALIBR:{
 		//----------------->1234567890123456<
 		lcd->printXY(0, 0, "  USTAW KALIBR. ");  // przerwa
 		lcd->gotoXY(0,1);
-		lcd->print(&neUstKalibr);
+		lcd->print(&neKalibr);
 	} break;
 
 	case e_DEBUG:{
@@ -226,5 +235,21 @@ void Menu::showEkran(){
 	}
 }
 
+void Menu::init(FrameBuffer * pLcd){
+	lcd = pLcd;
+	ekran = EKRAN::e_INIT;
+	//goToEkran(EKRAN::e_INIT);
+	//  neDlugosc = NumberEditor("DLUGOSC:00000 mm", VEprom::readWord(VEprom::VirtAdres::DLUGOSC));
+	//  neIlosc   = NumberEditor("ILOSC:00000 szt.", VEprom::readWord(VEprom::VirtAdres::ILOSC));
+	//  neKalibr  = NumberEditor("KALIBRAC.:000 mm", VEprom::readWord(VEprom::VirtAdres::KALIBRACJA));
+	//  neToGo 	  = NumberEditor(" [000] ", neDlugosc.getValue());
+	//  neToCut 	  = NumberEditor(        "<00000> ", neIlosc.getValue());
+
+	neDlugosc.setValue(VEprom::readWord(VEprom::VirtAdres::DLUGOSC));
+	neIlosc.setValue(VEprom::readWord(VEprom::VirtAdres::ILOSC));
+	neKalibr.setValue(VEprom::readWord(VEprom::VirtAdres::KALIBRACJA));
+	neToGo.setValue(VEprom::readWord(VEprom::VirtAdres::DLUGOSC));
+	neToCut.setValue(VEprom::readWord(VEprom::VirtAdres::ILOSC));
+}
 
 

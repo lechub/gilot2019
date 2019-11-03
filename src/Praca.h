@@ -14,8 +14,9 @@
 class Praca {
 
 public:
+	static constexpr uint32_t POLL_PERIOD_MS = 121;
+
 	static constexpr uint32_t CZAS_WYJSCIA_Z_MENU_MS = 30 * 1000;	// pol minuty
-	static constexpr uint32_t TIME_PERIOD_MONITOR_MS = 12;
 
 	static constexpr uint32_t TIME_BACKLIGHT_ACTIVE_MS = 2 * 60 * 1000;    // 2 minuty po jakimkolwiek klawiszu
 	static constexpr uint32_t TIME_STARTUP_INDICATION_MS = 5000;
@@ -32,36 +33,38 @@ private:
 
 public:
 
-	Praca();
-	virtual ~Praca();
+	Praca(){;}
+	virtual ~Praca(){;}
 
 	static Praca * getInstance();
 
-	bool setup(){
-		return true;
-	}
-
-//	void setBackLight(bool enable){ backLight->setOutput(enable); }
+	bool setup();
 
 	inline bool isStartup(){
 		return startupDelayMs < TIME_STARTUP_INDICATION_MS;
 	}
 
-//	inline bool isBackLightInUse(){
-//		return backLight->getOutput();
-//	}
-
 	inline uint32_t getCountToGo()const{ return countToGo; }
 
-	void setLength(uint32_t microm){
-		lengthToGo = microm;
+//	void setLengthToGo(uint32_t microm){
+//		lengthToGo = microm;
+//	}
+
+//	void setQuantityToGo(uint32_t quantity){
+//		countToGo = quantity;
+//	}
+
+	bool isAllDone();
+
+	void cycleWasDone(){
+		if (countToGo > 0){
+			countToGo--;
+		}
 	}
 
-	void setQuantity(uint32_t quantity){
-		countToGo = quantity;
-	}
 
-	bool startWork();
+
+	bool startWorkCycle();
 	bool stopWork();
 
 	void poll();

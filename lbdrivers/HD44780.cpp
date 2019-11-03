@@ -130,10 +130,20 @@ void HD44780::poll(){
 		gpioE->setOutputDown();
 		return;
 	}
-	if (!frame_bufferAccess.isRefreshNeeded()) return;
+
+	refrehForceCounter += LCD_REFRESH_INTERVAL_MILISECOND;
+	if ( (!frame_bufferAccess.isRefreshNeeded())
+			&&(!refreshInProgress)
+			&&(refrehForceCounter < LCD_REFRESH_FORCE_MILISECOND) ){
+		return;
+	}
+	refrehForceCounter = 0;
 
 	if (((charOffset % HD44780::LCD_COLUMNS) == 0)&&(newLine)){
-		if (charOffset == 0) frame_bufferAccess.refreshStart();
+		if (charOffset == 0){
+			refreshInProgress = true;
+			frame_bufferAccess.refreshAcknowledge();
+		}
 		uint8_t lineNr = charOffset / HD44780::LCD_COLUMNS;
 		uint8_t ddAdr = getDDRamAdres(0, lineNr);
 		prepareCommandToWrite(static_cast<LcdCommand>(LCD_DDRAM_ADDR | ddAdr));
@@ -144,7 +154,8 @@ void HD44780::poll(){
 		charOffset++;
 		if (charOffset >= (LCD_COLUMNS * LCD_ROWS) ){
 			charOffset = 0;
-			frame_bufferAccess.refreshStop();
+			refreshInProgress = false;
+//			frame_bufferAccess.refreshStop();
 		}
 		prepareCharToWrite(znak);
 		newLine = true;

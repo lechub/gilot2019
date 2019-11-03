@@ -57,38 +57,6 @@ public:
         ;
     READ_REG_AND_FORGET(RCC->AHBENR);
 
-
-//    lcd_E.setup( Gpio::GpioMode::OUTPUT, Gpio::GpioOType::PushPull, Gpio::GpioPuPd::NoPull, Gpio::GpioSpeed::HighSpeed);
-//    lcd_RW.setupFromClone(&lcd_E);
-//    lcd_RS.setupFromClone(&lcd_E);
-//    lcd_bckLight.setupFromClone(&lcd_E);
-//    lcd_D0.setupFromClone(&lcd_E);
-//    lcd_D1.setupFromClone(&lcd_E);
-//    lcd_D2.setupFromClone(&lcd_E);
-//    lcd_D3.setupFromClone(&lcd_E);
-//    lcd_D4.setupFromClone(&lcd_E);
-//    lcd_D5.setupFromClone(&lcd_E);
-//    lcd_D6.setupFromClone(&lcd_E);
-//    lcd_D7.setupFromClone(&lcd_E);
-
-//    keyb_K1.setupFromClone(&lcd_E);
-//    keyb_K2.setupFromClone(&lcd_E);
-//    keyb_K3.setupFromClone(&lcd_E);
-//    keyb_W1.setupFromClone(&lcd_E);
-//    keyb_W2.setupFromClone(&lcd_E);
-//    keyb_W3.setupFromClone(&lcd_E);
-//    keyb_W4.setupFromClone(&lcd_E);
-
-    noz_Action.setupFromClone(&lcd_E);
-    noz_detect.setup(Gpio::GpioMode::INPUT, Gpio::GpioOType::NoMatter, Gpio::GpioPuPd::PullUp, Gpio::GpioSpeed::LowSpeed);
-
-//    mot_enable.setupFromClone(&lcd_E);
-//    mot_ms1.setupFromClone(&lcd_E);
-//    mot_ms2.setupFromClone(&lcd_E);
-//    mot_sleep.setupFromClone(&lcd_E);
-//    mot_step.setupFromClone(&lcd_E);
-//    mot_dir.setupFromClone(&lcd_E);
-
   }
 
 };

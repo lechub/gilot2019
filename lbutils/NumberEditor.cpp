@@ -9,38 +9,7 @@
 
 namespace HMI {
 
-
-
-//NumberEditor::NumberEditor() {
-//	// TODO Auto-generated constructor stub
-//
-//}
-//
-//NumberEditor::~NumberEditor() {
-//	// TODO Auto-generated destructor stub
-//}
-
-//uint8_t FieldOfNumbers::fillTempBuffer(char * buf){
-//	int32_t x = value;
-//	bool minus = value < 0;
-//	if (minus) x = -x;
-//	for(int8_t i = MAX_TEMP_BUFFER-1; i > 0; i--){
-//		uint8_t div10 = x % 10;
-//		x = x/10;
-//		buf[i] = div10 + '0';
-//		if (x == 0){
-//			if (minus){
-//				buf[--i] = '-';
-//			}
-//			while(--i >= 0){
-//				buf[i] = '0';
-//			}
-//		}
-//	}
-//	//	if (minus) buf[0] = '-';
-//}
-
-
+char NumberEditor::staticBuffer[MAX_TEMP_BUFFER];
 
 bool NumberEditor::print(char * destination){
 	//char tempBuffer[MAX_TEMP_BUFFER];
@@ -52,9 +21,9 @@ bool NumberEditor::print(char * destination){
 	const char * patt = pattern;
 	int32_t bufOffset = 0;
 	while(*patt != '\0'){
-		if(*patt == digitsTrail){
+		if(*patt == digitCharTrail){
 			*destination = staticBuffer[bufOffset++];
-		}else if(*patt == digitsOrdinal){
+		}else if(*patt == digitChar){
 			*destination = staticBuffer[bufOffset] == ' ' ? '0' : staticBuffer[bufOffset];
 			bufOffset++;
 		}else{
@@ -63,6 +32,7 @@ bool NumberEditor::print(char * destination){
 		patt++;
 		destination++;
 	}
+	*destination = '\0';
 	return true;
 }
 /**

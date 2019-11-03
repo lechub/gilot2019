@@ -22,7 +22,7 @@ public:
 	typedef enum {
 		HIDDEN, BLINK, SOLID, DASH} CursorMode;
 
-private:
+protected:
 		uint32_t cursorPosition;	// 0=lewy gorny, kolejne to
 
 		uint32_t COLUMNS;// = 16;
@@ -40,18 +40,12 @@ private:
 
 		//		bool refreshInProgress = false;
 		volatile bool refreshNeed;  //
+		//volatile bool refreshInProgress;  //
 
-protected:
+
+
 		bool backLightIndicator = false;
 
-		virtual void inline refreshStart(){
-			refreshNeed = false;		// wlasnie sie rozpoczyna resresh, wiec będzie odświerzone juz niebawem
-			//			refreshInProgress = true;	// jedziemy z pisaniem
-		}
-
-		virtual void inline refreshStop(){
-			//			refreshInProgress = false;
-		}
 
 		virtual void inline setRefreshNeed(){
 			refreshNeed = true;
@@ -185,7 +179,7 @@ public:
 		}
 
 		bool print(NumberEditor * ne){
-			uint32_t bufsize =  ne->getFieldSize();
+			uint32_t bufsize =  ne->getFieldSize() + 1;
 			if (bufsize > 20) return false;
 			char buff[bufsize];
 			ne->print(buff);

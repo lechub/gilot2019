@@ -12,67 +12,49 @@
 #include "Keyboard.h"
 #include "FrameBuffer.h"
 #include "Settings.h"
+#include "NumberEditor.h"
 //#include "HMI.h"
 
 class Menu {
 
-
 public:
 
-//  static constexpr char CHAR_OPEN = 'O';
+	static constexpr uint32_t POLL_PERIOD_MS = 338;
 
-
-  typedef enum{
-    e_INIT,				// ekran poczatkowy
-    e_READY,			// ekran startowy - w oczekiwaniu na klawisz
-    e_PRACA_MOTOR,		// ekran gdy obraca silnik
-    e_PRACA_KNIFE,		// ekran gdy tnie noz
-    e_UST_DLUGOSC,		// ustawienie dlugosci ciecia
-    e_UST_ILOSC,		// ustawienie ilosci blaszek
-    e_UST_KALIBR,		// ustawienie danych kalibracyjnych
-    e_DEBUG,			// podglad roznycvh rzeczy
-  }EKRAN;
-
-
+	typedef enum{
+		e_INIT,				// ekran poczatkowy
+		e_READY,			// ekran startowy - w oczekiwaniu na klawisz
+		e_PRACA_MOTOR,		// ekran gdy obraca silnik
+		e_PRACA_KNIFE,		// ekran gdy tnie noz
+		e_UST_DLUGOSC,		// ustawienie dlugosci ciecia
+		e_UST_ILOSC,		// ustawienie ilosci blaszek
+		e_UST_KALIBR,		// ustawienie danych kalibracyjnych
+		e_DEBUG,			// podglad roznycvh rzeczy
+	}EKRAN;
 
 private:
-
-  static constexpr uint32_t REFRESH_DELAY_MS = 338;
-
- // Keyboard * keys;
-  FrameBuffer * lcd;
-
-  uint32_t tmpValue = 0;  // do przechowania wartosci tymczasowych
-
-  uint32_t refreshDelay;
-
-  EKRAN ekran;
-  uint16_t editValue = 0;
-  bool editMode = false;
+	NumberEditor neDlugosc = NumberEditor("DLUGOSC:####0 mm",1);
+	NumberEditor neIlosc   = NumberEditor("ILOSC:####0 szt.",1);
+	NumberEditor neKalibr  = NumberEditor("KALIBRAC.:##0 mm",1);
+	NumberEditor neToGo 	  = NumberEditor(" [##0] ", 1);
+	NumberEditor neToCut 	  = NumberEditor(        "<####0> ", 1);
+	FrameBuffer * lcd;
+	EKRAN ekran;
 
 public:
 
-  void init(FrameBuffer * pLcd){
-//    keys = keys;
-    lcd = pLcd;
-
-    ekran = EKRAN::e_INIT;
-    //goToEkran(EKRAN::e_INIT);
-  }
+	void init(FrameBuffer * pLcd);
 
 
-  void goToEkran(EKRAN nowyEkran);
+	void goToEkran(EKRAN nowyEkran);
 
-  void printPattern(const char * pattern, uint32_t value);
+	void printPattern(const char * pattern, uint32_t value);
 
-  bool processHaslo(Keyboard::Key key);
+	bool processHaslo(Keyboard::Key key);
 
-  //bool edit(Keyboard::Key key);
+	void showEkran();
 
-  void showEkran();
-
-  void poll();
-
+	void poll();
 
 };
 

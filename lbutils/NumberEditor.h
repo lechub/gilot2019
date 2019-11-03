@@ -71,7 +71,7 @@ protected:
 
 public:
 	NumberEditor(const char * fieldPattern, int32_t initValue) : NumberField(initValue){
-//		NumberField::NumberField(initValue);
+		//		NumberField::NumberField(initValue);
 		setPattern(fieldPattern);
 	}
 	virtual ~NumberEditor(){;}
@@ -88,33 +88,52 @@ public:
 
 	bool print(char * destination);
 
-	// Ustawia cyfry w liczbie i przesuwa kursor o 1. Po ostatniej zwraca false;
-	bool setDigit(uint8_t digit){
-		return setDigit(digitsCursor, digit);
-	}
+	//	// Ustawia cyfry w liczbie i przesuwa kursor o 1. Po ostatniej zwraca false;
+	//	bool setDigit(uint8_t digit){
+	//		return setDigit(digitsCursor, digit);
+	//	}
+	//
+	//	// Ustawia cyfry w liczbie i przesuwa kursor o 1. Po ostatniej zwraca false;
+	//	bool setDigit(uint32_t position, uint8_t digit){
+	//		uint8_t spaceCount = getUsedCharsQuantity();
+	//		if (position >= spaceCount) position =  spaceCount-1;
+	//		digitsCursor = position;
+	//		if (digit > 9){ 		// >9 oznacza zmiane znaku 'minus' liczby
+	//			value = - value;
+	//		}else{
+	//			uint32_t pow = getPower10(spaceCount - 1 - position);
+	//			uint32_t nowaCyfra = pow * digit;
+	//			int32_t reszta = value % pow;
+	//			pow *= 10;
+	//			int32_t mnoznik = (value / pow)*pow;
+	//			value = mnoznik + reszta + nowaCyfra;
+	//		}
+	//		digitsCursor++;
+	//		return digitsCursor >= spaceCount;
+	//	}
 
-	// Ustawia cyfry w liczbie i przesuwa kursor o 1. Po ostatniej zwraca false;
-	bool setDigit(uint32_t position, uint8_t digit){
+	// Wstawia cyfrę na koniec a całość przesuwa w lewo;
+	bool setDigit(uint8_t digit){
 		uint8_t spaceCount = getUsedCharsQuantity();
-		if (position >= spaceCount) position =  spaceCount-1;
-		digitsCursor = position;
 		if (digit > 9){ 		// >9 oznacza zmiane znaku 'minus' liczby
 			value = - value;
 		}else{
-			uint32_t pow = getPower10(spaceCount - 1 - position);
-			uint32_t nowaCyfra = pow * digit;
-			int32_t reszta = value % pow;
-			int32_t mnoznik = (value / (pow * 10));
-			value = mnoznik + reszta + nowaCyfra;
+			uint32_t pow = getPower10(spaceCount);
+			value = (value * 10) + digit;
+			value %= pow;
 		}
-		digitsCursor++;
-		return digitsCursor >= spaceCount;
 	}
 
 	uint32_t getUsedCharsQuantity(){
 		uint32_t result = countChars(digitChar);
 		result += countChars(digitCharTrail);
 		return result;
+	}
+
+	bool setCursorAt(uint8_t position){
+		uint32_t size = getUsedCharsQuantity();
+		digitsCursor = position < size ? position : size;
+		return position < size;
 	}
 
 	bool cursorBack(){

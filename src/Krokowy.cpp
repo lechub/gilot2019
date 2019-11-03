@@ -34,7 +34,7 @@ void Krokowy::poll(){
 		lengthFromStart += STEP_DIV8_MICROMETERS;
 
 		uint32_t length = lengthToGo < lengthFromStart ? lengthToGo : lengthFromStart;	// mniejsza z wartosci
-		uint32_t delay = length/(ROZBIEG_STEPS/ROZBIEG_MAX_DELAY);
+		uint32_t delay = length/(ROZBIEG_UM/ROZBIEG_MAX_DELAY);
 		rozbiegDelay  = delay >= ROZBIEG_MAX_DELAY ? 0 : ROZBIEG_MAX_DELAY - delay;
 		return;
 	}
@@ -63,6 +63,11 @@ bool Krokowy::stop(){
 	return true;
 }
 
+bool Krokowy::isStopped(){
+	return (!enabled)&&(lengthToGo == 0);
+}
+
+
 bool Krokowy::setup(){
 	gpioDir->setup(Gpio::GpioMode::OUTPUT, Gpio::GpioOType::PushPull, Gpio::GpioPuPd::NoPull, Gpio::GpioSpeed::HighSpeed);
 	gpioStep->setupFromClone(gpioDir);
@@ -74,9 +79,11 @@ bool Krokowy::setup(){
 	gpioStep->setOutputDown();
 	gpioDir->setOutputDown();
 	gpioEnable->setOutputUp(); //na razie zablokowany
-	gpioSleep->setOutputDown();
+	gpioSleep->setOutputUp();
 
 	setStepMode(StepMode::EIGHT);
+	setDir(DIRECTION::FORWARD);
+
 	lengthFromStart = lengthToGo = 0;
 
 	return true;

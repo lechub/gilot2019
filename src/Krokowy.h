@@ -19,14 +19,14 @@ public:
 	static constexpr uint32_t REFRESH_INTERVAL_MILISECOND = 1;
 
 	static constexpr uint32_t STEP_ANGLE_MILI = 1800; // 1,8 stopnia
-	static constexpr uint32_t STEPS_FULL_ROTATION = (360 * 1000) / STEP_ANGLE_MILI;
-	static constexpr uint32_t STEPS_DIV8_FULL_ROTATION = STEPS_FULL_ROTATION * 8;
-	static constexpr uint32_t DIAMETER_UM = 12 * 1000; // 12 mm średnica walu
-	static constexpr uint32_t LENGTH_PER_FULL_ROTATION_UM = (DIAMETER_UM * 3141 )/1000; // 37 mm obwód walu w um
-	static constexpr uint32_t STEP_DIV8_MICROMETERS = (STEPS_DIV8_FULL_ROTATION*1000)/LENGTH_PER_FULL_ROTATION_UM;
+	static constexpr uint32_t STEPS_FULL_ROTATION = (360 * 1000) / STEP_ANGLE_MILI;  // 200
+	static constexpr uint32_t STEPS_DIV8_FULL_ROTATION = STEPS_FULL_ROTATION * 8;	// 1600
+	static constexpr uint32_t DIAMETER_UM = 12 * 1000; // 12 mm średnica walu - 12000
+	static constexpr uint32_t LENGTH_PER_FULL_ROTATION_UM = (DIAMETER_UM * 3141 )/1000; // 37692 um obwód walu w um
+	static constexpr uint32_t STEP_DIV8_MICROMETERS = (STEPS_DIV8_FULL_ROTATION*1000)/LENGTH_PER_FULL_ROTATION_UM; // 42
 
 	static constexpr uint32_t ROZBIEG_MAX_DELAY = 10; // na poczatku 10 razy wolniej;
-	static constexpr uint32_t ROZBIEG_STEPS = 10 * 1000 / STEP_DIV8_MICROMETERS;
+	static constexpr uint32_t ROZBIEG_UM = 10 * 1000;  // STEP_DIV8_MICROMETERS;	// 238
 
 
 	typedef enum{
