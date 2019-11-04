@@ -85,7 +85,7 @@ public:
 	inline uint32_t getLengthToGo()const{ return lengthToGo/1000; }
 	bool setup();
 
-
+	bool initIrq();
 
 	void poll();
 

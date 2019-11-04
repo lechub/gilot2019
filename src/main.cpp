@@ -30,7 +30,7 @@ Krokowy krok = Krokowy(&pins->mot_step, &pins->mot_dir, &pins->mot_enable,
 
 Krokowy * krokowy = &krok;
 
-Knife noz = Knife(&pins->noz_Action, &pins->noz_detect );
+Knife noz = Knife(&pins->noz_Action, &pins->noz_detect, Menu::POLL_PERIOD_MS );
 
 Knife * knife = &noz;
 
