@@ -29,13 +29,13 @@ public:
   Gpio lcd_D7       = Gpio(GPIOB, 9);
   //   Gpio lcd_D1        = Gpio(GPIOB, 3);
 
-  Gpio keyb_K1      = Gpio(GPIOB, 12);
-  Gpio keyb_K2      = Gpio(GPIOB, 13);
-  Gpio keyb_K3      = Gpio(GPIOB, 14);
-  Gpio keyb_W1      = Gpio(GPIOB, 15);
-  Gpio keyb_W2      = Gpio(GPIOA, 8);
-  Gpio keyb_W3      = Gpio(GPIOA, 9);
-  Gpio keyb_W4      = Gpio(GPIOA, 10);
+  Gpio keyb_W1      = Gpio(GPIOB, 12);
+  Gpio keyb_W2      = Gpio(GPIOB, 13);
+  Gpio keyb_W3      = Gpio(GPIOB, 14);
+  Gpio keyb_W4      = Gpio(GPIOB, 15);
+  Gpio keyb_K1      = Gpio(GPIOA, 8);
+  Gpio keyb_K2      = Gpio(GPIOA, 9);
+  Gpio keyb_K3      = Gpio(GPIOA, 10);
 
   Gpio noz_Action   = Gpio(GPIOA, 0);
   Gpio noz_detect   = Gpio(GPIOA, 1);
@@ -56,38 +56,6 @@ public:
         |RCC_AHBENR_GPIOCEN | RCC_AHBENR_GPIOFEN
         ;
     READ_REG_AND_FORGET(RCC->AHBENR);
-
-
-//    lcd_E.setup( Gpio::GpioMode::OUTPUT, Gpio::GpioOType::PushPull, Gpio::GpioPuPd::NoPull, Gpio::GpioSpeed::HighSpeed);
-//    lcd_RW.setupFromClone(&lcd_E);
-//    lcd_RS.setupFromClone(&lcd_E);
-//    lcd_bckLight.setupFromClone(&lcd_E);
-//    lcd_D0.setupFromClone(&lcd_E);
-//    lcd_D1.setupFromClone(&lcd_E);
-//    lcd_D2.setupFromClone(&lcd_E);
-//    lcd_D3.setupFromClone(&lcd_E);
-//    lcd_D4.setupFromClone(&lcd_E);
-//    lcd_D5.setupFromClone(&lcd_E);
-//    lcd_D6.setupFromClone(&lcd_E);
-//    lcd_D7.setupFromClone(&lcd_E);
-
-//    keyb_K1.setupFromClone(&lcd_E);
-//    keyb_K2.setupFromClone(&lcd_E);
-//    keyb_K3.setupFromClone(&lcd_E);
-//    keyb_W1.setupFromClone(&lcd_E);
-//    keyb_W2.setupFromClone(&lcd_E);
-//    keyb_W3.setupFromClone(&lcd_E);
-//    keyb_W4.setupFromClone(&lcd_E);
-
-    noz_Action.setupFromClone(&lcd_E);
-    noz_detect.setup(Gpio::GpioMode::INPUT, Gpio::GpioOType::NoMatter, Gpio::GpioPuPd::PullUp, Gpio::GpioSpeed::LowSpeed);
-
-//    mot_enable.setupFromClone(&lcd_E);
-//    mot_ms1.setupFromClone(&lcd_E);
-//    mot_ms2.setupFromClone(&lcd_E);
-//    mot_sleep.setupFromClone(&lcd_E);
-//    mot_step.setupFromClone(&lcd_E);
-//    mot_dir.setupFromClone(&lcd_E);
 
   }
 

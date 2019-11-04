@@ -20,7 +20,7 @@ class Keyboard {
 
 public:
 	static constexpr uint16_t BUFFERSIZE = 4;	// rozmiar bufora znakow
-	static constexpr uint32_t TIME_PERIOD_KEYB_MS = 10;
+	static constexpr uint32_t POLL_PERIOD_MS = 5;
 
 	typedef enum{
 		NONE = 0,
@@ -39,6 +39,7 @@ private:
 	Gpio *gpioRow4;
 
 	Key oldKey = Key::NONE;
+	Key newKey = Key::NONE;
 
 	// bufor znakow - od najstarszego na najmlodszego. Brak znaku to 'Key::NONE'
 	uint8_t buffer[BUFFERSIZE];
@@ -66,13 +67,13 @@ private:
 		gpioCol3->setOutput(Gpio::Level::High);
 		switch(nrColumn){
 		case 1:	gpioCol1->setOutput(Gpio::Level::Low);
-		while (gpioCol1->getOutput() == Gpio::Level::Low){};
+		//while (gpioCol1->getOutput() == Gpio::Level::Low){};
 		break;
 		case 2:	gpioCol2->setOutput(Gpio::Level::Low);
-		while (gpioCol2->getOutput() == Gpio::Level::Low){};
+		//while (gpioCol2->getOutput() == Gpio::Level::Low){};
 		break;
 		case 3:	gpioCol3->setOutput(Gpio::Level::Low);
-		while (gpioCol3->getOutput() == Gpio::Level::Low){};
+		//while (gpioCol3->getOutput() == Gpio::Level::Low){};
 		break;
 		default:
 			break;
@@ -123,15 +124,17 @@ private:
 
 	// unbuffered key state
 	Key getPressedKey(){
-		for( int col = 1; col <= 3; col++){
+		for( uint8_t col = 1; col <= 3; col++){
 			setColumnLow(col);
 			uint8_t row = getRowPressed();
 			if ( row == 0){
 				continue;
 			}
-			return getKeyAt(col, row);
+			newKey = getKeyAt(col, row);
+			return newKey;
 		}
-		return Key::NONE;
+		newKey = Key::NONE;
+		return newKey;
 	}
 
 
@@ -156,7 +159,7 @@ public:
 	}
 
 	void poll(){
-		Key newKey = getUnbufferedKey();
+		Key newKey = getPressedKey();
 		if (oldKey != newKey){
 			oldKey = newKey;
 			if (newKey != NONE) addToBuffer(newKey);
@@ -171,8 +174,56 @@ public:
 		return getFromBuffer();
 	}
 
+	static char keyToChar(Key key){
+			switch(key){
+			case Key::ASTERIX: return '*';
+			case Key::HASH: return '#';
+			case Key::KEY0: return '0';
+			case Key::KEY1: return '1';
+			case Key::KEY2: return '2';
+			case Key::KEY3: return '3';
+			case Key::KEY4: return '4';
+			case Key::KEY5: return '5';
+			case Key::KEY6: return '6';
+			case Key::KEY7: return '7';
+			case Key::KEY8: return '8';
+			case Key::KEY9: return '9';
+			case Key::NONE:
+			default:
+				return '\0';
+			}
+		}
+
+	static uint8_t keyToInt(Key key){
+			switch(key){
+			case Key::ASTERIX: return 10;
+			case Key::HASH: return 20;
+			case Key::KEY0: return 0;
+			case Key::KEY1: return 1;
+			case Key::KEY2: return 2;
+			case Key::KEY3: return 3;
+			case Key::KEY4: return 4;
+			case Key::KEY5: return 5;
+			case Key::KEY6: return 6;
+			case Key::KEY7: return 7;
+			case Key::KEY8: return 8;
+			case Key::KEY9: return 9;
+			case Key::NONE:
+			default:
+				return 30;
+			}
+		}
+
+
+
+	char getCharKey(){
+		Key key = getFromBuffer();
+		return keyToChar(key);
+	}
+
 	Key getUnbufferedKey(){
-		return getPressedKey();
+		return newKey;
+		//return getPressedKey();
 	}
 
 };

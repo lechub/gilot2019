@@ -24,7 +24,7 @@ public:
     LICZNIK,
     DLUGOSC,
     ILOSC,
-    SREDNICA_WALU,
+    KALIBRACJA,
     Adres,
     COUNT,
   }VirtAdres;
