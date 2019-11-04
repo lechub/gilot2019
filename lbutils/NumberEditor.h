@@ -130,11 +130,11 @@ public:
 		return result;
 	}
 
-	bool setCursorAt(uint8_t position){
-		uint32_t size = getUsedCharsQuantity();
-		digitsCursor = position < size ? position : size;
-		return position < size;
-	}
+//	bool setCursorAt(uint8_t position){
+//		uint32_t size = getUsedCharsQuantity();
+//		digitsCursor = position < size ? position : size;
+//		return position < size;
+//	}
 
 	bool cursorBack(){
 		if (digitsCursor > 0){
@@ -152,9 +152,9 @@ public:
 		return (digitsCursor >= size);
 	}
 
-	bool isCursorAtEnd(){
-		return (digitsCursor >= getUsedCharsQuantity());
-	}
+//	bool isCursorAtEnd(){
+//		return (digitsCursor >= getUsedCharsQuantity());
+//	}
 
 	uint32_t getFieldSize(){
 		const char * patt = pattern;

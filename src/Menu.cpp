@@ -22,9 +22,9 @@ using namespace HMI;
 void Menu::goToEkran(EKRAN nowyEkran){
 	ekran = nowyEkran;
 	if (ekran == EKRAN::e_INIT) {
-		krokowy->stop();
+		Praca::getInstance()->stopWork();
 	}
-	//editMode = false;
+
 
 	lcd->clearScreen();
 	showEkran();
@@ -44,7 +44,7 @@ void Menu::poll(){
 	switch(ekran){
 	case e_INIT:{ // jakikolwiek klawisz albo czas startup
 		if ( key == Keyboard::Key::ASTERIX){
-			neIlosc.setCursorAt(0);
+			//neIlosc.setCursorAt(0);
 			goToEkran(EKRAN::e_UST_KALIBR);
 		}else if ( key != Keyboard::Key::NONE){
 			goToEkran(EKRAN::e_READY);
@@ -58,8 +58,8 @@ void Menu::poll(){
 			Praca::getInstance()->startWorkCycle();
 			goToEkran(e_PRACA_MOTOR);
 		}else if (key == Keyboard::Key::ASTERIX){
-			neDlugosc.setCursorAt(0);
-			neIlosc.setCursorAt(0);
+			//neDlugosc.setCursorAt(0);
+			//neIlosc.setCursorAt(0);
 			goToEkran(EKRAN::e_UST_DLUGOSC);
 		}
 	}break;
@@ -79,6 +79,10 @@ void Menu::poll(){
 			Praca::getInstance()->stopWork();
 			goToEkran(EKRAN::e_READY);
 		}else if (knife->isStopped()){
+			if (knife->isInError()){
+				goToEkran(EKRAN::e_KNIFE_ERROR);
+				break;
+			}
 			Praca::getInstance()->cycleWasDone();
 			if(Praca::getInstance()->isAllDone()){
 				goToEkran(EKRAN::e_READY);
@@ -119,6 +123,12 @@ void Menu::poll(){
 			goToEkran(EKRAN::e_READY);
 		}else if (key != Keyboard::Key::NONE){
 			neKalibr.setDigit(Keyboard::keyToInt(key));
+		}
+	}break;
+
+	case e_KNIFE_ERROR:{
+		if (key != Keyboard::Key::NONE){
+			goToEkran(EKRAN::e_READY);
 		}
 	}break;
 
@@ -197,37 +207,19 @@ void Menu::showEkran(){
 		lcd->print(&neKalibr);
 	} break;
 
-	case e_DEBUG:{
+	case e_KNIFE_ERROR:  {
 		//----------------->1234567890123456<
-		//    lcd->gotoXY(0, 0);
-		//
-		//    lcd->print("1:");
-		//    lcd->print( pins->gpioWyj1H.getOutput() ? 'H' : 'L');
-		//    lcd->print(" 2:");
-		//    lcd->print( pins->gpioWyj2H.getOutput() ? 'H' : 'L');
-		//    lcd->print(" 3:");
-		//    lcd->print( pins->gpioWyj3H.getOutput() ? 'H' : 'L');
-		//    lcd->print(" 4:");
-		//    lcd->print( pins->gpioWyj4H.getOutput() ? 'H' : 'L');
-		//
-		//    //    uint16_t val = Pomiar::getPomiar(Pomiar::Nr::K1Stat);
-		//    //    lcd->printNumbersWithPattern("######0,", val);
-		//    //    val = Pomiar::getPomiar(Pomiar::Nr::K2Stat);
-		//    //    lcd->printNumbersWithPattern("######0,", val);
-		//    lcd->gotoXY(0, 1);
-		//
-		//    lcd->print("1:");
-		//    lcd->print( pins->gpioWyj1L.getOutput() ? 'H' : 'L');
-		//    lcd->print(" 2:");
-		//    lcd->print( pins->gpioWyj2L.getOutput() ? 'H' : 'L');
-		//    lcd->print(" 3:");
-		//    lcd->print( pins->gpioWyj3L.getOutput() ? 'H' : 'L');
-		//    lcd->print(" 4:");
-		//    lcd->print( pins->gpioWyj4L.getOutput() ? 'H' : 'L');
-		//
-		//    //    lcd->printNumbersWithPattern("##0,", Hardware::getAHB_HCLK()/1000000);
-		//    //    lcd->printNumbersWithPattern("##0,", Hardware::getAPB1_PCLK()/1000000);
-		//    //    lcd->printNumbersWithPattern("##0,", Hardware::getAPB2_PCLK()/1000000);
+		lcd->printXY(0, 0, "** BLAD NOZA! **");
+		lcd->gotoXY(0, 1);
+		neToCut.setValue(Praca::getInstance()->getCountToGo());
+		lcd->print( "Zostalo");
+		lcd->print(&neToCut);
+	}break;
+
+
+
+	case e_DEBUG:{
+
 	}break;
 
 	default:

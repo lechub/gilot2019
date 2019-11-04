@@ -29,6 +29,7 @@ public:
 		e_UST_DLUGOSC,		// ustawienie dlugosci ciecia
 		e_UST_ILOSC,		// ustawienie ilosci blaszek
 		e_UST_KALIBR,		// ustawienie danych kalibracyjnych
+		e_KNIFE_ERROR,		// blad noza
 		e_DEBUG,			// podglad roznycvh rzeczy
 	}EKRAN;
 
