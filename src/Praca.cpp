@@ -25,6 +25,12 @@ bool Praca::setup(){
 	return stopWork();;
 }
 
+bool Praca::startWork(){
+  countToGo = VEprom::readWord(VEprom::VirtAdres::ILOSC);
+  startWorkCycle();
+  return true;
+}
+
 bool Praca::startWorkCycle(){
 	knife->stop();
 	krokowy->go(VEprom::readWord(VEprom::VirtAdres::DLUGOSC));

@@ -28,7 +28,7 @@ private:
 
 	Gpio * backLight = nullptr;
 
-	uint32_t lengthToGo = 0;
+	//uint32_t lengthToGo = 0;
 	uint32_t countToGo = 0;
 
 public:
@@ -65,6 +65,7 @@ public:
 
 
 	bool startWorkCycle();
+	bool startWork();
 	bool stopWork();
 
 	void poll();

@@ -25,8 +25,8 @@ public:
 	static constexpr uint32_t LENGTH_PER_FULL_ROTATION_UM = (DIAMETER_UM * 3141 )/1000; // 37692 um obwód walu w um
 	static constexpr uint32_t STEP_DIV8_MICROMETERS = (STEPS_DIV8_FULL_ROTATION*1000)/LENGTH_PER_FULL_ROTATION_UM; // 42
 
-	static constexpr uint32_t ROZBIEG_MAX_DELAY = 10; // na poczatku 10 razy wolniej;
-	static constexpr uint32_t ROZBIEG_UM = 10 * 1000;  // STEP_DIV8_MICROMETERS;	// 238
+	static constexpr uint32_t ROZBIEG_MAX_DELAY = 5; // na poczatku 10 razy wolniej;
+	static constexpr uint32_t ROZBIEG_UM = 5 * 1000;  // STEP_DIV8_MICROMETERS;	// 238
 
 
 	typedef enum{

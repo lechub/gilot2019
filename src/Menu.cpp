@@ -55,7 +55,8 @@ void Menu::poll(){
 
 	case e_READY:  {
 		if (key == Keyboard::Key::HASH){
-			Praca::getInstance()->startWorkCycle();
+		  Praca::getInstance()->startWork();
+//			Praca::getInstance()->startWorkCycle();
 			goToEkran(e_PRACA_MOTOR);
 		}else if (key == Keyboard::Key::ASTERIX){
 			//neDlugosc.setCursorAt(0);
