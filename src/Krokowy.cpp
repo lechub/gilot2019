@@ -118,8 +118,6 @@ bool Krokowy::setStepMode(StepMode mode){
 
 bool Krokowy::initIrq(){
   RCC->APB1ENR |= RCC_APB1ENR_TIM2EN;
-
-
 }
 
 

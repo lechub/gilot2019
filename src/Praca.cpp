@@ -22,7 +22,7 @@ void pollPraca(){
 QuickTask taskPraca = QuickTask(QuickTask::QTType::QT_PERIODIC, pollPraca, Praca::POLL_PERIOD_MS);
 
 bool Praca::setup(){
-	return stopWork();;
+	return stopWork();
 }
 
 bool Praca::startWork(){

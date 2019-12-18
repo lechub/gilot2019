@@ -30,7 +30,7 @@ Krokowy krok = Krokowy(&pins->mot_step, &pins->mot_dir, &pins->mot_enable,
 
 Krokowy * krokowy = &krok;
 
-Knife noz = Knife(&pins->noz_Action, &pins->noz_detect, Menu::POLL_PERIOD_MS );
+Knife noz = Knife(&pins->noz_Action, &pins->noz_detect);
 
 Knife * knife = &noz;
 
@@ -49,6 +49,7 @@ HD44780::GpioPack8 gpioP8 = {
 
 void keysPoll(){		// klawiatura przez HMI
 	keys->poll();
+
 }
 QuickTask keybTask(QuickTask::QTType::QT_PERIODIC, keysPoll, Keyboard::POLL_PERIOD_MS);
 
@@ -56,9 +57,13 @@ QuickTask keybTask(QuickTask::QTType::QT_PERIODIC, keysPoll, Keyboard::POLL_PERI
 Menu menu = Menu();
 void menuPoll(){		// klawiatura przez HMI
 	menu.poll();
-	knife->poll();
 }
 QuickTask menuTask(QuickTask::QTType::QT_PERIODIC, menuPoll, Menu::POLL_PERIOD_MS);
+
+void knifePoll(){    // klawiatura przez HMI
+  knife->poll();
+}
+QuickTask knifeTask(QuickTask::QTType::QT_PERIODIC, knifePoll, Knife::POLL_PERIOD_MS);
 
 
 // Sample pragmas to cope with warnings. Please note the related line at
